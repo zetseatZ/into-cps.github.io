@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ site.url }}/css/styles.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/pygment_trac.css">
+
+    <!-- Javascript -->
+    <script src="{{ site.url }}/javascripts/scale.fix.js"></script>
+    
+    <!-- google analytics -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52650880-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>INTO-CPS</h1>
+            <h3>Co-Simulation using FMI</h3>
+
+            <ul>
+                <li><a href="{{ site.url }}/">Home</a></li>
+				<li><a href="{{ site.url }}/getting-started/">Getting Started</a></li>
+				
+				
+                <li>
+                    <a href="{{ site.url }}/download/">Download</a>
+                </li>
+                <li>
+                    <a href="{{ site.url }}/simulators/">Simulators</a>
+                    <ul>
+                        <li><a href="{{ site.url }}/simulators/overture.html">Overture</a></li>
+                        <li><a href="{{ site.url }}/simulators/20sim.html">20-sim</a></li>
+                        <li><a href="{{ site.url }}/simulators/openmodelica.html">Open Modelica</a></li>
+                    </ul>
+                </li>
+                
+		<li>
+                    <a href="{{ site.url }}/simulation/">Simulation</a>
+                    <ul>
+                        <li><a href="{{ site.url }}/simulation/coe.html">COE</a></li>
+                        <li><a href="{{ site.url }}/simulation/example.html">Example</a></li>
+                        
+                    </ul>
+                </li>                
+
+
+
+
+            </ul>
+            <p><img src="{{ site.url }}/images/Overture-logo.png" alt="INTO-CPS"></p>
+            <p><a href="https://github.com/overturetool">Go to our GitHub Profile</a></p>
+            <p><a href="http://twitter.com/overturetool">Follow @overturetool</a></p>
+        </header>
+        <section>
+            {{ content }}
+        </section>
+        <footer>
+            <p><small>Hosted on GitHub Pages &mdash; Original theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        </footer>
+    </div>
+</body>
+</html>

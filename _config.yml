@@ -1,0 +1,20 @@
+highligher: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables","smart","no_intra_emphasis","fenced_code_blocks","autolink"]
+encoding: utf-8
+
+
+collections:
+  netmeetings:
+    output: true
+  workshops:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      
