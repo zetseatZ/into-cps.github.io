@@ -45,8 +45,8 @@ Create a file named `config.json` with the following content:
 		"../fmus/tank"
 	],
 	"connections":{
-		"{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.valve":"{8c4e810f-3df3-4a00-8276-176fa3c9f001}.tank.valve",
-		"{8c4e810f-3df3-4a00-8276-176fa3c9f001}.tank.level":"{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.level"
+		"{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.valve":["{8c4e810f-3df3-4a00-8276-176fa3c9f001}.tank.valve"],
+		"{8c4e810f-3df3-4a00-8276-176fa3c9f001}.tank.level":["{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.level"]
 	},
 	"parameters":{
 		"{guid-controller}.controller.maxLevel":8,
@@ -59,6 +59,8 @@ Create a file named `config.json` with the following content:
 }
 
 ```
+
+Note that the connections is Output to Inputs i.e. a map from String -> Set of String. So here `"a":["b","c"]` means that input `b` and `c` is provided by `a`.
 
 ### Perform the simulation
 
