@@ -45,8 +45,10 @@ Create a file named `config.json` with the following content:
 		"../fmus/tank"
 	],
 	"connections":{
-		"{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.valve":["{8c4e810f-3df3-4a00-8276-176fa3c9f001}.tank.valve"],
-		"{8c4e810f-3df3-4a00-8276-176fa3c9f001}.tank.level":["{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.level"]
+		"{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.valve":
+		    ["{8c4e810f-3df3-4a00-8276-176fa3c9f001}.tank.valve"],
+		"{8c4e810f-3df3-4a00-8276-176fa3c9f001}.tank.level":
+		    ["{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.level"]
 	},
 	"parameters":{
 		"{guid-controller}.controller.maxLevel":8,
