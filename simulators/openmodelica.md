@@ -11,6 +11,7 @@ OpenModelica
 [Modelica](http://modelica.org)-based modeling and simulation environment
 intended for industrial and academic usage. Its short-term and long-term goals
 are:
+
 -  The short-term goal is to develop an efficient interactive
        computational environment for the Modelica language, as well as a
        rather complete implementation of the language. It turns out that
