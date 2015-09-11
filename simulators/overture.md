@@ -16,10 +16,10 @@ The Overture tool currently does not have build-in support for FMI. However a pr
 ### Components required to create an FMU
 
 * the VDM model `*.vdmrt`
-* the native FMI library that provides a bridge between FMI and the Crescendo simulator `libgrpcfmu.so`
-* the crescendo simulator build for FMI `crescendo-fmi-2.0.7-SNAPSHOT-jar-with-dependencies.jar`
+* the native FMI library that provides a bridge between FMI and the Crescendo simulator [`libgrpcfmu.so`](http://overture.au.dk/into-cps/test/fmu/libgrpcfmu.so)
+* the crescendo simulator build for FMI [`crescendo-fmi-2.0.7-SNAPSHOT-jar-with-dependencies.jar`](http://overture.au.dk/into-cps/test/fmu/crescendo-fmi-2.0.7-SNAPSHOT-jar-with-dependencies.jar)
 * a basic model description file. `modelDescription.xml`
-* a config file specifying how the FMI bridge is launched `config.txt`
+* a config file specifying how the FMI bridge is launched [`config.txt`](http://overture.au.dk/into-cps/test/fmu/config.txt)
 
 
 ### FMU layout
@@ -39,6 +39,7 @@ resources
 modelDescription.xml
 
 ```
+Note the duplication of the `modelDescription.xml`.
 
 ### Example model description
 
