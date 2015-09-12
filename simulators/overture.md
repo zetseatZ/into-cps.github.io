@@ -48,26 +48,45 @@ The scalar variable names used in the `modelDescription.xml` must be the fully q
  
 ```Xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<fmiModelDescription fmiVersion="2.0" modelName="<FMU name>" guid="{8c4e810f-3df3-4a00-8276-176fa3c9f003}" numberOfEventIndicators="0">
+<fmiModelDescription 
+    fmiVersion="2.0" 
+    modelName="<FMU name>" 
+    guid="{8c4e810f-3df3-4a00-8276-176fa3c9f003}" 
+    numberOfEventIndicators="0">
 
-	<CoSimulation modelIdentifier="tankcontroller" canHandleVariableCommunicationStepSize="true" />
+  <CoSimulation modelIdentifier="tankcontroller" 
+                canHandleVariableCommunicationStepSize="true" />
 
-	<ModelVariables>
+  <ModelVariables>
 		
-		<!-- INDEX 1-->
-		<ScalarVariable name="Controller.maxLevel" valueReference="0" description="the max tank level" causality="parameter" variability="fixed" initial="exact">
-			<Real start="5"/>
-		</ScalarVariable>
+    <!-- INDEX 1-->
+    <ScalarVariable name="Controller.maxLevel" 
+        valueReference="0" 
+        description="the max tank level" 
+        causality="parameter" 
+        variability="fixed" 
+        initial="exact">
+      <Real start="5"/>
+    </ScalarVariable>
 
-		<!-- INDEX 2-->
-		<ScalarVariable name="System.levelSensor.level" valueReference="3" description="the tank level" causality="input" variability="continuous">
-			<Real start="1" />
-		</ScalarVariable>
+    <!-- INDEX 2-->
+    <ScalarVariable name="System.levelSensor.level" 
+        valueReference="3" 
+        description="the tank level" 
+        causality="input" 
+        variability="continuous">
+      <Real start="1" />
+    </ScalarVariable>
 
-		<!-- INDEX 3-->
-		<ScalarVariable name="System.valveActuator.valveState" valueReference="4" description="the tank valve state" causality="output" variability="discrete" initial="calculated">
-			<Boolean />
-		</ScalarVariable>
+    <!-- INDEX 3-->
+    <ScalarVariable name="System.valveActuator.valveState" 
+        valueReference="4" 
+        description="the tank valve state" 
+        causality="output" 
+        variability="discrete" 
+        initial="calculated">
+      <Boolean />
+    </ScalarVariable>
 
 	</ModelVariables>
 
