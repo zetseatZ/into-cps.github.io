@@ -18,7 +18,7 @@ The Overture tool currently does not have build-in support for FMI. However a pr
 * the VDM model `*.vdmrt`
 * the native FMI library that provides a bridge between FMI and the Crescendo simulator [`libgrpcfmu.so`](http://overture.au.dk/into-cps/test/fmu/libgrpcfmu.so)
 * the crescendo simulator build for FMI [`crescendo-fmi-2.0.7-SNAPSHOT-jar-with-dependencies.jar`](http://overture.au.dk/into-cps/test/fmu/crescendo-fmi-2.0.7-SNAPSHOT-jar-with-dependencies.jar)
-* a basic model description file. `modelDescription.xml`
+* a model description file (like the one shown below). `modelDescription.xml`
 * a config file specifying how the FMI bridge is launched [`config.txt`](http://overture.au.dk/into-cps/test/fmu/config.txt)
 
 
@@ -43,6 +43,9 @@ Note the duplication of the `modelDescription.xml`.
 
 ### Example model description
 
+The scalar variable names used in the `modelDescription.xml` must be the fully qualified names of the VDM instance variables. The name format must match the naming used in the link file of the Crescendo tool.
+ The names are currently used to lookup VDM values at run-time. This will in futher versions be change to use the `valueReference` as described in the FMI standard.
+ 
 ```Xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <fmiModelDescription fmiVersion="2.0" modelName="<FMU name>" guid="{8c4e810f-3df3-4a00-8276-176fa3c9f003}" numberOfEventIndicators="0">
