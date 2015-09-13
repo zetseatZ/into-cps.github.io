@@ -37,6 +37,39 @@ Installation requirements and instructions can be found in our [Quick start guid
 
 Modelio version contents can be found in the [[Version history]].
 
+### Installing FMU Export support
+
+To be able to export n modelDescription from a SysML block into Modelio you have to first install the INTOCPS module which is available here for now:
+
+[https://dl.dropboxusercontent.com/u/13060777/INTO-CPS/INTOCPS_0.0.1.jmdac]()
+
+A specific project will be created into Modelio.org forge for future version.
+
+**Key:**
+
+1. Run the **Configuration / ![2] Modules catalog...** command.
+2. To add a module, click on **Add a module to the catalog...** and use the file browser to select the modules (*.jmdac files).
+3. To remove a module, select the module in question and click on the **Remove module from the catalog** button.
+4. To download new versions of modules into the catalog, click on **Check for new versions...**.
+
+#### Installing modules in a project
+
+![3]
+####Installing a module in a project
+
+**Steps:**
+
+* **1**. Click on [![4]] to expand the Modules catalog.
+* **2**. In the Modules catalog, select the module you want to install.
+* **3**. Click on [![5]] to install the module in the project.
+
+   [1]: module_catalog.png
+   [2]: modulecatalog.png
+   [3]: en-installingmodules.png
+   [4]: maximize.png
+   [5]: add.png
+
+
 ## Documentation
 
 **For end users**
