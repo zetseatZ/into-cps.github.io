@@ -55,6 +55,7 @@ A specific project will be created into Modelio.org forge for future version.
 #### Installing modules in a project
 
 ![3]
+
 ####Installing a module in a project
 
 **Steps:**
@@ -69,11 +70,10 @@ A specific project will be created into Modelio.org forge for future version.
    [4]: maximize.png
    [5]: add.png
 
-
 ## Documentation
 
 **For end users**
 
 * [User's manual](http://forge.modelio.org/projects/modelio3-usermanual-english-300/wiki) *(wiki)*
-
-
+* [Installing a module in to Modelio](http://forge.modelio.org/projects/modelio3-usermanual-english-330/wiki/Modeler-_modeler_modelio_settings_modules_catalog)
+* [Configuring Modelio project modules](http://forge.modelio.org/projects/modelio3-usermanual-english-330/wiki/Modeler-_modeler_managing_projects_configuring_project_modules)
