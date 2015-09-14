@@ -51,8 +51,8 @@ Create a file named `config.json` with the following content:
 		    ["{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.level"]
 	},
 	"parameters":{
-		"{guid-controller}.controller.maxLevel":8,
-		"{guid-controller}.controller.minLevel":2
+		"{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.maxLevel":8,
+		"{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.minLevel":2
 	},
 	"algorithm":{
 		"type":"fixed-step",
