@@ -41,8 +41,8 @@ Create a file named `config.json` with the following content:
 ```json
 {
 	"fmus":[
-		"../fmus/tankcontroller",
-		"../fmus/tank"
+		"../fmus/tankcontroller.fmu",
+		"../fmus/tank.fmu"
 	],
 	"connections":{
 		"{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.valve":
