@@ -41,7 +41,7 @@ Modelio version contents can be found in the [[Version history]].
 
 To be able to export a modelDescription from a SysML block into Modelio you have to first install the INTOCPS module which is available here for now:
 
-[http://forge.modelio.org/projects/intocps-modelio34/files]()
+[http://forge.modelio.org/projects/intocps-modelio34/files](http://forge.modelio.org/projects/intocps-modelio34/files)
 
 A specific project will be created into Modelio.org forge for future version.
 
