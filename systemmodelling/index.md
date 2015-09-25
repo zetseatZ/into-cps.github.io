@@ -29,7 +29,7 @@ Full details on Modelio licensing conditions can be found [here](http://www.mode
 
 ## Download and installation##
 
-**Modelio's current version is 3.3**.
+**Modelio's current version is 3.4**.
 
 Binary distribution archives for Linux and Windows are available on the [download page](http://www.modelio.org/downloads/download-modelio.html) of the Modelio community site.
 
@@ -39,9 +39,9 @@ Modelio version contents can be found in the [[Version history]].
 
 ### Installing FMU Export support
 
-To be able to export n modelDescription from a SysML block into Modelio you have to first install the INTOCPS module which is available here for now:
+To be able to export a modelDescription from a SysML block into Modelio you have to first install the INTOCPS module which is available here for now:
 
-[https://dl.dropboxusercontent.com/u/13060777/INTO-CPS/INTOCPS_0.0.1.jmdac]()
+[http://forge.modelio.org/projects/intocps-modelio34/files]()
 
 A specific project will be created into Modelio.org forge for future version.
 
