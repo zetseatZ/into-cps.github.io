@@ -76,7 +76,7 @@ java -jar coe.jar
 2. (New terminal, or use &) Initialize the simulation
 
 ```bash
-curl -s -H "Content-Type: application/json" --data config.json http://localhost:8082/initialize
+curl -s -H "Content-Type: application/json" --data @config.json http://localhost:8082/initialize
 ```
 
 3. Find the session id in the response
