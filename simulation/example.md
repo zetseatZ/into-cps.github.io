@@ -20,8 +20,7 @@ To perform a simulation we need the following:
 4. A suitable tool and language for assisting in calling the COE (we use Shell and curl)
 
 ### Fetch FMUs
-
-Download the folowing FMU's
+These FMU's are cross compiles to all supported platforms:
 
 * [automatic build site](http://overture.au.dk/into-cps/examples/fmus/)
 
@@ -86,6 +85,12 @@ sessionId=1234
 endTime=4
 curl -s -H "Content-Type: application/json" --data '{"startTime":0.0, "endTime":'$endTime'}' http://localhost:8082/simulate/$sessionId
 ```
+
+note that the above json string must be expressed as follows on windows platforms:
+```bash
+--data "{\"startTime\":0.0, \"endTime\":%endTime%}" 
+```
+
 
 5. Fetch the result
 
