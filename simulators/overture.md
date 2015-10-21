@@ -16,11 +16,7 @@ The Overture tool currently does not have build-in support for FMI. However a pr
 ### Components required to create an FMU
 
 * the VDM model `*.vdmrt`
-* the native FMI library that provides a bridge between FMI and the Crescendo simulator [`libgrpcfmu.so`](http://overture.au.dk/into-cps/test/fmu/libgrpcfmu.so)
-* the crescendo simulator build for FMI [`crescendo-fmi-2.0.7-SNAPSHOT-jar-with-dependencies.jar`](http://overture.au.dk/into-cps/test/fmu/crescendo-fmi-2.0.7-SNAPSHOT-jar-with-dependencies.jar)
-* a model description file (like the one shown below). `modelDescription.xml`
-* a config file specifying how the FMI bridge is launched [`config.txt`](http://overture.au.dk/into-cps/test/fmu/config.txt)
-
+* a copy of the vdm tool wrapper [link to download site](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/)
 
 ### FMU layout
 
@@ -30,16 +26,28 @@ The FMU is a 7z library with the following layout:
 binaries
 	linux64
 		<FMU name>.so
+	win32
+		<FMU name>.dll
+	win64
+		<FMU name>.dll
 sources
 	*.vdmrt
-	modelDescription.xml
 resources
 	config.txt
 	crescendo-fmi-2.0.7-SNAPSHOT-jar-with-dependencies.jar
 modelDescription.xml
-
 ```
-Note the duplication of the `modelDescription.xml`.
+The VDM Tool wrapper includes the folders `binaries` and `resources` and a `modelDescription.xml` file that can be used as a template.
+
+### FMU Creation Procidure
+To create the FMU do the following:
+
+1) Download the VDM tool wrapper (link shown above)
+2) Extract is and create the directory structure as shown above
+4) Rename the binaries/{*.so/*.dll/*.dylib} such that they match the FMU name
+5) Copy the VDM source files (*.vdmrt) into the `sources` directory
+6) Update the model description (example shown below)
+7) Compress the directories `binaries`, `sources`, `resources` and the `modelDescription.xml` file into a 7z archive named `<FMU name>.fmu`
 
 ### Example model description
 
@@ -54,7 +62,7 @@ The scalar variable names used in the `modelDescription.xml` must be the fully q
     guid="{8c4e810f-3df3-4a00-8276-176fa3c9f003}" 
     numberOfEventIndicators="0">
 
-  <CoSimulation modelIdentifier="tankcontroller" 
+  <CoSimulation modelIdentifier="tankcontroller" needsExecutionTool="true"
                 canHandleVariableCommunicationStepSize="true" />
 
   <ModelVariables>
