@@ -42,12 +42,12 @@ The VDM Tool wrapper includes the folders `binaries` and `resources` and a `mode
 ### FMU Creation Procidure
 To create the FMU do the following:
 
-1) Download the VDM tool wrapper (link shown above)
-2) Extract is and create the directory structure as shown above
-4) Rename the binaries/{*.so/*.dll/*.dylib} such that they match the FMU name
-5) Copy the VDM source files (*.vdmrt) into the `sources` directory
-6) Update the model description (example shown below)
-7) Compress the directories `binaries`, `sources`, `resources` and the `modelDescription.xml` file into a 7z archive named `<FMU name>.fmu`
+1. Download the VDM tool wrapper (link shown above)
+2. Extract is and create the directory structure as shown above
+4. Rename the binaries/{*.so/*.dll/*.dylib} such that they match the FMU name
+5. Copy the VDM source files (*.vdmrt) into the `sources` directory
+6. Update the model description (example shown below)
+7. Compress the directories `binaries`, `sources`, `resources` and the `modelDescription.xml` file into a 7z archive named `<FMU name>.fmu`
 
 ### Example model description
 
