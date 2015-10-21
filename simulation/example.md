@@ -23,8 +23,7 @@ To perform a simulation we need the following:
 
 Download the folowing FMU's
 
-* [tank](http://overture.au.dk/into-cps/test/fmu/tank.fmu)
-* [tankcontroller](http://overture.au.dk/into-cps/test/fmu/tankcontroller.fmu)
+* [automatic build site](http://overture.au.dk/into-cps/examples/fmus/)
 
 Also fetch the COE, see the download page.
 
