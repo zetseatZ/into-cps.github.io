@@ -13,6 +13,8 @@ The *Overture Tool* is an open-source integrated development environment (IDE) f
 
 The Overture tool currently does not have build-in support for FMI. However a prototype is available that is based on the Overture simulator made for the crescendo tool.
 
+* Note that FMUs running **VDM require variable step size**. If a fixed step size is selected then it may introduce errors. Thus if fixed stepsize is selected make sure that the interval is close to that of the control loop. (Internally VDM runs with nano seconds resolution where each expression is assigned a time cost)*
+
 ### Components required to create an FMU
 
 * the VDM model `*.vdmrt`
