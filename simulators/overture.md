@@ -16,7 +16,7 @@ The Overture tool currently does not have build-in support for FMI. However a pr
 ### Components required to create an FMU
 
 * the VDM model `*.vdmrt`
-* a copy of the vdm tool wrapper [link to download site](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/)
+* a copy of the vdm tool wrapper [last release](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/Build-30_2015-10-21_10-47/vdm-tool-wrapper.zip) [link to development download site](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/)
 
 ### FMU layout
 
