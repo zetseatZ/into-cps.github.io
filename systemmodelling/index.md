@@ -29,7 +29,7 @@ Full details on Modelio licensing conditions can be found [here](http://www.mode
 
 ## Download and installation##
 
-**Modelio's current version is 3.4**.
+**Modelio's current version is 3.4.0**.
 
 Binary distribution archives for Linux and Windows are available on the [download page](http://www.modelio.org/downloads/download-modelio.html) of the Modelio community site.
 
@@ -37,13 +37,24 @@ Installation requirements and instructions can be found in our [Quick start guid
 
 Modelio version contents can be found in the [[Version history]].
 
-### Installing FMU Export support
+### Installing INTO-CPS support
 
-To be able to export a modelDescription from a SysML block into Modelio you have to first install the INTOCPS module which is available here for now:
+A specific project have been created into Modelio.org forge [http://forge.modelio.org/projects/intocps](http://forge.modelio.org/projects/intocps)
+
+This latter will help you with:
+1. A dedicated wiki  [http://forge.modelio.org/projects/into-cps-user-manual-english/wiki](http://forge.modelio.org/projects/into-cps-user-manual-english/wiki)
+2. Lattest version of INTO-CPS extension [http://forge.modelio.org/projects/intocps-modelio34/files](http://forge.modelio.org/projects/intocps-modelio34/files)
+3. Issues reporting [http://forge.modelio.org/projects/intocps/issues/new](http://forge.modelio.org/projects/intocps/issues/new)
+
+To be able to use INTO-CPS extension into Modelio you have to first install the INTO-CPS module which is available here:
 
 [http://forge.modelio.org/projects/intocps-modelio34/files](http://forge.modelio.org/projects/intocps-modelio34/files)
 
-A specific project will be created into Modelio.org forge for future version.
+and then add it to the Modelio module catalog.
+
+### Add INTO-CPS extension
+
+![1]
 
 **Key:**
 
