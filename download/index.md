@@ -8,6 +8,10 @@ title: Overview
 
 # Downloads
 
+## Releases
+
+* [Release 0.0.1 - 26 October 2015](release-0.0.1.html)
+
 ## Latest
 
 * [COE](http://overture.au.dk/into-cps/development/latest)
