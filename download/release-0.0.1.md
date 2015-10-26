@@ -1,3 +1,8 @@
+---
+layout: default
+title: Overview
+---
+
 # INTO-CPS TOOL BUNDLE - Release 0.0.1
 
 [Download bundle](http://overture.au.dk/into-cps/release-bundles/0.0.1.zip)
