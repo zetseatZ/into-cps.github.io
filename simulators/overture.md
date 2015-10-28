@@ -20,6 +20,11 @@ The Overture tool currently does not have build-in support for FMI. However a pr
 * the VDM model `*.vdmrt`
 * a copy of the vdm tool wrapper [(last release)](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/Build-30_2015-10-21_10-47/vdm-tool-wrapper.zip) | [(link to development download site)](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/)
 
+### Supported Platforms
+* Windows 32 and 64 bit + Java 32/64
+* Linux 64 bit + Java x64
+* Mac OSX 64 bit + Java x64
+
 ### FMU layout
 
 The FMU is a 7z library with the following layout:
@@ -28,10 +33,13 @@ The FMU is a 7z library with the following layout:
 binaries
 	linux64
 		<FMU name>.so
+	darwin64
+		<FMU name>.dylib
 	win32
 		<FMU name>.dll
 	win64
 		<FMU name>.dll
+
 sources
 	*.vdmrt
 resources
