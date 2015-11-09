@@ -1,3 +1,8 @@
+---
+layout: default
+title: Anti-virus
+---
+
 # COE is being detected as a threat by anti-virus software!
 
 Do not be alarmed. This is unfortunately a more and more common problem with
