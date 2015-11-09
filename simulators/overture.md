@@ -120,8 +120,15 @@ The scalar variable names used in the `modelDescription.xml` must be the fully q
 ```
 
 
+## Name Mapping
 
+The name of the scalar variable which is used by the VDM interpreter to locate it during runtime is desired to be different than the VDM lookup path then this can be achieved using the following element in the model description:
 
-
-
-
+```Xml
+<Overture>
+  <link valueReference="0" name="Controller.maxLevel"/>
+  <link valueReference="3" name="System.levelSensor.level"/>
+  <link valueReference="4" name="System.valveActuator.valveState"/>
+</Overture>
+```
+The VDM interpreter will read this section first and ignore the scalar variable `name` attribute if found in this element. The value reference is the link to the scalar variable.
