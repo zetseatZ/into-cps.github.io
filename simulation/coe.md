@@ -8,6 +8,13 @@ title: Overview
 
 # COE
 
+### Regarding anti-virus warning:
+
+You might experience that your anti-virus software detects COE as a possible
+threat. This is just a false postive and a known issue with modern anti-virus
+software. You can more about it and how to resolve the issue
+[here](http://overture.au.dk/into-cps/site/simulation/antivirus.html).
+
 ### Starting the COE:
 
 1. Download the coe, we call it `coe.jar`
