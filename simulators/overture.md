@@ -18,7 +18,7 @@ The Overture tool currently does not have build-in support for FMI. However a pr
 ### Components required to create an FMU
 
 * the VDM model `*.vdmrt`
-* a copy of the vdm tool wrapper [(last release)](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/Build-30_2015-10-21_10-47/vdm-tool-wrapper.zip) | [(link to development download site)](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/)
+* a copy of the vdm tool wrapper [[(link to development download site)](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/)
 
 ### Supported Platforms
 * Windows 32 and 64 bit + Java 32/64
@@ -125,10 +125,14 @@ The scalar variable names used in the `modelDescription.xml` must be the fully q
 The name of the scalar variable which is used by the VDM interpreter to locate it during runtime is desired to be different than the VDM lookup path then this can be achieved using the following element in the model description:
 
 ```Xml
-<Overture>
-  <link valueReference="0" name="Controller.maxLevel"/>
-  <link valueReference="3" name="System.levelSensor.level"/>
-  <link valueReference="4" name="System.valveActuator.valveState"/>
-</Overture>
+<VendorAnnotations>
+  <Tool name="Overture">
+    <Overture>
+      <link valueReference="0" name="Controller.maxLevel"/>
+      <link valueReference="3" name="System.levelSensor.level"/>
+      <link valueReference="4" name="System.valveActuator.valveState"/>
+    </Overture>
+  </Tool>
+<VendorAnnotations>
 ```
 The VDM interpreter will read this section first and ignore the scalar variable `name` attribute if found in this element. The value reference is the link to the scalar variable.
