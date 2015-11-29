@@ -17,6 +17,11 @@ INTO-CPS Release Site:
 http://overture.au.dk/into-cps/site/
 
 
+##Wrong SysML profile included in 0.0.2
+By mistake version 1.0.03 of the OpenModelio SysML profile was included instead of the newest 1.0.09. Version 1.0.09 can be downloaded here:
+http://forge.modelio.org/projects/intocps-modelio34/files
+
+
 ##This bundle includes:
 
 - fmu-examples (folder):
