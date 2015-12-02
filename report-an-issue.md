@@ -7,7 +7,7 @@ title: Report an issue
 
 Please find the tool specific link below and repot the issue:
 
-* INTO-CPS Application + COE: https://github.com/into-cps/INTO-CPS_Application/issues
+* INTO-CPS Application + COE: ([list](https://github.com/into-cps/INTO-CPS_Application/issues) | [new](https://github.com/into-cps/INTO-CPS_Application/issues/new))
 * Overture: https://github.com/overturetool/overture/issues
  * Overture-FMU: https://github.com/overturetool/overture-fmu/issues
 * 20-sim: ..
