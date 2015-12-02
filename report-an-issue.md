@@ -11,7 +11,7 @@ Please find the tool specific link below and repot the issue:
 * Overture: ([list](https://github.com/overturetool/overture/issues) | [new](https://github.com/overturetool/overture/issues/new))
  * Overture-FMU: ([list](https://github.com/overturetool/overture-fmu/issues) | [new](https://github.com/overturetool/overture-fmu/issues/new))
 * 20-sim: ..
-*  20-sim FMU export: ([list](https://github.com/controllab/fmi-export-20sim/issues) | [new](https://github.com/controllab/fmi-export-20sim/issues/new))
+ * 20-sim FMU export: ([list](https://github.com/controllab/fmi-export-20sim/issues) | [new](https://github.com/controllab/fmi-export-20sim/issues/new))
 * Open Modelica: ..
 * Modelio: …
 * DSE: …
