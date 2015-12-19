@@ -1,11 +1,11 @@
 ---
 layout: default
-title: INTO-CPS Release 0.0.2
+title: INTO-CPS Release 0.0.3
 ---
 
-# INTO-CPS TOOL BUNDLE - Release 0.0.2
+# INTO-CPS TOOL BUNDLE - Release 0.0.3
 
-[Download bundle](http://overture.au.dk/into-cps/release-bundles/0.0.2.zip)
+[Download bundle](http://overture.au.dk/into-cps/release-bundles/0.0.3.zip)
 
 
 **IMPORTANT: This bundle is only intended for use by the INTO-CPS consortium
@@ -17,9 +17,8 @@ INTO-CPS Release Site:
 http://overture.au.dk/into-cps/site/
 
 
-##Wrong SysML profile included in 0.0.2
-By mistake version 1.0.03 of the OpenModelio SysML profile was included instead of the newest 1.0.09. Version 1.0.09 can be downloaded here:
-http://forge.modelio.org/projects/intocps-modelio34/files
+##Requirements
+You need a 64 bit Microsoft Windows system to run all the binaries in this bundle.
 
 
 ##This bundle includes:
@@ -28,25 +27,26 @@ http://forge.modelio.org/projects/intocps-modelio34/files
   The cross-platform test FMUs.
 
 - 20sim.exe:
-  20-sim modeling and simulation tool
+  20-sim 4.6 - Modeling and simulation tool
 
 - 20sim4C.exe:
-  20-sim 4C tool for rapid prototyping for control engineers.
+  20-sim 4C 2.1.8 - Tool for rapid prototyping for control engineers.
+  If you wish to use 20-sim 4C 2.1.8 with 20-sim 4.6, please follow the steps described here: http://www.20sim4c.com/news/81-using4cin20sim46.html
 
-- 2015-11-04.VSI-TOOLCHAIN.zip:
+- 2015-12-11.VSI-TOOLCHAIN.zip:
   Entire toolchain for RT-Tester and the RT-Tester UI. Installation
   instructions can be found in the README inside the zip-file.
 
 - coe-0.0.1-SNAPSHOT-jar-with-dependencies.jar:
   Latest version of COE
 
-- INTOCPS_1.0.03.jmdac:
+- INTOCPS_1.0.16.jmdac:
   Modelio FMU export module.
 
-- modelio-open-201509161706-win32.win32.x86:
+- modelio-open-201512081403-win32.win32.x86_64.zip:
   Latest version of OpenModelio (UML/BPMN modelling tool).
 
-- OpenModelica-v1.9.4-dev-356-g6d87aeb.exe:
+- OpenModelica-v1.9.4-dev-599-g8103c8f.exe:
   Latest nightly build of OpenModelica. A Modelica-based modelling and simulation tool.
 
 - Overture-2.3.0-win32.win32.x86.zip:

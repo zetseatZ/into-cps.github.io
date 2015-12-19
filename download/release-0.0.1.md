@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Overview
+title: INTO-CPS Release 0.0.1
 ---
 
 # INTO-CPS TOOL BUNDLE - Release 0.0.1
