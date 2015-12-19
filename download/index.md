@@ -10,6 +10,7 @@ title: Overview
 
 ## Releases
 
+* [Release 0.0.3 - 19 December 2015](release-0.0.3.html)
 * [Release 0.0.2 - 08 November 2015](release-0.0.2.html)
 * [Release 0.0.1 - 26 October 2015](release-0.0.1.html)
 
