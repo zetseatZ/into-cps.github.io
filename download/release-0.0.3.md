@@ -18,7 +18,9 @@ http://overture.au.dk/into-cps/site/
 
 
 ##Requirements
-You need a 64 bit Microsoft Windows system to run all the binaries in this bundle.
+You need a 64 bit Microsoft Windows system with a Java Run-Time Environment
+([download](http://java.com/download/)) installed to run all the tools in this
+bundle.
 
 
 ##This bundle includes:
