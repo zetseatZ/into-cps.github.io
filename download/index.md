@@ -16,13 +16,13 @@ title: Overview
 
 ## Latest
 
-* [COE](http://overture.au.dk/into-cps/development/latest) - Windows / Mac / Linux
-* [20-sim](http://www.20sim.com/download/20sim/20sim45download.html) - Windows
-* [20-sim 4C](http://www.20sim4c.com/downloads/20sim4c.html) - Windows
+* COE  - [Windows / Mac / Linux](http://overture.au.dk/into-cps/development/latest)
+* 20-sim - [Windows](http://www.20sim.com/download/20sim/20sim45download.html)
+* 20-sim 4C - [Windows](http://www.20sim4c.com/downloads/20sim4c.html)
 * Open Modelica - [Windows](https://openmodelica.org/download/download-windows) / [Mac](https://openmodelica.org/download/download-mac) / [Linux](https://openmodelica.org/download/download-linux)
-* [Overture Tool](http://overturetool.org/download) - Windows / Mac / Linux
-* [Overture Tool Wrapper](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/latest/) - Windows / Mac / Linux
-* [Modelio](https://www.modelio.org/downloads/download-modelio.html) - Windows / Mac / Linux
+* Overture Tool - [Windows / Mac / Linux](http://overturetool.org/download)
+* Overture Tool Wrapper - [Windows / Mac / Linux](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/latest/)
+* Modelio - [Windows / Mac / Linux](https://www.modelio.org/downloads/download-modelio.html)
 * RT-Tester
 
 ## Version August 27, 2015
