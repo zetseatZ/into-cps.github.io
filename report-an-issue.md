@@ -15,4 +15,4 @@ Please find the tool specific link below and repot the issue:
 * Open Modelica: ([list](https://trac.openmodelica.org/OpenModelica/report) | [new](https://trac.openmodelica.org/OpenModelica/newticket))
 * Modelio: ([list](http://forge.modelio.org/projects/intocps/issues) | [new (register to submit)](http://forge.modelio.org/projects/intocps/issues))
 * RT-Tester: ([register](https://software.verified.de/mantis/signup_page.php) | [list (register to view)](https://software.verified.de/mantis?project_id=76))
-* DSE: …
+* DSE: ([list](https://github.com/CarlGamble/INTO-CPS-DSE/issues) | [new](https://github.com/CarlGamble/INTO-CPS-DSE/issues/new))
