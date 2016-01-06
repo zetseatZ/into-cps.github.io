@@ -8,8 +8,8 @@ title: Connection Export
 
 # Connection Export
 
-* How to export part of a SysML model as a connection config for the COE
-* TO BE DONE
+* How to export a Connection Diagram as a configuration for the INTO-CPS Application 
+
 
 
 
