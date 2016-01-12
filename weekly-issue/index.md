@@ -18,7 +18,9 @@ page to read more about how to submit an issue report.
 * OpenModelica - 2015-12-07 [Bug when creation of a model in a package](https://trac.openmodelica.org/OpenModelica/ticket/3585)
 * OpenModelica - 2015-12-22 [OMEdit crashes](https://trac.openmodelica.org/OpenModelica/ticket/3606)
 
+
 ## History of Weekly Digests
+
 Below you will find a list of weekly digests giving a historical overview of
 all known issues across all the tools that are part of INTO-CPS.
 
