@@ -12,16 +12,16 @@ If you have experienced an issue not listed here, then please go the [Report an 
 page to read more about how to submit an issue report.
 
 
-## Currently Open Issues - INTO-CPS Release 0.0.3 - Updated Dec 06 2016
+## Currently Open Issues - INTO-CPS Release 0.0.3 - Updated 12 Jan 2016
 
 * Modelio - 2015-12-14 - [Icons used to identify "Cyber", "Sub-system" and "Physical" components](http://forge.modelio.org/issues/266)
 * OpenModelica - 2015-12-07 [Bug when creation of a model in a package](https://trac.openmodelica.org/OpenModelica/ticket/3585)
-* OpenModelica - 2015-12-08 [diffModelicaFileListings consumes huge memory](https://trac.openmodelica.org/OpenModelica/ticket/3588)
 * OpenModelica - 2015-12-22 [OMEdit crashes](https://trac.openmodelica.org/OpenModelica/ticket/3606)
 
 ## History of Weekly Digests
 Below you will find a list of weekly digests giving a historical overview of
 all known issues across all the tools that are part of INTO-CPS.
 
-* [2015 W52](2015-W52.html)
+* [2016 W01](2015-W01.html)
 * [2015 W53](2015-W53.html)
+* [2015 W52](2015-W52.html)
