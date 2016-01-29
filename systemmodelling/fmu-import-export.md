@@ -20,8 +20,8 @@ Two commands have been implemented in order to link SysML modelling and FMI defi
 
 ![2]
 
-[1]: importfmi.png
+[1]: reversefmi.png
 
-[2]: reversefmi.png
+[2]: generatefmi.png
 
 [3]: https://www.fmi-standard.org/downloads
