@@ -16,7 +16,7 @@ as shown in ![1]
 Choose a relevant name ![2] and click on Generate.
 
 
-[1] sysml-generateconfig.png
+[1]: sysml-generateconfig.png
 
- [2] sysml-configuration-name.png
+[2]: sysml-configuration-name.png
  
