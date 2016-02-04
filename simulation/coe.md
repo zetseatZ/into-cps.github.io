@@ -15,6 +15,11 @@ threat. This is just a false postive and a known issue with modern anti-virus
 software. You can read more about it and how to resolve the issue
 [here](http://overture.au.dk/into-cps/site/simulation/antivirus.html).
 
+
+### COE requires write access to the installation directory
+
+COE requires access rights to the directory where it is running, as it creates a log file next to the executable when launched.
+
 ### Starting the COE:
 
 1. Download the coe, we call it `coe.jar`
@@ -41,6 +46,6 @@ curl -o api.pdf http://localhost:8082/api/pdf
 
 Now the file api.pdf should be avaliable.
 
-
+For convenience the latest documentation can also be found [here](coe-api.pdf)
 
 
