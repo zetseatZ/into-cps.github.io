@@ -13,6 +13,8 @@ The *Overture Tool* is an open-source integrated development environment (IDE) f
 
 The support for FMI in Overture is based on the Crescendo Tool and an automated export is avaliable when annotating the specification with FMI specific information.
 
+The entry point used by the FMU wrapper is: `new World().run()` so make sure it is present on export.
+
 * Note that FMUs running **VDM require variable step size**. If a fixed step size is selected then it may introduce errors. Thus if fixed stepsize is selected make sure that the interval is close to that of the control loop. (Internally VDM runs with nano seconds resolution where each expression is assigned a time cost)*
 
 Overture (VDM) specification can be annotated with interface annotations allowing the modeller to specify which *values* should be *parameters*, and which *instance variables* should be *inputs* or *outputs*.
