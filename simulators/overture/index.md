@@ -58,7 +58,15 @@ instance variables
 
 ## Installing the FMI Exporter for Overture
 
-The plugin can be installed from: [http://overture.au.dk/into-cps/vdm-tool-wrapper/development/latest/ide/repository/target/repository/](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/latest/ide/repository/target/repository/)
+Open Overture and follow these steps:
+- 1. Go to `Help->Install New Software...`
+- 2. Click `Add...`
+- 3. Enter:
+ - Name: `Overture FMU`
+ - Location: `http://overture.au.dk/into-cps/vdm-tool-wrapper/development/latest/ide/repository/target/repository/`
+- 4. Click `Ok`
+- 5. Check `Overture FMU Export`
+- 6. Click Next / Finish follow the usual stuff to accept and install.
 
 ## Exporting an annotated specification
 
