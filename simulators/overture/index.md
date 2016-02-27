@@ -102,3 +102,13 @@ Followed by a printout of the `modelDescription.xml` file it generates.
 
 See this page for [manual](overture.html) export.
 
+## Example
+
+You can download an example archive that makes use of the above annotations [here](cascading-watertank-for-overture-export.zip).
+
+To import it in Overture:
+
+- 1. Goto the `Project Explorer->Import`
+- 2. Select `Existing Projects into Workspace`
+- 3. Select `Select archiev file` and brows for the downloaded example
+- 4. Follow the standard options and finally finish the wizard
