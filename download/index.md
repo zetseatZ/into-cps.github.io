@@ -25,7 +25,7 @@ title: Overview
 * Overture Tool - [Windows / Mac / Linux](http://overturetool.org/download)
 * Overture Tool Wrapper - [Windows / Mac / Linux](http://overture.au.dk/into-cps/vdm-tool-wrapper/development/latest/)
 * Modelio - [Windows / Mac / Linux](https://www.modelio.org/downloads/download-modelio.html)
-* RT-Tester prerequisites - [Windows] (https://secure.verified.de/f5x1hks4/into-cps/one-click/install_Python27_gcc49.exe)
+* RT-Tester prerequisites (Python27/gcc) - [Windows] (https://secure.verified.de/f5x1hks4/into-cps/one-click/install_Python27_gcc49.exe)
 * RT-Tester toolchain - [Windows] (https://secure.verified.de/f5x1hks4/into-cps/one-click/VSI_bundle.exe)
 
 ## Version August 27, 2015

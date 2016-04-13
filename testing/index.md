@@ -34,8 +34,13 @@ The RTT-MBT component is catering for FMI/FMU by a specialised feature
 release that allows to cast a test procedures to an FMI2-compliant FMU.
 That FMU is in input to the COE.
 
-RT-Tester Core and RTT-MBT come in two *.msi installer files that should be
-used to install to the default locations
-  C:/opt/rt-tester
-  C:/opt/rtt-mbt
+## Downloads
+In order to operate properly, it is necessary to first obtain the prerequisite
+tools Python-2.7 and gcc-4.9.
+An installer collection is available [for Windows] (https://secure.verified.de/f5x1hks4/into-cps/one-click/install_Python27_gcc49.exe).
 
+RT-Tester Core, RTT-MBT, RTTUI3, and prepared example projects can be downloaded and 
+installed by one click
+  [for Windows] (https://secure.verified.de/f5x1hks4/into-cps/one-click/VSI_bundle.exe)
+
+Updates of the installers will be available at the same URL.
