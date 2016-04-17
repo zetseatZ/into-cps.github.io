@@ -1,11 +1,11 @@
 ---
 layout: default
-title: INTO-CPS Release 0.0.5
+title: INTO-CPS Release 0.0.6
 ---
 
-# INTO-CPS TOOL BUNDLE - Release 0.0.5
+# INTO-CPS TOOL BUNDLE - Release 0.0.6
 
-[Download bundle](http://staff.iha.dk/pgl/into-cps-release-0.0.5-2016-03-19.zip)
+[Download bundle](http://staff.iha.dk/pgl/into-cps-release-0.0.6-2016-04-17.zip)
 
 
 **IMPORTANT: This bundle is only intended for use by the INTO-CPS consortium
@@ -31,11 +31,13 @@ to run all the tools in this bundle.
 - 20sim4C.exe:
   20-sim 4C 2.1.9 - Tool for rapid prototyping for control engineers.
 
-- 2016-02-29.VSI-TOOLCHAIN.zip
-  Entire toolchain for RT-Tester and the RT-Tester UI. Installation
-  instructions can be found in the README inside the zip-file.
+- install_Python27_gcc49.exe
+  Python 2.7 and GCC 4.9 bundle installer. Requiremented by the VSI tools (VSI_bundle.exe)
 
-- coe-0.0.3-SNAPSHOT-jar-with-dependencies.jar
+- VSI_bundle.exe
+  The RT-Tester and the RT-Tester UI installer
+
+- coe-0.0.4-jar-with-dependencies.jar
   Latest version of COE
 
 - modelio-open-201512081403-win32.win32.x86_64.zip
@@ -49,7 +51,7 @@ to run all the tools in this bundle.
   Guide for deploying modules into a Modelio project:
   <http://forge.modelio.org/projects/modelio3-usermanual-english-330/wiki/Modeler-_modeler_managing_projects_configuring_project_modules>
 
-- OpenModelica-v1.9.6.exe
+- OpenModelica-v1.10.0-dev-440-gd0581ff-64bit.exe
   Latest nightly build of OpenModelica. A Modelica-based modelling and
   simulation tool.
 

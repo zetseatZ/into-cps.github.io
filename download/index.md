@@ -10,6 +10,7 @@ title: Overview
 
 ## Releases
 
+* [Release 0.0.6 - 17 April 2016](release-0.0.6.html)
 * [Release 0.0.5 - 19 March 2016](release-0.0.5.html)
 * [Release 0.0.4 - 04 Februar 2016](release-0.0.4.html)
 * [Release 0.0.3 - 19 December 2015](release-0.0.3.html)
@@ -19,7 +20,7 @@ title: Overview
 ## Latest
 
 * COE  - [Windows / Mac / Linux](http://overture.au.dk/into-cps/development/latest)
-* 20-sim - [Windows](http://www.20sim.com/download/20sim/20sim45download.html)
+* 20-sim - [Windows](http://www.20sim.com/download/20sim.html)
 * 20-sim 4C - [Windows](http://www.20sim4c.com/downloads/20sim4c.html)
 * Open Modelica - [Windows](https://openmodelica.org/download/download-windows) / [Mac](https://openmodelica.org/download/download-mac) / [Linux](https://openmodelica.org/download/download-linux)
 * Overture Tool - [Windows / Mac / Linux](http://overturetool.org/download)
