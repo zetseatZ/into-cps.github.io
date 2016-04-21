@@ -40,7 +40,7 @@ Open Overture and follow these steps:
 - 5. Check `Overture FMU Export`
 - 6. Click Next / Finish follow the usual stuff to accept and install.
 
-** note current dev build has a bug on mac. The FMU cannot connect to the tool-wrapper during simulation. **
+**note current dev build has a bug on mac. The FMU cannot connect to the tool-wrapper during simulation.**
 
 ## Updating / Checking for new versions
 
@@ -144,13 +144,36 @@ The following example is a *WaterTank* controller that seeks to keep the tank le
 Extract from `modelDescription.xml`
 
 ```xml
-<ScalarVariable name="minlevel" valueReference="0" causality="parameter" variability="fixed" initial="exact"><Real start="1.0" /></ScalarVariable>
+<ScalarVariable name="minlevel" 
+				valueReference="0" 
+				causality="parameter" 
+				variability="fixed" 
+				initial="exact">
+		<Real start="1.0" />
+</ScalarVariable>
 
-<ScalarVariable name="level" valueReference="1" causality="input" variability="continuous"><Real start="0.0" /></ScalarVariable>
+<ScalarVariable name="level" 
+				valueReference="1" 
+				causality="input" 
+				variability="continuous">
+		<Real start="0.0" />
+</ScalarVariable>
 
-<ScalarVariable name="maxlevel" valueReference="2" causality="parameter" variability="fixed" initial="exact"><Real start="2.0" /></ScalarVariable>
+<ScalarVariable name="maxlevel" 
+				valueReference="2" 
+				causality="parameter" 
+				variability="fixed" 
+				initial="exact">
+		<Real start="2.0" />
+</ScalarVariable>
 
-<ScalarVariable name="valveState" valueReference="3" causality="output" variability="discrete" initial="calculated"><Boolean  /></ScalarVariable>
+<ScalarVariable name="valveState" 
+				valueReference="3" 
+				causality="output" 
+				variability="discrete" 
+				initial="calculated">
+		<Boolean  />
+</ScalarVariable>
 ```
 
 The `HardwareInterface` as it will be imported / or how it should be manually written. Note the parameters (VDM values) could have been placed in other classes.
@@ -221,7 +244,8 @@ public System : () ==> System
 System () == 
 (
 	let levelSensor   = new LevelSensor(lambda -:bool& hwi.level),
-			valveActuator =  new ValveActuator(lambda x: bool & Reflect`setMember(System`hwi,"valveState",x) ) 
+		 valveActuator =  new ValveActuator(lambda x: bool & 
+		 				Reflect`setMember(System`hwi,"valveState",x) ) 
 	in
 		controller := new Controller(levelSensor, valveActuator);
 
