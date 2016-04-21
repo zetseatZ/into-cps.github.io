@@ -26,37 +26,6 @@ The annotation format is as follows:
 ```
 it must be located exactly above a value or instance variable.
 
-### Parameter Annotations
-
-A parameter annotation can only be used with VDM values as shown here: 
-
-```
-values
--- Hardware IO parameters aka - Shared Design Parameters
--- @ interface: type = parameter, name="maxlevel1";
-public maxlevel1 : real = 2.0; -- {m}
-```
-The annotation can be used on any value in any class.
-
-### Input & Output Annotations
-
-An input or output annotation can only be used on instance variables as shown here:
-
-
-```
-system System
-
--- Hardware IO definitions
-instance variables
-	
--- @ interface: type = input, name="level1";
-    public static upperlevel   : real := 0.0;
- 
--- @ interface: type = output, name="valveState1";   
-    public static upperValveState : bool := false;
-```
-
-**Note that the annotation is only supported in the `system` class.
 
 ## Installing the FMI Exporter for Overture
 
@@ -71,7 +40,39 @@ Open Overture and follow these steps:
 - 5. Check `Overture FMU Export`
 - 6. Click Next / Finish follow the usual stuff to accept and install.
 
-## Exporting an annotated specification
+** note current dev build has a bug on mac. The FMU cannot connect to the tool-wrapper during simulation. **
+
+## Updating / Checking for new versions
+
+- 1. Go to `Help->Installation Details
+- 2. Select `Overture FMU Export`
+- 3. Click `Update...`
+- 4. Complete the wizard and restart
+
+# Importing a `ModelDescription.xml` file
+
+- 1. Right click on the project and select `Overture FMU->Import Model Description`
+
+![alt text](OvertureFMU_ctxt.png "Overture FMU")
+
+
+- 2. Select the model description file
+- 3. Check the console for errors
+
+If import is done on a clean project the following files will be created:
+
+- `System.vdmrt`
+- `World.vdmrt`
+- `HardwareInterface.vdmrt`
+
+If these files already exists in the project the `HardwareInterface.vdmrt` will be updated and the import will check for an instance hereof in the system, and check for the `run` operation in `World`.
+
+
+# Exporting an FMU
+
+- 1. Right click on the project and select `Overture FMU->Export FMU`
+
+![alt text](OvertureFMU_ctxt.png "Overture FMU")
 
 The export can be started from the context menu in the Overture Explorer -> Overture FMU -> FMU Export
 
@@ -98,12 +99,233 @@ Setting generation data to: 2016-01-07T09:27:55
 
 Followed by a printout of the `modelDescription.xml` file it generates.
 
+
+# Annotations
+
+### Parameter Annotations
+
+A parameter annotation can only be used with VDM values as shown here: 
+
+```
+values
+-- Hardware IO parameters aka - Shared Design Parameters
+-- @ interface: type = parameter, name="maxlevel1";
+public maxlevel1 : real = 2.0; -- {m}
+```
+The annotation can be used on any value in any class.
+
+### Input & Output Annotations
+
+An input or output annotation can only be used on instance variables in the `HardwareInterface`class as shown here:
+
+
+```
+system HardwareInterface
+
+-- Hardware IO definitions
+instance variables
+	
+-- @ interface: type = input, name="level1";
+    public static upperlevel   : real := 0.0;
+ 
+-- @ interface: type = output, name="valveState1";   
+    public static upperValveState : bool := false;
+```
+
+
 ## Manual Export
 
 See this page for [manual](overture.html) export.
 
 ## Example
 
+The following example is a *WaterTank* controller that seeks to keep the tank level between *min* and *max* by opening a valve. It has a fixed inflow.
+
+Extract from `modelDescription.xml`
+
+```xml
+<ScalarVariable name="minlevel" valueReference="0" causality="parameter" variability="fixed" initial="exact"><Real start="1.0" /></ScalarVariable>
+
+<ScalarVariable name="level" valueReference="1" causality="input" variability="continuous"><Real start="0.0" /></ScalarVariable>
+
+<ScalarVariable name="maxlevel" valueReference="2" causality="parameter" variability="fixed" initial="exact"><Real start="2.0" /></ScalarVariable>
+
+<ScalarVariable name="valveState" valueReference="3" causality="output" variability="discrete" initial="calculated"><Boolean  /></ScalarVariable>
+```
+
+The `HardwareInterface` as it will be imported / or how it should be manually written. Note the parameters (VDM values) could have been placed in other classes.
+
+```
+class HardwareInterface
+
+values
+	-- @ interface: type = parameter, name="minlevel";
+	public minlevel : real = 1.0;
+	-- @ interface: type = parameter, name="maxlevel";
+	public maxlevel : real = 2.0;
+
+instance variables
+	-- @ interface: type = input, name="level";
+	public level : real := 0.0;
+
+instance variables
+	-- @ interface: type = output, name="valveState";
+	public valveState : bool := false;
+	
+end HardwareInterface
+```
+
+The `World` class, it is just used to start the model
+
+```
+class World
+
+operations
+
+public run : () ==> ()
+run() ==
+ (start(System`controller);
+  block();
+ );
+
+private block : () ==>()
+block() ==
+  skip;
+
+sync
+
+  per block => false;
+
+end World
+```
+
+The `system` has one special instance variable `hwi` this is used to auto link the FMI interface to the VDM model.
+
+```
+system System
+
+instance variables
+
+-- Hardware interface variable required by FMU Import/Export
+public static hwi: HardwareInterface := new HardwareInterface();
+    
+
+instance variables
+
+  public static controller : [Controller] := nil;
+
+	cpu1 : CPU := new CPU(<FP>, 20);
+operations
+
+public System : () ==> System
+System () == 
+(
+	let levelSensor   = new LevelSensor(lambda -:bool& hwi.level),
+			valveActuator =  new ValveActuator(lambda x: bool & Reflect`setMember(System`hwi,"valveState",x) ) 
+	in
+		controller := new Controller(levelSensor, valveActuator);
+
+	cpu1.deploy(controller,"Controller");
+);
+
+end System
+```
+
+Note the trick thats used here in the constructor. It creates function values (think of it was function pointers) for the inputs and outputs such that any object can encapsulate these. Why like this? because VDM is by value, in Java or C/C++ we could have parsed references for these but not in VDM. VDM only has function values but a function has to have no side effects so thats why the `Releact` class is used. It is a Java wrapper enables us to make a side effect. (and for the getter in `LevelSensor` here the type check is just not strong enough to detect this case).
+
+The `Reflect` library can be added through the same context menu as the import/export.
+
+The `LevelSensor` class has a function value as its handle. The parameter is not used but VDM lambdas cannot be declared without a parameter.
+
+```
+class LevelSensor
+
+instance variables
+
+handle : bool->real;
+
+operations
+
+public LevelSensor: bool->real ==> LevelSensor
+LevelSensor(h) == handle := h;
+
+public getLevel: () ==> real
+getLevel()==return handle(true);
+
+end LevelSensor
+```
+
+The `ValveActuator` class has a function value as its handle. We don't use the return value thus the don't care in the `let`.
+
+```
+class ValveActuator
+
+
+instance variables
+
+handle : bool->bool;
+
+operations
+
+public ValveActuator: bool->bool ==> ValveActuator
+ValveActuator(h) == handle := h;
+
+public setValve: bool ==> ()
+setValve(value)==let - = handle(value) in skip;
+
+end ValveActuator
+```
+
+Finally for completenes the `Controller`.
+
+```
+class Controller
+  
+instance variables
+
+  levelSensor   : LevelSensor;
+  valveActuator : ValveActuator;
+
+operations
+
+public Controller : LevelSensor * ValveActuator  ==> Controller
+Controller(l,v)==
+ (levelSensor   := l;
+  valveActuator := v;
+  );
+  
+values
+open : bool = true;
+close: bool = false;
+
+operations
+
+private loop : () ==>()
+loop()==
+	cycles(2)
+   (
+   
+    let level : real = levelSensor.getLevel()
+    in
+    (
+    
+    if( level >= HardwareInterface`maxlevel)
+    then valveActuator.setValve(open);
+    
+    if( level <= HardwareInterface`minlevel)
+    then valveActuator.setValve(close);
+    );
+			
+    
+   );
+
+thread
+periodic(10E6,0,0,0)(loop);	 
+		 
+end Controller
+```
+
+<!--
 You can download an example archive that makes use of the above annotations [here](cascading-watertank-for-overture-export.zip).
 
 To import it in Overture:
@@ -112,3 +334,4 @@ To import it in Overture:
 - 2. Select `Existing Projects into Workspace`
 - 3. Select `Select archiev file` and brows for the downloaded example
 - 4. Follow the standard options and finally finish the wizard
+-->
