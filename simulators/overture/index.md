@@ -40,7 +40,6 @@ Open Overture and follow these steps:
 - 5. Check `Overture FMU Export`
 - 6. Click Next / Finish follow the usual stuff to accept and install.
 
-**note current dev build has a bug on mac. The FMU cannot connect to the tool-wrapper during simulation.**
 
 ## Updating / Checking for new versions
 
