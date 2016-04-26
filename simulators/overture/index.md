@@ -71,11 +71,8 @@ If these files already exists in the project the `HardwareInterface.vdmrt` will 
 
 - 1. Right click on the project and select `Overture FMU->Export FMU`
 
-![alt text](OvertureFMU_ctxt.png "Overture FMU")
-
-The export can be started from the context menu in the Overture Explorer -> Overture FMU -> FMU Export
-
 ![alt text](overture-fmi-export-menu.png "Overture FMI Export Menu")
+
 
 The export fill place a `.fmu` in the project folder on completion and list the export progress in the console like: 
 
@@ -83,17 +80,13 @@ The export fill place a `.fmu` in the project folder on completion and list the 
 ---------------------------------------
 |             FMU Export              |
 ---------------------------------------
-Starting FMU export for project: 'cascading-watertank'
-Found annotated definition 'Controller.maxlevel1' with type 'parameter' and name 'maxlevel1'
-Found annotated definition 'Controller.minlevel1' with type 'parameter' and name 'minlevel1'
-Found annotated definition 'Controller.maxlevel2' with type 'parameter' and name 'maxlevel2'
-Found annotated definition 'Controller.minlevel2' with type 'parameter' and name 'minlevel2'
-Found annotated definition 'System.upperlevel' with type 'input' and name 'level1'
-Found annotated definition 'System.lowerlevel' with type 'input' and name 'level2'
-Found annotated definition 'System.upperValveState' with type 'output' and name 'valveState1'
-Found annotated definition 'System.lowerValveState' with type 'output' and name 'valveState2'
+Starting FMU export for project: 'watertankController'
+Found annotated definition 'HardwareInterface.minlevel' with type 'parameter' and name 'minlevel'
+Found annotated definition 'HardwareInterface.maxlevel' with type 'parameter' and name 'maxlevel'
+Found annotated definition 'HardwareInterface.level' with type 'input' and name 'level'
+Found annotated definition 'HardwareInterface.valveState' with type 'output' and name 'valveState'
 Found system class: 'System'
-Setting generation data to: 2016-01-07T09:27:55
+Setting generation data to: 2016-04-26T15:36:08
 ```
 
 Followed by a printout of the `modelDescription.xml` file it generates.
@@ -254,7 +247,9 @@ System () ==
 end System
 ```
 
-Note the trick thats used here in the constructor. It creates function values (think of it was function pointers) for the inputs and outputs such that any object can encapsulate these. Why like this? because VDM is by value, in Java or C/C++ we could have parsed references for these but not in VDM. VDM only has function values but a function has to have no side effects so thats why the `Releact` class is used. It is a Java wrapper enables us to make a side effect. (and for the getter in `LevelSensor` here the type check is just not strong enough to detect this case).
+Note the trick that's used here in the constructor. It creates function values (think of it was function pointers) for the inputs and outputs such that any object can encapsulate these. 
+
+Why like this? because VDM is by value, in Java or C/C++ we could have parsed references for these but not in VDM. The VDM language only has function values, and since a function has to cannot have side effects, we therefore have to use `Releact` class. The `Reflect` class is a Java wrapper that enables side effects in functions. (and for the getter in `LevelSensor` here the type check is just not strong enough to detect this case).
 
 The `Reflect` library can be added through the same context menu as the import/export.
 
