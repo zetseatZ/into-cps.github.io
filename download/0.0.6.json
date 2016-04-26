@@ -1,5 +1,5 @@
 {
-    "version": "0.0.5-test",
+    "version": "0.0.6",
     "tools": {
         "20sim": {
             "name": "20-sim",
