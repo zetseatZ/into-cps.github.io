@@ -249,7 +249,7 @@ end System
 
 Note the trick that's used here in the constructor. It creates function values (think of it was function pointers) for the inputs and outputs such that any object can encapsulate these. 
 
-Why like this? because VDM is by value, in Java or C/C++ we could have parsed references for these but not in VDM. The VDM language only has function values, and since a function has to cannot have side effects, we therefore have to use `Releact` class. The `Reflect` class is a Java wrapper that enables side effects in functions. (and for the getter in `LevelSensor` here the type check is just not strong enough to detect this case).
+Why like this? because VDM is by value, in Java or C/C++ we could have parsed references for these but not in VDM. The VDM language only has function values, and since a function has to cannot have side effects, we therefore have to use `Reflect` class. The `Reflect` class is a Java wrapper that enables side effects in functions. (and for the getter in `LevelSensor` here the type check is just not strong enough to detect this case).
 
 The `Reflect` library can be added through the same context menu as the import/export.
 
@@ -294,7 +294,7 @@ setValve(value)==let - = handle(value) in skip;
 end ValveActuator
 ```
 
-Finally for completenes the `Controller`.
+Finally for completeness the `Controller`.
 
 ```
 class Controller
