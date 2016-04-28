@@ -5,7 +5,7 @@ title: INTO-CPS Release 0.0.5
 
 # INTO-CPS TOOL BUNDLE - Release 0.0.5
 
-[Download bundle](http://staff.iha.dk/pgl/into-cps-release-0.0.5-2016-03-19.zip)
+[Download bundle](http://overture.au.dk/into-cps/release-bundles/0.0.5.zip)
 
 
 **IMPORTANT: This bundle is only intended for use by the INTO-CPS consortium
