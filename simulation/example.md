@@ -39,18 +39,18 @@ Create a file named `config.json` with the following content:
 ```json
 {
 	"fmus":[
-		"../fmus/tankcontroller.fmu",
-		"../fmus/tank.fmu"
+		"{fmu1}":"../fmus/tankcontroller.fmu",
+		"{fmu2}":"../fmus/tank.fmu"
 	],
 	"connections":{
-		"{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.valve":
-		    ["{8c4e810f-3df3-4a00-8276-176fa3c9f001}.tank.valve"],
-		"{8c4e810f-3df3-4a00-8276-176fa3c9f001}.tank.level":
-		    ["{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.level"]
+		"{fmu1}.controller.valve":
+		    ["{fmu2}.tank.valve"],
+		"{fmu2}.tank.level":
+		    ["{fmu1}.controller.level"]
 	},
 	"parameters":{
-		"{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.maxLevel":8,
-		"{8c4e810f-3df3-4a00-8276-176fa3c9f000}.controller.minLevel":2
+		"{fmu1}.controller.maxLevel":8,
+		"{fmu1}.controller.minLevel":2
 	},
 	"algorithm":{
 		"type":"fixed-step",
