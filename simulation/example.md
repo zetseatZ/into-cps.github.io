@@ -38,10 +38,10 @@ Create a file named `config.json` with the following content:
 
 ```json
 {
-	"fmus":[
+	"fmus":{
 		"{fmu1}":"../fmus/tankcontroller.fmu",
 		"{fmu2}":"../fmus/tank.fmu"
-	],
+	},
 	"connections":{
 		"{fmu1}.controller.valve":
 		    ["{fmu2}.tank.valve"],
@@ -71,17 +71,27 @@ cd coe
 java -jar coe.jar 
 ```
 
-2. (New terminal, or use &) Initialize the simulation
+2. (New terminal, or use &) Create a session to use for the simulation
 
 ```bash
-curl -s -H "Content-Type: application/json" --data @config.json http://localhost:8082/initialize
+sessionIdJson=$(curl -s http://localhost:8082/createSession)
 ```
 
 3. Find the session id in the response
-4. Start the simulation
 
 ```bash
-sessionId=1234
+sessionId=`echo $sessionIdJson | cut -d ":" -f 2- | cut -d "}" -f 1`
+```
+
+4. Initialize the simulation
+
+```bash
+curl -s -H "Content-Type: application/json" --data @config.json http://localhost:8082/initialize/$sessionId
+```
+
+5. Start the simulation
+
+```bash
 endTime=4
 curl -s -H "Content-Type: application/json" --data '{"startTime":0.0, "endTime":'$endTime'}' http://localhost:8082/simulate/$sessionId
 ```
@@ -97,7 +107,6 @@ note that the above json string must be expressed as follows on windows platform
 ```bash
 curl -s http://localhost:8082/result/$sessionId
 ```
-
 
 
 
