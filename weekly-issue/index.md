@@ -24,6 +24,7 @@ page to read more about how to submit an issue report.
 Below you will find a list of weekly digests giving a historical overview of
 all known issues across all the tools that are part of INTO-CPS.
 
+* [2016 W19](2016-W19.html)
 * [2016 W01](2016-W01.html)
 * [2015 W53](2015-W53.html)
 * [2015 W52](2015-W52.html)
