@@ -58,13 +58,13 @@ Open Overture and follow these steps:
 - 2. Select the model description file
 - 3. Check the console for errors
 
-If import is done on a clean project the following files will be created:
+If import is done on a clean project, the following files will be created:
 
 - `System.vdmrt`
 - `World.vdmrt`
 - `HardwareInterface.vdmrt`
 
-If these files already exists in the project the `HardwareInterface.vdmrt` will be updated and the import will check for an instance hereof in the system, and check for the `run` operation in `World`.
+If these files already exist in the project, the `HardwareInterface.vdmrt` will be updated, the import will check for an instance thereof in the system and check for the `run` operation in `World`.
 
 
 # Exporting an FMU
@@ -74,7 +74,7 @@ If these files already exists in the project the `HardwareInterface.vdmrt` will 
 ![alt text](overture-fmi-export-menu.png "Overture FMI Export Menu")
 
 
-The export fill place a `.fmu` in the project folder on completion and list the export progress in the console like: 
+The export fill place a `.fmu` in the project folder on completion and list the export progress in the console as follows: 
 
 ```
 ---------------------------------------
@@ -89,7 +89,7 @@ Found system class: 'System'
 Setting generation data to: 2016-04-26T15:36:08
 ```
 
-Followed by a printout of the `modelDescription.xml` file it generates.
+This is followed by a printout of the `modelDescription.xml` file it generates.
 
 
 # Annotations
@@ -108,7 +108,7 @@ The annotation can be used on any value in any class.
 
 ### Input & Output Annotations
 
-An input or output annotation can only be used on instance variables in the `HardwareInterface`class as shown here:
+An input or output annotation can only be used on instance variables in the `HardwareInterface` class as shown here:
 
 
 ```
@@ -131,7 +131,7 @@ See this page for [manual](overture.html) export.
 
 ## Example
 
-The following example is a *WaterTank* controller that seeks to keep the tank level between *min* and *max* by opening a valve. It has a fixed inflow.
+The following example is a *WaterTank* controller that seeks to keep the water level in the tank between *min* and *max* by opening and closing a valve. It has a fixed inflow.
 
 Extract from `modelDescription.xml`
 
@@ -168,7 +168,7 @@ Extract from `modelDescription.xml`
 </ScalarVariable>
 ```
 
-The `HardwareInterface` as it will be imported / or how it should be manually written. Note the parameters (VDM values) could have been placed in other classes.
+The `HardwareInterface` as it will be imported or how it should be written manually. Note that the parameters (VDM values) could have been placed in other classes.
 
 ```
 class HardwareInterface
@@ -190,7 +190,7 @@ instance variables
 end HardwareInterface
 ```
 
-The `World` class, it is just used to start the model
+The `World` class, which is just used to start the model
 
 ```
 class World
@@ -214,7 +214,7 @@ sync
 end World
 ```
 
-The `system` has one special instance variable `hwi` this is used to auto link the FMI interface to the VDM model.
+The `system` has one special instance variable `hwi`.  This is used to auto link the FMI interface to the VDM model.
 
 ```
 system System
@@ -247,7 +247,7 @@ System () ==
 end System
 ```
 
-Note the trick that's used here in the constructor. It creates function values (think of it was function pointers) for the inputs and outputs such that any object can encapsulate these. 
+Note the trick that's used here in the constructor. It creates function values (think of it as function pointers) for the inputs and outputs such that any object can encapsulate these. 
 
 Why like this? because VDM is by value, in Java or C/C++ we could have parsed references for these but not in VDM. The VDM language only has function values, and since a function has to cannot have side effects, we therefore have to use the `Reflect` class. The `Reflect` class is a Java wrapper that enables side effects in functions. (and for the getter in `LevelSensor` here the type check is just not strong enough to detect this case).
 
