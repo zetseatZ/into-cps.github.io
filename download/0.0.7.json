@@ -1,0 +1,211 @@
+{
+  "tools": {
+    "coe": {
+      "platforms": {
+        "osx64": {
+          "action": "none",
+          "md5sum": "b28d67170b6d65f2fe1df8ca06877fe3",
+          "filename": "coe-0.0.4-jar-with-dependencies.jar",
+          "url": "http:\/\/overture.au.dk\/artifactory\/into-cps\/org\/intocps\/orchestration\/coe\/0.0.4\/coe-0.0.4-jar-with-dependencies.jar"
+        },
+        "windows64": {
+          "action": "none",
+          "md5sum": "b28d67170b6d65f2fe1df8ca06877fe3",
+          "filename": "coe-0.0.4-jar-with-dependencies.jar",
+          "url": "http:\/\/overture.au.dk\/artifactory\/into-cps\/org\/intocps\/orchestration\/coe\/0.0.4\/coe-0.0.4-jar-with-dependencies.jar"
+        },
+        "windows32": {
+          "action": "none",
+          "md5sum": "b28d67170b6d65f2fe1df8ca06877fe3",
+          "filename": "coe-0.0.4-jar-with-dependencies.jar",
+          "url": "http:\/\/overture.au.dk\/artifactory\/into-cps\/org\/intocps\/orchestration\/coe\/0.0.4\/coe-0.0.4-jar-with-dependencies.jar"
+        },
+        "linux64": {
+          "action": "none",
+          "md5sum": "b28d67170b6d65f2fe1df8ca06877fe3",
+          "filename": "coe-0.0.4-jar-with-dependencies.jar",
+          "url": "http:\/\/overture.au.dk\/artifactory\/into-cps\/org\/intocps\/orchestration\/coe\/0.0.4\/coe-0.0.4-jar-with-dependencies.jar"
+        },
+        "linux32": {
+          "action": "none",
+          "md5sum": "b28d67170b6d65f2fe1df8ca06877fe3",
+          "filename": "coe-0.0.4-jar-with-dependencies.jar",
+          "url": "http:\/\/overture.au.dk\/artifactory\/into-cps\/org\/intocps\/orchestration\/coe\/0.0.4\/coe-0.0.4-jar-with-dependencies.jar"
+        }
+      },
+      "version": "0.0.4",
+      "description": "Co-simulation Orchestration Engine",
+      "name": "Co-simulation Orchestration Engine"
+    },
+    "overture": {
+      "platforms": {
+        "osx64": {
+          "action": "none",
+          "md5sum": "f72be9337657179b991f2e345b7110e6",
+          "filename": "Overture-macosx.cocoa.x86_64.zip",
+          "url": "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.3.6\/Overture-2.3.6-macosx.cocoa.x86_64.zip"
+        },
+        "windows64": {
+          "action": "unpack",
+          "md5sum": "2f130fb4e20e059d7e5cef31a5139929",
+          "filename": "Overture-win32.win32.x86_64.zip",
+          "url": "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.3.6\/Overture-2.3.6-win32.win32.x86_64.zip"
+        },
+        "windows32": {
+          "action": "unpack",
+          "md5sum": "0204d0a2887c8da1ed21906284ddc373",
+          "filename": "Overture-win32.win32.x86.zip",
+          "url": "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.3.6\/Overture-2.3.6-win32.win32.x86.zip"
+        },
+        "linux64": {
+          "action": "unpack",
+          "md5sum": "0b02af68cf2d82f4589dce761cf30102",
+          "filename": "Overture-linux.gtk.x86_64.zip",
+          "url": "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.3.6\/Overture-2.3.6-linux.gtk.x86_64.zip"
+        },
+        "linux32": {
+          "action": "unpack",
+          "md5sum": "4b8b90cf87b794fabbe61fd1664c007f",
+          "filename": "Overture-linux.gtk.x86.zip",
+          "url": "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.3.6\/Overture-2.3.6-linux.gtk.x86.zip"
+        }
+      },
+      "description": "A tool for modelling control systems using The Vienna Development Method (VDM)",
+      "version": "2.3.6",
+      "name": "Overture"
+    },
+    "rttester": {
+      "platforms": {
+        "windows64": {
+          "action": "launch",
+          "md5sum": "0fe36e2b7427dbc2512a35e9ad618f4b",
+          "filename": "VSI_bundle.exe",
+          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle.exe"
+        },
+        "windows32": {
+          "action": "launch",
+          "md5sum": "0fe36e2b7427dbc2512a35e9ad618f4b",
+          "filename": "VSI_bundle.exe",
+          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle.exe"
+        }
+      },
+      "description": "RT-Tester and examples bundle",
+      "version": "0.0.6",
+      "name": "VSI tools"
+    },
+    "rttester-dependencies": {
+      "platforms": {
+        "windows64": {
+          "action": "launch",
+          "md5sum": "680950d6c176ef3718243cf201c2d66a",
+          "filename": "install_Python27_gcc49.exe",
+          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/install_Python27_gcc49.exe"
+        },
+        "windows32": {
+          "action": "launch",
+          "md5sum": "680950d6c176ef3718243cf201c2d66a",
+          "filename": "install_Python27_gcc49.exe",
+          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/install_Python27_gcc49.exe"
+        }
+      },
+      "description": "VSI tools dependencies: Python 2.7 and GCC 4.9",
+      "version": "0.0.6",
+      "name": "VSI tools dependencies bundle"
+    },
+    "modelio": {
+      "platforms": {
+        "osx64": {
+          "action": "none",
+          "md5sum": "419898c145df56fc4db3da2be85e5d8b",
+          "filename": " modelio-open-201512081403-macosx.cocoa.x86_64.dmg",
+          "url": "https:\/\/www.modelio.org\/modelio-download-archive\/doc_download\/118-modelio-341-macos-x.html"
+        },
+        "windows64": {
+          "action": "launch",
+          "md5sum": "fc2d84672ca45670b72185b1c044341a",
+          "filename": "modelio-open-201512081403-win32.win32.x86_64.zip",
+          "url": "https:\/\/www.modelio.org\/modelio-download-archive\/doc_download\/116-modelio-341-windows-64-bit.html"
+        },
+        "windows32": {
+          "action": "launch",
+          "md5sum": "180c744b0bffd064dc349b1035ccb1ca",
+          "filename": "modelio-open-201512081403-win32.win32.x86.zip",
+          "url": "https:\/\/www.modelio.org\/modelio-download-archive\/doc_download\/117-modelio-341-windows-32-bit.html"
+        },
+        "linux64": {
+          "action": "launch",
+          "md5sum": "715bf11e8b935254795c8d6f8086131b",
+          "filename": "modelio-open-201512081403-linux.gtk.x86_64.tar.gz",
+          "url": "https:\/\/www.modelio.org\/modelio-download-archive\/doc_download\/120-modelio-341-linux-64-bit.html"
+        },
+        "linux32": {
+          "action": "launch",
+          "md5sum": "0e698d5bef02e0981912c1f6fdc3f98b",
+          "filename": "modelio-open-201512081403-linux.gtk.x86.tar.gz",
+          "url": "https:\/\/www.modelio.org\/modelio-download-archive\/doc_download\/119-modelio-341-linux-32-bit.html"
+        }
+      },
+      "description": "UML\/BPMN modelling tool",
+      "version": "3.4.1",
+      "name": "Modelio"
+    },
+    "open-modelica": {
+      "platforms": {
+        "windows64": {
+          "action": "launch",
+          "md5sum": "0eda2c3972b2ab7399cd5234c504a990",
+          "filename": "OpenModelica-v1.10.0-dev-440-gd0581ff-64bit.exe",
+          "url": "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/64bit\/OpenModelica-v1.10.0-dev-440-gd0581ff-64bit.exe"
+        },
+        "windows32": {
+          "action": "launch",
+          "md5sum": "181419521e377f88bfc33b26797301ac",
+          "filename": "OpenModelica-v1.10.0-dev-440-gd0581ff-32bit.exe",
+          "url": "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/32bit\/OpenModelica-v1.10.0-dev-440-gd0581ff-32bit.exe"
+        }
+      },
+      "description": "A Modelica-based modelling and simulation tool",
+      "version": "1.10.0-dev-440-gd0581ff",
+      "name": "Open Modelica"
+    },
+    "20sim4c": {
+      "platforms": {
+        "windows64": {
+          "action": "launch",
+          "md5sum": "02c2fea66e5fa63f50565b4140b36385",
+          "filename": "20sim4C.exe",
+          "url": "http:\/\/www.20sim.com\/downloads\/files\/20sim4C.exe"
+        },
+        "windows32": {
+          "action": "launch",
+          "md5sum": "02c2fea66e5fa63f50565b4140b36385",
+          "filename": "20sim4C.exe",
+          "url": "http:\/\/www.20sim.com\/downloads\/files\/20sim4C.exe"
+        }
+      },
+      "description": "Tool for rapid prototyping for control engineers",
+      "version": "2.1.9-2016-02-19",
+      "name": "20-sim 4C"
+    },
+    "20sim": {
+      "platforms": {
+        "windows64": {
+          "action": "launch",
+          "md5sum": "3dbfd82ebf80499ac9ca5d5ffb53a06b",
+          "filename": "20-sim-4.6.1.6846-intocps-win32.exe",
+          "url": "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.1.6846-intocps-win32.exe"
+        },
+        "windows32": {
+          "action": "launch",
+          "md5sum": "3dbfd82ebf80499ac9ca5d5ffb53a06b",
+          "filename": "20-sim-4.6.1.6846-intocps-win32.exe",
+          "url": "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.1.6846-intocps-win32.exe"
+        }
+      },
+      "description": "Modeling and simulation tool",
+      "version": "4.5.4b6171-2015-09-28",
+      "name": "20-sim"
+    }
+  },
+  "version": "0.0.7"
+}
