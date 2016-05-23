@@ -6,7 +6,7 @@ title: Code Generation
 
 # Generating C Code
 
-The C code generator is distributed as a plugin, and can be obtained through the usual Eclipse new software installation procedure:
+The C code generator is distributed as a plugin, and can be installed through the usual Eclipse installation procedure for new software:
 
 - 1. Go to `Help->Install New Software...`.
 - 2. Select `Overture VDM2C Development` in the `Work with:` box.  If this option does not exist, the repository is `http://overture.au.dk/vdm2c/development/ide/repository/target/repository/`.
