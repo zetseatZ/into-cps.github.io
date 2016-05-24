@@ -5,31 +5,31 @@
         "osx64": {
           "action": "none",
           "md5sum": "b28d67170b6d65f2fe1df8ca06877fe3",
-          "filename": "coe-0.0.4-jar-with-dependencies.jar",
+          "filename": "coe.jar",
           "url": "http:\/\/overture.au.dk\/artifactory\/into-cps\/org\/intocps\/orchestration\/coe\/0.0.4\/coe-0.0.4-jar-with-dependencies.jar"
         },
         "windows64": {
           "action": "none",
           "md5sum": "b28d67170b6d65f2fe1df8ca06877fe3",
-          "filename": "coe-0.0.4-jar-with-dependencies.jar",
+          "filename": "coe.jar",
           "url": "http:\/\/overture.au.dk\/artifactory\/into-cps\/org\/intocps\/orchestration\/coe\/0.0.4\/coe-0.0.4-jar-with-dependencies.jar"
         },
         "windows32": {
           "action": "none",
           "md5sum": "b28d67170b6d65f2fe1df8ca06877fe3",
-          "filename": "coe-0.0.4-jar-with-dependencies.jar",
+          "filename": "coe.jar",
           "url": "http:\/\/overture.au.dk\/artifactory\/into-cps\/org\/intocps\/orchestration\/coe\/0.0.4\/coe-0.0.4-jar-with-dependencies.jar"
         },
         "linux64": {
           "action": "none",
           "md5sum": "b28d67170b6d65f2fe1df8ca06877fe3",
-          "filename": "coe-0.0.4-jar-with-dependencies.jar",
+          "filename": "coe.jar",
           "url": "http:\/\/overture.au.dk\/artifactory\/into-cps\/org\/intocps\/orchestration\/coe\/0.0.4\/coe-0.0.4-jar-with-dependencies.jar"
         },
         "linux32": {
           "action": "none",
           "md5sum": "b28d67170b6d65f2fe1df8ca06877fe3",
-          "filename": "coe-0.0.4-jar-with-dependencies.jar",
+          "filename": "coe.jar",
           "url": "http:\/\/overture.au.dk\/artifactory\/into-cps\/org\/intocps\/orchestration\/coe\/0.0.4\/coe-0.0.4-jar-with-dependencies.jar"
         }
       },
