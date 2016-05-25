@@ -173,7 +173,7 @@
     "coe": {
       "name": "Co-simulation Orchestration Engine",
       "description": "Co-simulation Orchestration Engine",
-      "version": "0.0.4",
+      "version": "0.0.6",
       "platforms": {
         "linux32": {
           "url": "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.0.6\/coe-0.0.6-jar-with-dependencies.jar",
