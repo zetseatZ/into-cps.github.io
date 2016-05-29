@@ -20,6 +20,7 @@ The first file that is looked up by the download manager part of the INTO-CPS Ap
 ```
 
 Each specific version JSON contains all the relevant information about each tool, and has the following format:
+
 ```
 {
     "version": "<INTO_CPS_VERSION>",
