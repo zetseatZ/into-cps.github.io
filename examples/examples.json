@@ -1,0 +1,12 @@
+{
+  "examples": [
+    {
+      "name": "Case Study: Single Watertank",
+      "git": "https:\/\/github.com\/into-cps\/case-study_single_watertank.git"
+    },
+    {
+      "name": "Case Study: Three Tank",
+      "git": "https:\/\/github.com\/into-cps\/case-study_three_tank.git"
+    }
+  ]
+}
