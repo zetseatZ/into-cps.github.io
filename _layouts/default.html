@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }}</title>
@@ -13,74 +13,91 @@
     <!-- Javascript -->
     <script src="{{ site.url }}/javascripts/scale.fix.js"></script>
 
-</head>
-<body>
+	</head>
+	<body>
     <div class="wrapper">
-        <header>
-            <h1>INTO-CPS</h1>
-            <h3>Co-Simulation using FMI</h3>
+      <header>
+        <h1>INTO-CPS</h1>
+        <h3>Co-Simulation using FMI</h3>
 
-            <ul>
-                <li><a href="{{ site.url }}/">Home</a></li>
-				<li><a href="{{ site.url }}/getting-started/">Getting Started</a></li>
+        <ul>
+          <li><a href="{{ site.url }}/">Home</a></li>
 
+					<li><a href="{{ site.url }}/getting-started/">Getting Started</a>
+						<ul>
+							<li>
+								<a href="{{ site.url }}/download/">Download</a>
+							</li>
+							<li>
+								<a href="{{ site.url }}/report-an-issue.html">Report an Issue</a>
+							</li>
+							<li>
+								<a href="{{ site.url }}/weekly-issue/index.html">Current Issues</a>
+							</li>
+						</ul>
 
-                <li>
-                    <a href="{{ site.url }}/download/">Download</a>
-                </li>
-                <li>
-                    <a href="{{ site.url }}/report-an-issue.html">Report an Issue</a>
-                </li>
-                <li>
-                    <a href="{{ site.url }}/weekly-issue/index.html">Current Issues</a>
-                </li>
-									<li>
-                    <a href="{{ site.url }}/systemmodelling/">System Modelling</a>
-                    <ul>
-                        <li><a href="{{ site.url }}/systemmodelling/connection-export.html">Connection Export</a></li>
-                        <li><a href="{{ site.url }}/systemmodelling/fmu-import-export.html">FMU Import/Export</a></li>
-
-                    </ul>
-                </li>
-                <li>
-                    <a href="{{ site.url }}/simulators/">Simulators</a>
-                    <ul>
-                        <li><a href="{{ site.url }}/simulators/overture/">Overture</a></li>
-                        <li><a href="{{ site.url }}/simulators/20sim.html">20-sim</a></li>
-                        <li><a href="{{ site.url }}/simulators/openmodelica.html">Open Modelica</a></li>
-                    </ul>
-                </li>
-								<li>
-                    <a href="{{ site.url }}/testing/">Testing</a>
-                </li>
-								<li>
-                    <a href="{{ site.url }}/dse/">DSE</a>
-                </li>
-
-								<li>
-                    <a href="{{ site.url }}/simulation/">Simulation</a>
-                    <ul>
-                        <li><a href="{{ site.url }}/simulation/app.html">INTO-CPS App</a></li>
-                        <li><a href="{{ site.url }}/simulation/coe.html">COE</a></li>
-                        <li><a href="{{ site.url }}/simulation/example.html">Example</a></li>
-
-                    </ul>
-                </li>
+					</li>
 
 
+					<li><a href="{{ site.url }}/systemmodelling">Multi-Model Development</a>
 
+						<ul>
+              <li><a href="{{ site.url }}/systemmodelling/connection-export.html">Connection Export</a></li>
+              <li><a href="{{ site.url }}/systemmodelling/fmu-import-export.html">FMU Import/Export</a></li>
 
             </ul>
-            <p><img src="{{ site.url }}/images/into-cps-logo.png" alt="INTO-CPS"></p>
-            <p><a href="https://github.com/into-cps">Go to our GitHub Profile</a></p>
-            <p><a href="http://twitter.com/IntoCps">Follow @IntoCps</a></p>
-        </header>
-        <section>
-            {{ content }}
-        </section>
-        <footer>
-            <p><small>Hosted on GitHub Pages &mdash; Original theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-        </footer>
+
+					</li>
+					<li><a href="{{ site.url }}/constituent-model-development">Constituent Model Development</a>
+
+						<ul>
+							<li><a href="{{ site.url }}/constituent-model-development/overture/">Overture</a>
+								<ul>
+									<li>
+										<a href="{{ site.url }}/constituent-model-development/overture/">Code Generation</a>
+									</li>
+									<li>
+										<a href="{{ site.url }}/constituent-model-development/overture/fmi-support.html">FMU Import/Export</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="{{ site.url }}/constituent-model-development/20sim.html">20-sim</a></li>
+							<li><a href="{{ site.url }}/constituent-model-development/openmodelica.html">Open Modelica</a></li>
+						</ul>
+
+
+
+					</li>
+					<li><a href="{{ site.url }}/simulation/">Co-Simulation</a>
+						<ul>
+							<li><a href="{{ site.url }}/simulation/app.html">INTO-CPS App</a></li>
+							<li><a href="{{ site.url }}/simulation/coe.html">COE</a></li>
+							<li><a href="{{ site.url }}/simulation/example.html">Example</a></li>
+
+						</ul>
+
+					</li>
+
+					<li><a href="{{ site.url }}/testing/">Test Automation</a></li>
+					<li><a href="{{ site.url }}/dse/">Design Space Exploration</a></li>
+
+
+
+
+				</ul>
+
+
+
+        <p><img src="{{ site.url }}/images/into-cps-logo.png" alt="INTO-CPS"></p>
+        <p><a href="https://github.com/into-cps">Go to our GitHub Profile</a></p>
+        <p><a href="http://twitter.com/IntoCps">Follow @IntoCps</a></p>
+      </header>
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Original theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-</body>
+	</body>
 </html>
