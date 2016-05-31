@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Simulation
+title: Co-Simulation
 ---
 
 
-# Simulation
+# Co-Simulation
 
 A simulation starts by defining the connection between FMU instances at the system modelling level. This is then used to start the COE.
 
