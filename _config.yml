@@ -3,7 +3,7 @@ markdown: redcarpet
 redcarpet:
   extensions: ["tables","smart","no_intra_emphasis","fenced_code_blocks","autolink"]
 encoding: utf-8
-url: http://overture.au.dk/into-cps/site
+url: http://into-cps.github.io
 
 collections:
   netmeetings:
