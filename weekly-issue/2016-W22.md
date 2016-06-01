@@ -77,4 +77,5 @@ title: Week 22 2016, Weekly Issues Digest
 # History of Weekly Digests
 
 Below you will find a list of weekly digests giving a historical overview of all known issues across all the tools that are part of INTO-CPS.
+
 * [2016-W22](2016-W22.html)
