@@ -1,73 +1,56 @@
 ---
 layout: default
-title: Weekly Issue(s)
+title: Week 22 2016, Weekly Issues Digest
 ---
 
-# Weekly Issue(s)
-We strive to make each weekly digest available sometime during Sunday the same
-week, and at the same time the list of currently open issues is updated, which
-is basically the latest weekly digest but put here for your convenience.
+# Week 22 2016, Weekly Issues Digest for INTO-CPS
 
-If you have experienced an issue not listed here, then please go the [Report an Issue](../report-an-issue.html)
-page to read more about how to submit an issue report.
+## Currently Open Issues
+
+* [Support multiple instances of an FMU - (2016-04-04)](https://github.com/controllab/fmi-export-20sim/issues/5)
+* [java.io.IOException: Unable to delete file: 73885\simulation.log - (2016-05-12)](https://github.com/into-cps/INTO-CPS_Application/issues/23)
+* [Destroy command does not seem to work. - (2016-05-12)](https://github.com/into-cps/INTO-CPS_Application/issues/22)
+* [Specifying FMUs using "file://" in the initialize command does not seem to work - (2016-05-12)](https://github.com/into-cps/INTO-CPS_Application/issues/21)
+* [Initialisation error of COE 0.0.4 - (2016-05-02)](https://github.com/into-cps/INTO-CPS_Application/issues/20)
+* [Support multiple instances of FMU where canBeInstantiatedOnlyOncePerProcess="true" - (2016-04-05)](https://github.com/into-cps/INTO-CPS_Application/issues/17)
+* [COE seem to get stuck - (2016-04-01)](https://github.com/into-cps/INTO-CPS_Application/issues/14)
+* [More informative warnings - (2016-03-30)](https://github.com/into-cps/INTO-CPS_Application/issues/13)
+* [COE Error messages - (2016-03-29)](https://github.com/into-cps/INTO-CPS_Application/issues/10)
+* [Adding semi real-time cababilities - (2016-03-21)](https://github.com/into-cps/INTO-CPS_Application/issues/6)
+* [COE: 32bit JVM fails to load 32bit DLLs from FMUs - (2016-02-09)](https://github.com/into-cps/INTO-CPS_Application/issues/3)
+* [SWT Exception when launching simulation from INTO-CPS application - (2016-02-08)](https://github.com/into-cps/INTO-CPS_Application/issues/2)
+* [Livestream configuration does not work for new configurations - (2016-06-01)](https://github.com/into-cps/intocps-ui/issues/50)
+* [Save co-simulation configuration does not work - (2016-06-01)](https://github.com/into-cps/intocps-ui/issues/49)
+* [Multi-Model: remove connected Entities / migrate - (2016-05-24)](https://github.com/into-cps/intocps-ui/issues/45)
+* [Create UI for the Download Manager - (2016-05-18)](https://github.com/into-cps/intocps-ui/issues/42)
+* [Create glyphicon's for Overture, 20sim, Open Modelica, Modelio, and connections file - (2016-05-17)](https://github.com/into-cps/intocps-ui/issues/41)
+* [Standardize Naming Rules - (2016-05-11)](https://github.com/into-cps/intocps-ui/issues/35)
+* [Fire Traceability Triples - (2016-05-11)](https://github.com/into-cps/intocps-ui/issues/34)
+* [Validate HTML - (2016-04-27)](https://github.com/into-cps/intocps-ui/issues/25)
+* [Add WP3 examples import feature - (2016-04-21)](https://github.com/into-cps/intocps-ui/issues/23)
+* [Default parameters generation - (2016-04-19)](https://github.com/into-cps/intocps-ui/issues/18)
+* [Connections mapping json generation - (2016-04-19)](https://github.com/into-cps/intocps-ui/issues/17)
+* [Basic DSE - (2016-04-19)](https://github.com/into-cps/intocps-ui/issues/16)
+* [Test Data Generation Mockup - (2016-04-19)](https://github.com/into-cps/intocps-ui/issues/15)
+* [Model Checker Mockup - (2016-04-19)](https://github.com/into-cps/intocps-ui/issues/14)
+* [Gulp task: Minify css for release - (2016-04-14)](https://github.com/into-cps/intocps-ui/issues/4)
+* [Gulp task: Minify javascript for release - (2016-04-14)](https://github.com/into-cps/intocps-ui/issues/3)
+* [Blank INTO-CPS new diagram selection - (2016-05-18)](http://forge.modelio.org/issues/295)
+* [Perspectives have blank panes - (2016-05-10)](http://forge.modelio.org/issues/294)
+* [Stereotypes still incorrect between module upgrades - (2016-05-10)](http://forge.modelio.org/issues/293)
+* [Fix to the flow port dependencies functionality of INTO-SysML ADs - (2016-04-13)](http://forge.modelio.org/issues/290)
+* [Simulation result should be layouted in a graphical way - (2016-03-16)](http://forge.modelio.org/issues/288)
+* [Simulation checking should be done before launching a simulation - (2016-03-16)](http://forge.modelio.org/issues/287)
+* [FMU/BlockInstance association should include consistency checking - (2016-03-16)](http://forge.modelio.org/issues/286)
+* [Configuration generation should work with structured modelling - (2016-03-16)](http://forge.modelio.org/issues/285)
+* [Run win32 java for 3D animations - (2016-02-08)](http://forge.modelio.org/issues/272)
+* [FMI Model Description issue - (2016-02-05)](http://forge.modelio.org/issues/270)
+* [CLI invocation - (2016-05-04)](https://github.com/overturetool/overture-fmu/issues/8)
+* [Unable to resolve plug-in "platform:/plugin/org.destecs.ide.ui/icons/ctool16/destecs_misc.png" - (2016-05-03)](https://github.com/overturetool/overture-fmu/issues/7)
+* [Trying to make a array sensor interface (GNSS/GPS) - (2016-05-03)](https://github.com/overturetool/overture-fmu/issues/6)
 
 
-## Currently Open Issues - INTO-CPS Release 0.0.6 - Updated 22 May 2016
+# History of Weekly Digests
 
-* 20-sim FMU Export - 2016-04-04 [Support multiple instances of an FMU](https://github.com/controllab/fmi-export-20sim/issues/5)
-* INTO-CPS Application - 2016-05-12 [java.io.IOException: Unable to delete file: 73885\simulation.log](https://github.com/into-cps/INTO-CPS_Application/issues/23)
-* INTO-CPS Application - 2016-05-12 [Destroy command does not seem to work.](https://github.com/into-cps/INTO-CPS_Application/issues/22)
-* INTO-CPS Application - 2016-05-12 [Specifying FMUs using "file://" in the initialize command does not seem to work](https://github.com/into-cps/INTO-CPS_Application/issues/21)
-* INTO-CPS Application - 2016-05-02 [Initialisation error of COE 0.0.4](https://github.com/into-cps/INTO-CPS_Application/issues/20)
-* INTO-CPS Application - 2016-04-05 [Support multiple instances of FMU where canBeInstantiatedOnlyOncePerProcess="true"](https://github.com/into-cps/INTO-CPS_Application/issues/17)
-* INTO-CPS Application - 2016-04-01 [COE seem to get stuck](https://github.com/into-cps/INTO-CPS_Application/issues/14)
-* INTO-CPS Application - 2016-03-30 [More informative warnings](https://github.com/into-cps/INTO-CPS_Application/issues/13)
-* INTO-CPS Application - 2016-03-29 [COE Error messages](https://github.com/into-cps/INTO-CPS_Application/issues/10)
-* INTO-CPS Application - 2016-03-21 [Adding semi real-time cababilities](https://github.com/into-cps/INTO-CPS_Application/issues/6)
-* INTO-CPS Application - 2016-02-09 [COE: 32bit JVM fails to load 32bit DLLs from FMUs](https://github.com/into-cps/INTO-CPS_Application/issues/3)
-* INTO-CPS Application - 2016-02-08 [SWT Exception when launching simulation from INTO-CPS application](https://github.com/into-cps/INTO-CPS_Application/issues/2)
-* INTO-CPS UI - 2016-05-18 [Parse scalar type for mm](https://github.com/into-cps/intocps-ui/issues/44)
-* INTO-CPS UI - 2016-05-18 [Create UI for Settings editing](https://github.com/into-cps/intocps-ui/issues/43)
-* INTO-CPS UI - 2016-05-18 [Create UI for the Download Manager](https://github.com/into-cps/intocps-ui/issues/42)
-* INTO-CPS UI - 2016-05-17 [Create glyphicon's for Overture, 20sim, Open Modelica, Modelio, and connections file](https://github.com/into-cps/intocps-ui/issues/41)
-* INTO-CPS UI - 2016-05-13 [MainMenu: Fix the menu such that open, settings etc are in the default menus](https://github.com/into-cps/intocps-ui/issues/38)
-* INTO-CPS UI - 2016-05-11 [Standardize Naming Rules](https://github.com/into-cps/intocps-ui/issues/35)
-* INTO-CPS UI - 2016-05-11 [Fire Traceability Triples](https://github.com/into-cps/intocps-ui/issues/34)
-* INTO-CPS UI - 2016-04-27 [Validate HTML](https://github.com/into-cps/intocps-ui/issues/25)
-* INTO-CPS UI - 2016-04-21 [Include examples from WP3 in the released application bundle.](https://github.com/into-cps/intocps-ui/issues/23)
-* INTO-CPS UI - 2016-04-19 [Develop Co-Sim Tab](https://github.com/into-cps/intocps-ui/issues/19)
-* INTO-CPS UI - 2016-04-19 [Default parameters generation](https://github.com/into-cps/intocps-ui/issues/18)
-* INTO-CPS UI - 2016-04-19 [Connections mapping json generation](https://github.com/into-cps/intocps-ui/issues/17)
-* INTO-CPS UI - 2016-04-19 [Basic DSE](https://github.com/into-cps/intocps-ui/issues/16)
-* INTO-CPS UI - 2016-04-19 [Test Data Generation Mockup](https://github.com/into-cps/intocps-ui/issues/15)
-* INTO-CPS UI - 2016-04-19 [Model Checker Mockup](https://github.com/into-cps/intocps-ui/issues/14)
-* INTO-CPS UI - 2016-04-19 [Project Import and Export](https://github.com/into-cps/intocps-ui/issues/13)
-* INTO-CPS UI - 2016-04-19 [Prepare release](https://github.com/into-cps/intocps-ui/issues/12)
-* INTO-CPS UI - 2016-04-14 [Gulp task: Minify css for release](https://github.com/into-cps/intocps-ui/issues/4)
-* INTO-CPS UI - 2016-04-14 [Gulp task: Minify javascript for release](https://github.com/into-cps/intocps-ui/issues/3)
-* Modelio - 2016-05-18 [Blank INTO-CPS new diagram selection](http://forge.modelio.org/issues/295)
-* Modelio - 2016-05-10 [Perspectives have blank panes](http://forge.modelio.org/issues/294)
-* Modelio - 2016-05-10 [Stereotypes still incorrect between module upgrades](http://forge.modelio.org/issues/293)
-* Modelio - 2016-04-13 [Fix to the flow port dependencies functionality of INTO-SysML ADs](http://forge.modelio.org/issues/290)
-* Modelio - 2016-03-16 [Simulation result should be layouted in a graphical way](http://forge.modelio.org/issues/288)
-* Modelio - 2016-03-16 [Simulation checking should be done before launching a simulation](http://forge.modelio.org/issues/287)
-* Modelio - 2016-03-16 [FMU/BlockInstance association should include consistency checking](http://forge.modelio.org/issues/286)
-* Modelio - 2016-03-16 [Configuration generation should work with structured modelling](http://forge.modelio.org/issues/285)
-* Modelio - 2016-02-08 [Run win32 java for 3D animations](http://forge.modelio.org/issues/272)
-* Modelio - 2016-02-05 [FMI Model Description issue](http://forge.modelio.org/issues/270)
-* OpenModelica - 2016-05-10 [FMU co-simulation issues](https://trac.openmodelica.org/OpenModelica/ticket/3898)
-* Overture-FMU - 2016-05-04 [CLI invocation](https://github.com/overturetool/overture-fmu/issues/8)
-* Overture-FMU - 2016-05-03 [Unable to resolve plug-in "platform:/plugin/org.destecs.ide.ui/icons/ctool16/destecs_misc.png"](https://github.com/overturetool/overture-fmu/issues/7)
-* Overture-FMU - 2016-05-03 [Trying to make a array sensor interface (GNSS/GPS)](https://github.com/overturetool/overture-fmu/issues/6)
-* RT-Tester - 2016-04-26 [Testing shall support API function fmi2GetMaxStepSize()](https://software.verified.de/mantis/view.php?id=0013795)
-
-## History of Weekly Digests
-
-Below you will find a list of weekly digests giving a historical overview of
-all known issues across all the tools that are part of INTO-CPS.
-
-* [2016 W20](2016-W20.html)
-* [2016 W19](2016-W19.html)
-* [2016 W01](2016-W01.html)
-* [2015 W53](2015-W53.html)
-* [2015 W52](2015-W52.html)
+Below you will find a list of weekly digests giving a historical overview of all known issues across all the tools that are part of INTO-CPS.
+* [2016-W22](2016-W22.html)
