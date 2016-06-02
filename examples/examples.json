@@ -11,6 +11,10 @@
     {
       "name": "Case Study: Line Follower Robot”,
       "git": "https:\/\/github.com\/into-cps\/case-study_line_follower_robot.git"
+    },
+    {
+      "name": "Case Study: Fan Coil Unit”,
+      "git": "https:\/\/github.com\/into-cps\/case-study_fcu.git"
     }
   ]
 }
