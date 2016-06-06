@@ -116,19 +116,19 @@
     },
     "rttester": {
       "name": "VSI tools",
-      "version": "0.0.6",
-      "description": "RT-Tester and examples bundle",
+      "version": "0.0.7",
+      "description": "VSI Test Tool Chain: RTT 6.0-6.1.6 + MBT 9.0-1.5.5 + RTTUI 3.9.3-1 + Utils v7 + Examples v7",
       "platforms": {
         "windows32": {
-          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle.exe",
-          "filename": "VSI_bundle.exe",
-          "md5sum": "0fe36e2b7427dbc2512a35e9ad618f4b",
+          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_7.exe",
+          "filename": "VSI_bundle_v0_0_7.exe",
+          "md5sum": "753e9175e3c10d750730302b0b55629b",
           "action": "launch"
         },
         "windows64": {
-          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle.exe",
-          "filename": "VSI_bundle.exe",
-          "md5sum": "0fe36e2b7427dbc2512a35e9ad618f4b",
+          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_7.exe",
+          "filename": "VSI_bundle_v0_0_7.exe",
+          "md5sum": "753e9175e3c10d750730302b0b55629b",
           "action": "launch"
         }
       }
