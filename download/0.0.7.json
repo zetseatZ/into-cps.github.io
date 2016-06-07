@@ -103,31 +103,31 @@
         "linux32": {
           "url": "http:\/\/forge.modelio.org\/attachments\/download\/16416\/INTOCPS_1.0.30.jmdac",
           "filename": "INTOCPS_1.0.30.jmdac",
-          "md5sum": "90624083ff2f7c4ef057cdd00d406eaa",
+          "md5sum": "5dccd6eace0d90832c4cf0c898338713",
           "action": "none"
         },
         "linux64": {
           "url": "http:\/\/forge.modelio.org\/attachments\/download\/16416\/INTOCPS_1.0.30.jmdac",
           "filename": "INTOCPS_1.0.30.jmdac",
-          "md5sum": "90624083ff2f7c4ef057cdd00d406eaa",
+          "md5sum": "5dccd6eace0d90832c4cf0c898338713",
           "action": "none"
         },
         "windows32": {
           "url": "http:\/\/forge.modelio.org\/attachments\/download\/16416\/INTOCPS_1.0.30.jmdac",
           "filename": "INTOCPS_1.0.30.jmdac",
-          "md5sum": "90624083ff2f7c4ef057cdd00d406eaa",
+          "md5sum": "5dccd6eace0d90832c4cf0c898338713",
           "action": "none"
         },
         "windows64": {
           "url": "http:\/\/forge.modelio.org\/attachments\/download\/16416\/INTOCPS_1.0.30.jmdac",
           "filename": "INTOCPS_1.0.30.jmdac",
-          "md5sum": "90624083ff2f7c4ef057cdd00d406eaa",
+          "md5sum": "5dccd6eace0d90832c4cf0c898338713",
           "action": "none"
         },
         "osx64": {
-          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16416\/INTOCPS_1.0.29.jmdac",
-          "filename": "INTOCPS_1.0.29.jmdac",
-          "md5sum": "90624083ff2f7c4ef057cdd00d406eaa",
+          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16416\/INTOCPS_1.0.30.jmdac",
+          "filename": "INTOCPS_1.0.30.jmdac",
+          "md5sum": "5dccd6eace0d90832c4cf0c898338713",
           "action": "none"
         }
       }
