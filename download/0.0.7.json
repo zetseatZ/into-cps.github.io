@@ -159,13 +159,13 @@
         "windows32": {
           "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_7.exe",
           "filename": "VSI_bundle_v0_0_7.exe",
-          "md5sum": "9712d9be8627f1941c7ee407b462af4d",
+          "md5sum": "65c0ef7c6dd241eac26c17fb6a7c5466",
           "action": "launch"
         },
         "windows64": {
           "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_7.exe",
           "filename": "VSI_bundle_v0_0_7.exe",
-          "md5sum": "9712d9be8627f1941c7ee407b462af4d",
+          "md5sum": "65c0ef7c6dd241eac26c17fb6a7c5466",
           "action": "launch"
         }
       }
