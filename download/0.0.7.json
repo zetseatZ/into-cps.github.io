@@ -95,6 +95,43 @@
         }
       }
     },
+    "modelio-intocps": {
+      "name": "Modelio INTO-CPS extension",
+      "version": "1.0.30",
+      "description": "Modelio extension for INTO-CPS profile",
+      "platforms": {
+        "linux32": {
+          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16417\/INTOCPS_1.0.30.jmdac",
+          "filename": "INTOCPS_1.0.30.jmdac",
+          "md5sum": "5dccd6eace0d90832c4cf0c898338713",
+          "action": "none"
+        },
+        "linux64": {
+          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16417\/INTOCPS_1.0.30.jmdac",
+          "filename": "INTOCPS_1.0.30.jmdac",
+          "md5sum": "5dccd6eace0d90832c4cf0c898338713",
+          "action": "none"
+        },
+        "windows32": {
+          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16417\/INTOCPS_1.0.30.jmdac",
+          "filename": "INTOCPS_1.0.30.jmdac",
+          "md5sum": "5dccd6eace0d90832c4cf0c898338713",
+          "action": "none"
+        },
+        "windows64": {
+          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16417\/INTOCPS_1.0.30.jmdac",
+          "filename": "INTOCPS_1.0.30.jmdac",
+          "md5sum": "5dccd6eace0d90832c4cf0c898338713",
+          "action": "none"
+        },
+        "osx64": {
+          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16417\/INTOCPS_1.0.30.jmdac",
+          "filename": "INTOCPS_1.0.30.jmdac",
+          "md5sum": "5dccd6eace0d90832c4cf0c898338713",
+          "action": "none"
+        }
+      }
+    },
     "rttester-dependencies": {
       "name": "VSI tools dependencies bundle",
       "version": "0.0.6",
@@ -122,13 +159,13 @@
         "windows32": {
           "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_7.exe",
           "filename": "VSI_bundle_v0_0_7.exe",
-          "md5sum": "753e9175e3c10d750730302b0b55629b",
+          "md5sum": "65c0ef7c6dd241eac26c17fb6a7c5466",
           "action": "launch"
         },
         "windows64": {
           "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_7.exe",
           "filename": "VSI_bundle_v0_0_7.exe",
-          "md5sum": "753e9175e3c10d750730302b0b55629b",
+          "md5sum": "65c0ef7c6dd241eac26c17fb6a7c5466",
           "action": "launch"
         }
       }
