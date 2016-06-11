@@ -8,6 +8,8 @@ title: Overview
 
 # Downloads
 
+Future releases can be fetched through the INTO-CPS-Application which is can be downloaded from https://github.com/into-cps/intocps-ui/releases
+
 ## Releases
 
 * [Release 0.0.6 - 17 April 2016](release-0.0.6.html)
