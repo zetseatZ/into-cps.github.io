@@ -28,12 +28,13 @@ been trigerred in the project browser. A few example views are shown below.
 ## Co-Simulation Configuration
 
 ![3]
+
 ## Co-Simulation Live Streaming
 
 ![4]
 
-[1]: app-welsome.png
-[2]: app-cosim
+[1]: app-welcome.png
+[2]: app-cosim.png
 [3]: app-multimodel.png
 [4]: app-result.png
 
