@@ -3,7 +3,7 @@ layout: default
 title: Overview
 ---
 
-# Current releases
+# Current Releases
 
 Current releases of the tool chain are done through the INTO-CPS Application and its integrated download manager. You can download
 the INTO-CPS app from its [GitHub release page]( http://github.com/into-cps/intocps-ui/releases).
