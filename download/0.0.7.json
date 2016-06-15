@@ -3,7 +3,7 @@
   "tools": {
     "20sim": {
       "name": "20-sim",
-      "version": "4.5.4b6171-2015-09-28",
+      "version": "4.6.1-intocps build 6846",
       "description": "Modeling and simulation tool",
       "platforms": {
         "windows32": {
