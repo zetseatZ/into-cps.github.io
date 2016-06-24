@@ -15,6 +15,7 @@ title: Week 25 2016, Weekly Issues Digest
 
 ### INTO-CPS App
 
+* [AU UI improvements - (2016-06-22)](https://github.com/into-cps/intocps-ui/issues/113)
 * [Remove version bundles from download manager - (2016-06-16)](https://github.com/into-cps/intocps-ui/issues/111)
 * [Show execution speed of the FMUs - (2016-06-16)](https://github.com/into-cps/intocps-ui/issues/110)
 * [java.io.IOException: Unable to delete file: 73885\simulation.log - (2016-06-16)](https://github.com/into-cps/intocps-ui/issues/108)
@@ -40,7 +41,6 @@ title: Week 25 2016, Weekly Issues Digest
 * [Multi-Model: remove connected Entities / migrate - (2016-05-24)](https://github.com/into-cps/intocps-ui/issues/45)
 * [Standardize Naming Rules - (2016-05-11)](https://github.com/into-cps/intocps-ui/issues/35)
 * [Fire Traceability Triples - (2016-05-11)](https://github.com/into-cps/intocps-ui/issues/34)
-* [Validate HTML - (2016-04-27)](https://github.com/into-cps/intocps-ui/issues/25)
 * [Basic DSE - (2016-04-19)](https://github.com/into-cps/intocps-ui/issues/16)
 * [Gulp task: Minify css for release - (2016-04-14)](https://github.com/into-cps/intocps-ui/issues/4)
 * [Gulp task: Minify javascript for release - (2016-04-14)](https://github.com/into-cps/intocps-ui/issues/3)
@@ -78,10 +78,18 @@ title: Week 25 2016, Weekly Issues Digest
 
 Below you will find a list of weekly digests giving a historical overview of all known issues across all the tools that are part of INTO-CPS.
 
+* [2016-W25](2016-W25.html)
 * [2016-W24](2016-W24.html)
+* [](.html)
 * [2016-W23](2016-W23.html)
 * [](.html)
+* [](.html)
+* [](.html)
 * [2016-W22](2016-W22.html)
+* [](.html)
+* [](.html)
+* [](.html)
+* [](.html)
 * [](.html)
 * [](.html)
 * [](.html)
