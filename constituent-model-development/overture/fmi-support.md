@@ -29,11 +29,12 @@ Open Overture and follow these steps:
 - 2. Click `Add...`
 - 3. Enter:
  - Name: `Overture FMU`
- - Location: `http://overture.au.dk/into-cps/vdm-tool-wrapper/development/latest`
+ - Location: `http://overture.au.dk/into-cps/vdm-tool-wrapper/master/latest`
 - 4. Click `Ok`
 - 5. Check `Overture FMU Export`
 - 6. Click Next / Finish follow the usual stuff to accept and install.
 
+A snapshot build is avaliable from `http://overture.au.dk/into-cps/vdm-tool-wrapper/development/latest`
 
 ## Updating / Checking for new versions
 
