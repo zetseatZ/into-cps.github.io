@@ -97,37 +97,37 @@
     },
     "modelio-intocps": {
       "name": "Modelio INTO-CPS extension",
-      "version": "1.0.31",
+      "version": "1.0.37",
       "description": "Modelio extension for INTO-CPS profile",
       "platforms": {
         "linux32": {
-          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16418\/INTOCPS_1.0.31.jmdac",
-          "filename": "INTOCPS_1.0.31.jmdac",
-          "md5sum": "2bb0e64a702b9ed073c42d210dadd587",
+          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16487\/INTOCPS_1.0.37.jmdac",
+          "filename": "INTOCPS_1.0.37.jmdac",
+          "md5sum": "bbbc5d4bf2b24f32b15a46c9616de328",
           "action": "none"
         },
         "linux64": {
-          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16418\/INTOCPS_1.0.31.jmdac",
-          "filename": "INTOCPS_1.0.31.jmdac",
-          "md5sum": "2bb0e64a702b9ed073c42d210dadd587",
+          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16487\/INTOCPS_1.0.37.jmdac",
+          "filename": "INTOCPS_1.0.37.jmdac",
+          "md5sum": "bbbc5d4bf2b24f32b15a46c9616de328",
           "action": "none"
         },
         "windows32": {
-          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16418\/INTOCPS_1.0.31.jmdac",
-          "filename": "INTOCPS_1.0.31.jmdac",
-          "md5sum": "2bb0e64a702b9ed073c42d210dadd587",
+          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16487\/INTOCPS_1.0.37.jmdac",
+          "filename": "INTOCPS_1.0.37.jmdac",
+          "md5sum": "bbbc5d4bf2b24f32b15a46c9616de328",
           "action": "none"
         },
         "windows64": {
-          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16418\/INTOCPS_1.0.31.jmdac",
-          "filename": "INTOCPS_1.0.31.jmdac",
-          "md5sum": "2bb0e64a702b9ed073c42d210dadd587",
+          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16487\/INTOCPS_1.0.37.jmdac",
+          "filename": "INTOCPS_1.0.37.jmdac",
+          "md5sum": "bbbc5d4bf2b24f32b15a46c9616de328",
           "action": "none"
         },
         "osx64": {
-          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16418\/INTOCPS_1.0.31.jmdac",
-          "filename": "INTOCPS_1.0.31.jmdac",
-          "md5sum": "2bb0e64a702b9ed073c42d210dadd587",
+          "url": "http:\/\/forge.modelio.org\/attachments\/download\/16487\/INTOCPS_1.0.37.jmdac",
+          "filename": "INTOCPS_1.0.37.jmdac",
+          "md5sum": "bbbc5d4bf2b24f32b15a46c9616de328",
           "action": "none"
         }
       }
