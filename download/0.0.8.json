@@ -245,8 +245,8 @@
       }
     },
     "dse": {
-      "name": "Scripts for generating and analysing multiple co-simulations",
-      "description": "Co-simulation Orchestration Engine",
+      "name": "Design Space Exploration",
+      "description": "Scripts for generating and analysing multiple co-simulations",
       "version": "0.0.5",
       "platforms": {
         "linux32": {
