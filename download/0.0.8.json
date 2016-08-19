@@ -134,17 +134,10 @@
     },
     "rttester-dependencies": {
       "name": "VSI tools dependencies bundle",
-      "version": "0.0.6",
-      "description": "VSI tools dependencies: Python 2.7 and GCC 4.9",
-      "platforms": {
-        "windows32": {
-          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/install_Python27_gcc49.exe",
-          "filename": "install_Python27_gcc49.exe",
-          "md5sum": "680950d6c176ef3718243cf201c2d66a",
-          "action": "launch"
-        },
+      "version": "0.0.8",
+      "description": "VSI tools dependencies for Windows: Python 2.7 (+ packages) and GCC 4.9",
         "windows64": {
-          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/install_Python27_gcc49.exe",
+          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/install_Python27_gcc49_v2.exe",
           "filename": "install_Python27_gcc49.exe",
           "md5sum": "680950d6c176ef3718243cf201c2d66a",
           "action": "launch"
@@ -153,19 +146,19 @@
     },
     "rttester": {
       "name": "VSI tools",
-      "version": "0.0.7",
-      "description": "VSI Test Tool Chain: RTT 6.0-6.1.6 + MBT 9.0-1.5.5 + RTTUI 3.9.3-1 + Utils v7 + Examples v7",
+      "version": "0.0.8",
+      "description": "VSI Test Tool Chain: RTT 6.0-6.1.7 + MBT 9.0-1.5.6 + RTTUI 3.9.3-1 + Utils v8 + Examples",
       "platforms": {
-        "windows32": {
-          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_7.exe",
-          "filename": "VSI_bundle_v0_0_7.exe",
-          "md5sum": "65c0ef7c6dd241eac26c17fb6a7c5466",
+        "windows64": {
+          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_8.exe",
+          "filename": "VSI_bundle_v0_0_8.exe",
+          "md5sum": "766d68b0b9fc1e0979e0aa88589a3f1c",
           "action": "launch"
         },
-        "windows64": {
-          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_7.exe",
-          "filename": "VSI_bundle_v0_0_7.exe",
-          "md5sum": "65c0ef7c6dd241eac26c17fb6a7c5466",
+        "linux64": {
+          "url": "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_8.sh",
+          "filename": "VSI_bundle_v0_0_8.sh",
+          "md5sum": "3ba2f6283338004625c9db979524dde3",
           "action": "launch"
         }
       }
