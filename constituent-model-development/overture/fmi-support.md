@@ -18,7 +18,7 @@ The annotation format is as follows:
 ```
 -- @ interface: type = [input/output/parameter], name="...";
 ```
-it must be located exactly above a value or instance variable.
+it must be located exactly above a value or instance variable, and it must be of one of the subclasses of `Port` from the FMI library.
 
 
 ## Installing the FMI Exporter for Overture
@@ -97,7 +97,7 @@ A parameter annotation can only be used with VDM values as shown here:
 values
 -- Hardware IO parameters aka - Shared Design Parameters
 -- @ interface: type = parameter, name="maxlevel1";
-public maxlevel1 : real = 2.0; -- {m}
+public maxlevel1 : RealPort = new RealPort(2.0); -- {m}
 ```
 The annotation can be used on any value in any class.
 
@@ -113,10 +113,10 @@ system HardwareInterface
 instance variables
 	
 -- @ interface: type = input, name="level1";
-    public static upperlevel   : real := 0.0;
+    public static upperlevel   : RealPort := new RealPort(0.0);
  
 -- @ interface: type = output, name="valveState1";   
-    public static upperValveState : bool := false;
+    public static upperValveState : BoolPort := BoolPort(false);
 ```
 
 
@@ -170,17 +170,17 @@ class HardwareInterface
 
 values
 	-- @ interface: type = parameter, name="minlevel";
-	public minlevel : real = 1.0;
+	public minlevel : RealPort = new RealPort(1.0);
 	-- @ interface: type = parameter, name="maxlevel";
-	public maxlevel : real = 2.0;
+	public maxlevel : RealPort = new RealPort(2.0);
 
 instance variables
 	-- @ interface: type = input, name="level";
-	public level : real := 0.0;
+	public level : RealPort := new RealPort(0.0);
 
 instance variables
 	-- @ interface: type = output, name="valveState";
-	public valveState : bool := false;
+	public valveState : BoolPort := new BoolPort(false);
 	
 end HardwareInterface
 ```
@@ -230,9 +230,8 @@ operations
 public System : () ==> System
 System () == 
 (
-	let levelSensor   = new LevelSensor(lambda -:bool& hwi.level),
-		 valveActuator =  new ValveActuator(lambda x: bool & 
-		 				Reflect`setMember(System`hwi,"valveState",x) ) 
+	let levelSensor   = new LevelSensor(hwi.level),
+		 valveActuator =  new ValveActuator(hwi.valveState ) 
 	in
 		controller := new Controller(levelSensor, valveActuator);
 
@@ -242,46 +241,39 @@ System () ==
 end System
 ```
 
-Note the trick that's used here in the constructor. It creates function values (think of it as function pointers) for the inputs and outputs such that any object can encapsulate these. 
-
-Why like this? because VDM is by value, in Java or C/C++ we could have parsed references for these but not in VDM. The VDM language only has function values, and since a function has to cannot have side effects, we therefore have to use the `Reflect` class. The `Reflect` class is a Java wrapper that enables side effects in functions. (and for the getter in `LevelSensor` here the type check is just not strong enough to detect this case).
-
-The `Reflect` library can be added through the same context menu as the import/export.
-
-The `LevelSensor` class has a function value as its handle. The parameter is not used but VDM lambdas cannot be declared without a parameter.
+The `LevelSensor` class has a port which it operates on.
 
 ```
 class LevelSensor
 
 instance variables
 
-handle : bool->real;
+port : RealPort;
 
 operations
 
-public LevelSensor: bool->real ==> LevelSensor
-LevelSensor(h) == handle := h;
+public LevelSensor: RealPort ==> LevelSensor
+LevelSensor(p) == port := p;
 
 public getLevel: () ==> real
-getLevel()==return handle(true);
+getLevel()==return port.getValue();
 
 end LevelSensor
 ```
 
-The `ValveActuator` class has a function value as its handle. We don't use the return value thus the don't care in the `let`.
-
+The `ValveActuator` class has a port it operates on.
 ```
 class ValveActuator
 
 
 instance variables
 
-handle : bool->bool;
+port : BoolPort;
 
 operations
 
-public ValveActuator: bool->bool ==> ValveActuator
-ValveActuator(h) == handle := h;
+public ValveActuator: BoolPort ==> ValveActuator
+ValveActuator(p) == port := p;
 
 public setValve: bool ==> ()
 setValve(value)==let - = handle(value) in skip;
@@ -322,10 +314,10 @@ loop()==
     in
     (
     
-    if( level >= HardwareInterface`maxlevel)
+    if( level >= HardwareInterface`maxlevel.getValue())
     then valveActuator.setValve(open);
     
-    if( level <= HardwareInterface`minlevel)
+    if( level <= HardwareInterface`minlevel.getValue())
     then valveActuator.setValve(close);
     );
 			
@@ -338,13 +330,126 @@ periodic(10E6,0,0,0)(loop);
 end Controller
 ```
 
-<!--
-You can download an example archive that makes use of the above annotations [here](cascading-watertank-for-overture-export.zip).
+Simulating this model from `0` to `30.0` with a variable step size algorithm should show similar to this: 
 
-To import it in Overture:
+![Watertank Sim](watertank-sim.png)
 
-- 1. Goto the `Project Explorer->Import`
-- 2. Select `Existing Projects into Workspace`
-- 3. Select `Select archiev file` and brows for the downloaded example
-- 4. Follow the standard options and finally finish the wizard
--->
+
+# FMI 2.0 Library for VDM
+
+The FMI interface is modelled as a collection of VDM classes all deriving from the `Port` class:
+
+```
+/******************************************************************************************************************************
+* FMI 2.0 interface for VDM
+*
+* The Port class is the base class for all ports. The following ports exists:
+* - IntPort
+* - BoolPort
+* - RealPort
+* - StringPort
+* These concreate ports must be used in the HardwareInterface class. All of them must contain a private 'value' field
+*  this field is accessed directly by the build-in FMI support in the simulator. The ports can be given as arguments to 
+*  other model elements. All access to the internal value must be done through set/getValue since this call insured that the
+*  simulator knows that the value have been read or written to and requires a co-simulation step for synchronization.
+*
+* A port can be instantiated with a value or with no values to use the library default value. 
+*
+******************************************************************************************************************************/
+
+class Port
+
+types
+	public String = seq of char;
+	public FmiPortType = bool | real | int | String;
+ 
+operations
+
+	public setValue : FmiPortType ==> ()
+	setValue(v) == is subclass responsibility;
+
+	public getValue : () ==> FmiPortType
+	getValue() == is subclass responsibility;
+
+	public static create: FmiPortType ==> IntPort | BoolPort | RealPort | StringPort
+	create(v) ==
+		if is_(v, String) then
+			return new StringPort(v)
+		elseif is_(v,bool) then
+			return new BoolPort(v)
+	 elseif is_(v,int) then
+			return new IntPort(v)
+	else
+			return new RealPort(v)
+			
+end Port
+
+class IntPort is subclass of Port
+
+instance variables
+	value: int:=0;
+
+operations
+	public IntPort: int ==> IntPort
+	IntPort(v)==setValue(v);
+
+	public setValue : int ==> ()
+	setValue(v) ==value :=v;
+
+	public getValue : () ==> int
+	getValue() == return value;
+
+end IntPort
+
+class BoolPort is subclass of Port
+
+instance variables
+	value: bool:=false;
+
+operations
+	public BoolPort: bool ==> BoolPort
+	BoolPort(v)==setValue(v);
+
+	public setValue : bool ==> ()
+	setValue(v) ==value :=v;
+
+	public getValue : () ==> bool
+	getValue() == return value;
+
+end BoolPort
+
+class RealPort is subclass of Port
+
+instance variables
+	value: real:=0.0;
+
+operations
+	public RealPort: real ==> RealPort
+	RealPort(v)==setValue(v);
+
+	public setValue : real ==> ()
+	setValue(v) ==value :=v;
+
+	public getValue : () ==> real
+	getValue() == return value;
+
+end RealPort
+
+class StringPort is subclass of Port
+
+instance variables
+	value: String:="";
+
+operations
+	public StringPort: String ==> StringPort
+	StringPort(v)==setValue(v);
+
+	public setValue : String ==> ()
+	setValue(v) ==value :=v;
+
+	public getValue : () ==> String
+	getValue() == return value;
+
+end StringPort
+
+```
