@@ -1,20 +1,12 @@
 {
   "examples": [
     {
-      "name": "Case Study: Single Watertank",
-      "git": "https:\/\/github.com\/into-cps\/case-study_single_watertank.git"
-    },
-    {
       "name": "Case Study: Three Tank",
       "git": "https:\/\/github.com\/into-cps\/case-study_three_tank.git"
     },
     {
-      "name": "Case Study: Line Follower Robot",
-      "git": "https:\/\/github.com\/into-cps\/case-study_line_follower_robot.git"
+      "name": "Case Study: UAV Swarm",
+      "git": "https:\/\/github.com\/into-cps\/case-study_uav_swarm.git"
     },
-    {
-      "name": "Case Study: Fan Coil Unit",
-      "git": "https:\/\/github.com\/into-cps\/case-study_fcu.git"
-    }
   ]
 }
