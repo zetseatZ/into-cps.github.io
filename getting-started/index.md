@@ -5,8 +5,9 @@ title: Overview
 
 
 
-
 # Getting Started
+
+This video tutorial introduces the INTO-CPS tool chain by way of a typical workflow in putting together a co-simulation from existing models.
 
 ## Download Tools
 
