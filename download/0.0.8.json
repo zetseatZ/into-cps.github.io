@@ -101,31 +101,31 @@
 			"description" : "Modelio extension for INTO-CPS profile",
 			"platforms" : {
 				"linux32" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.3ç.jmdac",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.39.jmdac",
 					"filename" : "INTOCPS_1.0.39.jmdac",
 					"md5sum" : "afbe517c5afbc6296e9375c19f337c13",
 					"action" : "none"
 				},
 				"linux64" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.3ç.jmdac",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.39.jmdac",
 					"filename" : "INTOCPS_1.0.39.jmdac",
 					"md5sum" : "afbe517c5afbc6296e9375c19f337c13",
 					"action" : "none"
 				},
 				"windows32" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.3ç.jmdac",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.39.jmdac",
 					"filename" : "INTOCPS_1.0.39.jmdac",
 					"md5sum" : "afbe517c5afbc6296e9375c19f337c13",
 					"action" : "none"
 				},
 				"windows64" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.3ç.jmdac",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.39.jmdac",
 					"filename" : "INTOCPS_1.0.39.jmdac",
 					"md5sum" : "afbe517c5afbc6296e9375c19f337c13",
 					"action" : "none"
 				},
 				"osx64" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.3ç.jmdac",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.39.jmdac",
 					"filename" : "INTOCPS_1.0.39.jmdac",
 					"md5sum" : "afbe517c5afbc6296e9375c19f337c13",
 					"action" : "none"
