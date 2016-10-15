@@ -204,13 +204,27 @@
 		"coe" : {
 			"name" : "Co-simulation Orchestration Engine",
 			"description" : "Co-simulation Orchestration Engine",
-			"version" : "0.1.4",
+			"version" : "0.1.6",
 			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
 			"platforms" : {
 				"any" : {					
 					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
 					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"action" : "none"
+				}
+			}
+		},
+		"overture-fmu" : {
+			"name" : "Overture FMU Import / Exporter",
+			"description" : "Co-Overture FMI Support",
+			"version" : "0.1.2",
+			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
+			"platforms" : {
+				"any" : {					
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"filename" : "overture-fmu.p2.jar",
+					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
 					"action" : "none"
 				}
 			}
