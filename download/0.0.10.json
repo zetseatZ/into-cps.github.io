@@ -1,0 +1,330 @@
+{
+	"version" : "0.0.10",
+	"tools" : {
+		"20sim" : {
+			"name" : "20-sim",
+			"version" : "4.6.2-intocps (2016-09-15)",
+			"description" : "Modeling and simulation tool",
+			"platforms" : {
+				"windows32" : {
+					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.2.7245-intocps-win32.exe",
+					"filename" : "20-sim-4.6.2.7245-intocps-win32.exe",
+					"md5sum" : "ff995dc1d176e70a513d4d3411d6072e",
+					"action" : "launch"
+				},
+				"windows64" : {
+					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.2.7245-intocps-win32.exe",
+					"filename" : "20-sim-4.6.2.7245-intocps-win32.exe",
+					"md5sum" : "ff995dc1d176e70a513d4d3411d6072e",
+					"action" : "launch"
+				}
+			}
+		},
+		"20sim4c" : {
+			"name" : "20-sim 4C",
+			"version" : "2.1.9-2016-02-19",
+			"description" : "Tool for rapid prototyping for control engineers",
+			"platforms" : {
+				"windows32" : {
+					"url" : "http:\/\/www.20sim.com\/downloads\/files\/20sim4C.exe",
+					"filename" : "20sim4C.exe",
+					"md5sum" : "02c2fea66e5fa63f50565b4140b36385",
+					"action" : "launch"
+				},
+				"windows64" : {
+					"url" : "http:\/\/www.20sim.com\/downloads\/files\/20sim4C.exe",
+					"filename" : "20sim4C.exe",
+					"md5sum" : "02c2fea66e5fa63f50565b4140b36385",
+					"action" : "launch"
+				}
+			}
+		},
+		"open-modelica" : {
+			"name" : "Open Modelica",
+			"version" : "1.10.0-dev-440-gd0581ff",
+			"description" : "A Modelica-based modelling and simulation tool",
+			"platforms" : {
+				"windows32" : {
+					"url" : "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/32bit\/OpenModelica-v1.10.0-dev-440-gd0581ff-32bit.exe",
+					"filename" : "OpenModelica-v1.10.0-dev-440-gd0581ff-32bit.exe",
+					"md5sum" : "181419521e377f88bfc33b26797301ac",
+					"action" : "launch"
+				},
+				"windows64" : {
+					"url" : "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/64bit\/OpenModelica-v1.10.0-dev-440-gd0581ff-64bit.exe",
+					"filename" : "OpenModelica-v1.10.0-dev-440-gd0581ff-64bit.exe",
+					"md5sum" : "0eda2c3972b2ab7399cd5234c504a990",
+					"action" : "launch"
+				}
+			}
+		},
+		"modelio" : {
+			"name" : "Modelio",
+			"version" : "3.4.1",
+			"description" : "UML\/BPMN modelling tool",
+			"platforms" : {
+				"linux32" : {
+					"url" : "https:\/\/www.modelio.org\/modelio-download-archive\/doc_download\/119-modelio-341-linux-32-bit.html",
+					"filename" : "modelio-open-201512081403-linux.gtk.x86.tar.gz",
+					"md5sum" : "0e698d5bef02e0981912c1f6fdc3f98b",
+					"action" : "launch"
+				},
+				"linux64" : {
+					"url" : "https:\/\/www.modelio.org\/modelio-download-archive\/doc_download\/120-modelio-341-linux-64-bit.html",
+					"filename" : "modelio-open-201512081403-linux.gtk.x86_64.tar.gz",
+					"md5sum" : "715bf11e8b935254795c8d6f8086131b",
+					"action" : "launch"
+				},
+				"windows32" : {
+					"url" : "https:\/\/www.modelio.org\/modelio-download-archive\/doc_download\/117-modelio-341-windows-32-bit.html",
+					"filename" : "modelio-open-201512081403-win32.win32.x86.zip",
+					"md5sum" : "180c744b0bffd064dc349b1035ccb1ca",
+					"action" : "launch"
+				},
+				"windows64" : {
+					"url" : "https:\/\/www.modelio.org\/modelio-download-archive\/doc_download\/116-modelio-341-windows-64-bit.html",
+					"filename" : "modelio-open-201512081403-win32.win32.x86_64.zip",
+					"md5sum" : "fc2d84672ca45670b72185b1c044341a",
+					"action" : "launch"
+				},
+				"osx64" : {
+					"url" : "https:\/\/www.modelio.org\/modelio-download-archive\/doc_download\/118-modelio-341-macos-x.html",
+					"filename" : " modelio-open-201512081403-macosx.cocoa.x86_64.dmg",
+					"md5sum" : "419898c145df56fc4db3da2be85e5d8b",
+					"action" : "none"
+				}
+			}
+		},
+		"modelio-intocps" : {
+			"name" : "Modelio INTO-CPS extension",
+			"version" : "1.0.40",
+			"description" : "Modelio extension for INTO-CPS profile",
+			"platforms" : {
+				"linux32" : {
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/17733\/INTOCPS_1.0.40.jmdac",
+					"filename" : "INTOCPS_1.0.40.jmdac",
+					"md5sum" : "cb8be7f8e552a80bedd546ca208d1694",
+					"action" : "none"
+				},
+				"linux64" : {
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/17733\/INTOCPS_1.0.40.jmdac",
+					"filename" : "INTOCPS_1.0.40.jmdac",
+					"md5sum" : "cb8be7f8e552a80bedd546ca208d1694",
+					"action" : "none"
+				},
+				"windows32" : {
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/17733\/INTOCPS_1.0.40.jmdac",
+					"filename" : "INTOCPS_1.0.40.jmdac",
+					"md5sum" : "cb8be7f8e552a80bedd546ca208d1694",
+					"action" : "none"
+				},
+				"windows64" : {
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/17733\/INTOCPS_1.0.40.jmdac",
+					"filename" : "INTOCPS_1.0.40.jmdac",
+					"md5sum" : "cb8be7f8e552a80bedd546ca208d1694",
+					"action" : "none"
+				},
+				"osx64" : {
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/17733\/INTOCPS_1.0.40.jmdac",
+					"filename" : "INTOCPS_1.0.40.jmdac",
+					"md5sum" : "cb8be7f8e552a80bedd546ca208d1694",
+					"action" : "none"
+				}
+			}
+		},
+		"rttester-dependencies" : {
+			"name" : "VSI tools dependencies bundle",
+			"version" : "0.0.8",
+			"description" : "VSI tools dependencies for Windows: Python 2.7 (+ packages) and GCC 4.9",
+			"platforms" : {
+				"windows64" : {
+					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/install_Python27_gcc49_v2.exe",
+					"filename" : "install_Python27_gcc49.exe",
+					"md5sum" : "680950d6c176ef3718243cf201c2d66a",
+					"action" : "launch"
+				}
+			}
+		},
+		"rttester" : {
+			"name" : "VSI tools",
+			"version" : "0.0.8",
+			"description" : "VSI Test Tool Chain: RTT 6.0-6.1.7 + MBT 9.0-1.5.6 + RTTUI 3.9.3-1 + Utils v8 + Examples",
+			"platforms" : {
+				"windows64" : {
+					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_8.exe",
+					"filename" : "VSI_bundle_v0_0_8.exe",
+					"md5sum" : "766d68b0b9fc1e0979e0aa88589a3f1c",
+					"action" : "launch"
+				},
+				"linux64" : {
+					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_8.sh",
+					"filename" : "VSI_bundle_v0_0_8.sh",
+					"md5sum" : "3ba2f6283338004625c9db979524dde3",
+					"action" : "launch"
+				}
+			}
+		},
+		"overture" : {
+			"name" : "Overture",
+			"version" : "2.4.0",
+			"description" : "A tool for modelling control systems using The Vienna Development Method (VDM)",
+			"platforms" : {
+				"linux32" : {
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.0\/Overture-2.4.0-linux.gtk.x86.zip",
+					"filename" : "Overture-linux.gtk.x86.zip",
+					"md5sum" : "c41601f2a06bbfe2445f49aa7381a7f3",
+					"action" : "unpack"
+				},
+				"linux64" : {
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.0\/Overture-2.4.0-linux.gtk.x86_64.zip",
+					"filename" : "Overture-linux.gtk.x86_64.zip",
+					"md5sum" : "86f2c5ee5d0ef87374322b8d92f9fad7",
+					"action" : "unpack"
+				},
+				"windows32" : {
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.0\/Overture-2.4.0-win32.win32.x86.zip",
+					"filename" : "Overture-win32.win32.x86.zip",
+					"md5sum" : "cfbe83a0a9e9dd37210aaeb788d8617c",
+					"action" : "unpack"
+				},
+				"windows64" : {
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.0\/Overture-2.4.0-win32.win32.x86_64.zip",
+					"filename" : "Overture-win32.win32.x86_64.zip",
+					"md5sum" : "e91c7e108aef515cb3466fe3bc7aedb5",
+					"action" : "unpack"
+				},
+				"osx64" : {
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.0\/Overture-2.4.0-macosx.cocoa.x86_64.zip",
+					"filename" : "Overture-macosx.cocoa.x86_64.zip",
+					"md5sum" : "4d316fbc4f7492baabddbf59bc5c1a5f",
+					"action" : "none"
+				}
+			}
+		},
+		"coe" : {
+			"name" : "Co-simulation Orchestration Engine",
+			"description" : "Co-simulation Orchestration Engine",
+			"version" : "0.1.6",
+			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
+			"platforms" : {
+				"any" : {					
+					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
+					"filename" : "coe.jar",
+					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"action" : "none"
+				},
+					"linux32" : {
+					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
+					"filename" : "coe.jar",
+					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"action" : "none"
+				},
+				"linux64" : {
+					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
+					"filename" : "coe.jar",
+					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"action" : "none"
+				},
+				"windows32" : {
+					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
+					"filename" : "coe.jar",
+					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"action" : "none"
+				},
+				"windows64" : {
+					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
+					"filename" : "coe.jar",
+					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"action" : "none"
+				},
+				"osx64" : {
+					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
+					"filename" : "coe.jar",
+					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"action" : "none"
+				}
+			}
+		},
+		"overture-fmu" : {
+			"name" : "Overture FMU Import / Exporter",
+			"description" : "Co-Overture FMI Support",
+			"version" : "0.1.2",
+			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
+			"platforms" : {
+				"any" : {					
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"filename" : "overture-fmu.p2.jar",
+					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
+					"action" : "none"
+					},
+					"linux32" : {
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"filename" : "overture-fmu.p2.jar",
+					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
+					"action" : "none"
+				},
+				"linux64" : {
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"filename" : "overture-fmu.p2.jar",
+					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
+					"action" : "none"
+				},
+				"windows32" : {
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"filename" : "overture-fmu.p2.jar",
+					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
+					"action" : "none"
+				},
+				"windows64" : {
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"filename" : "overture-fmu.p2.jar",
+					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
+					"action" : "none"
+				},
+				"osx64" : {
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"filename" : "overture-fmu.p2.jar",
+					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
+					"action" : "none"
+				}
+			}
+		},
+		"dse" : {
+			"name" : "Design Space Exploration",
+			"description" : "Scripts for generating and analysing multiple co-simulations",
+			"version" : "0.0.5",
+			"platforms" : {
+				"linux32" : {
+					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/17512837\/dse0.0.5.zip",
+					"filename" : "dse0.0.5.zip",
+					"md5sum" : "a2a62d8e5183ce4ff2436884bf56ebaa",
+					"action" : "unpack"
+				},
+				"linux64" : {
+					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/17512837\/dse0.0.5.zip",
+					"filename" : "dse0.0.5.zip",
+					"md5sum" : "a2a62d8e5183ce4ff2436884bf56ebaa",
+					"action" : "unpack"
+				},
+				"windows32" : {
+					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/17512837\/dse0.0.5.zip",
+					"filename" : "dse0.0.5.zip",
+					"md5sum" : "a2a62d8e5183ce4ff2436884bf56ebaa",
+					"action" : "unpack"
+				},
+				"windows64" : {
+					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/17512837\/dse0.0.5.zip",
+					"filename" : "dse0.0.5.zip",
+					"md5sum" : "a2a62d8e5183ce4ff2436884bf56ebaa",
+					"action" : "unpack"
+				},
+				"osx64" : {
+					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/17512837\/dse0.0.5.zip",
+					"filename" : "dse0.0.5.zip",
+					"md5sum" : "a2a62d8e5183ce4ff2436884bf56ebaa",
+					"action" : "unpack"
+				}
+			}
+		}
+	}
+}
