@@ -135,6 +135,7 @@
 		"rttester-dependencies" : {
 			"name" : "VSI tools dependencies bundle",
 			"version" : "0.0.8",
+                        "releasepage" : "https://secure.verified.de/f5x1hks4/into-cps/one-click/info/#rttester-dependencies",
 			"description" : "VSI tools dependencies for Windows: Python 2.7 (+ packages) and GCC 4.9",
 			"platforms" : {
 				"windows64" : {
@@ -148,6 +149,7 @@
 		"rttester" : {
 			"name" : "VSI tools",
 			"version" : "0.0.9",
+                        "releasepage" : "https://secure.verified.de/f5x1hks4/into-cps/one-click/info/",
 			"description" : "VSI Test Tool Chain: RTT 6.0-6.1.8 + MBT 9.0-1.5.7 + RTTUI 3.9.3-1 + Utils v9 + Examples",
 			"platforms" : {
 				"windows64" : {
