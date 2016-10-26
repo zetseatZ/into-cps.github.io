@@ -206,43 +206,43 @@
 		"coe" : {
 			"name" : "Co-simulation Orchestration Engine",
 			"description" : "Co-simulation Orchestration Engine",
-			"version" : "0.1.6",
+			"version" : "0.1.7-SNAPSHOT",
 			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
 			"platforms" : {
 				"any" : {					
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.7-SNAPSHOT/coe-0.1.7-20161014.223536-2-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.7-SNAPSHOT/coe-0.1.7-20161026.100152-3-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "ac1209b1c7ae9ee8dd8de2c0176be0c0",
+					"md5sum" : "11a30738044adf0d06a69d19e3768bd6",
 					"action" : "none"
 				},
 					"linux32" : {
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.7-SNAPSHOT/coe-0.1.7-20161014.223536-2-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.7-SNAPSHOT/coe-0.1.7-20161026.100152-3-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "ac1209b1c7ae9ee8dd8de2c0176be0c0",
+					"md5sum" : "11a30738044adf0d06a69d19e3768bd6",
 					"action" : "none"
 				},
 				"linux64" : {
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.7-SNAPSHOT/coe-0.1.7-20161014.223536-2-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.7-SNAPSHOT/coe-0.1.7-20161026.100152-3-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "ac1209b1c7ae9ee8dd8de2c0176be0c0",
+					"md5sum" : "11a30738044adf0d06a69d19e3768bd6",
 					"action" : "none"
 				},
 				"windows32" : {
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.7-SNAPSHOT/coe-0.1.7-20161014.223536-2-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.7-SNAPSHOT/coe-0.1.7-20161026.100152-3-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "ac1209b1c7ae9ee8dd8de2c0176be0c0",
+					"md5sum" : "11a30738044adf0d06a69d19e3768bd6",
 					"action" : "none"
 				},
 				"windows64" : {
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.7-SNAPSHOT/coe-0.1.7-20161014.223536-2-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.7-SNAPSHOT/coe-0.1.7-20161026.100152-3-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "ac1209b1c7ae9ee8dd8de2c0176be0c0",
+					"md5sum" : "11a30738044adf0d06a69d19e3768bd6",
 					"action" : "none"
 				},
 				"osx64" : {
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.7-SNAPSHOT/coe-0.1.7-20161014.223536-2-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.7-SNAPSHOT/coe-0.1.7-20161026.100152-3-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "ac1209b1c7ae9ee8dd8de2c0176be0c0",
+					"md5sum" : "11a30738044adf0d06a69d19e3768bd6",
 					"action" : "none"
 				}
 			}
