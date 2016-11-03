@@ -69,7 +69,7 @@ If these files already exist in the project, the `HardwareInterface.vdmrt` will 
 ![alt text](overture-fmi-export-menu.png "Overture FMI Export Menu")
 
 
-The export fill place a `.fmu` in the project folder on completion and list the export progress in the console as follows: 
+The export will place a `.fmu` in the project folder on completion and list the export progress in the console as follows: 
 
 ```
 ---------------------------------------

@@ -3,19 +3,19 @@
 	"tools" : {
 		"20sim" : {
 			"name" : "20-sim",
-			"version" : "4.5.4b6171-2015-09-28",
+			"version" : "4.6.2-intocps (2016-09-15)",
 			"description" : "Modeling and simulation tool",
 			"platforms" : {
 				"windows32" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.1.6846-intocps-win32.exe",
-					"filename" : "20-sim-4.6.1.6846-intocps-win32.exe",
-					"md5sum" : "3dbfd82ebf80499ac9ca5d5ffb53a06b",
+					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.2.7245-intocps-win32.exe",
+					"filename" : "20-sim-4.6.2.7245-intocps-win32.exe",
+					"md5sum" : "ff995dc1d176e70a513d4d3411d6072e",
 					"action" : "launch"
 				},
 				"windows64" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.1.6846-intocps-win32.exe",
-					"filename" : "20-sim-4.6.1.6846-intocps-win32.exe",
-					"md5sum" : "3dbfd82ebf80499ac9ca5d5ffb53a06b",
+					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.2.7245-intocps-win32.exe",
+					"filename" : "20-sim-4.6.2.7245-intocps-win32.exe",
+					"md5sum" : "ff995dc1d176e70a513d4d3411d6072e",
 					"action" : "launch"
 				}
 			}
@@ -101,31 +101,31 @@
 			"description" : "Modelio extension for INTO-CPS profile",
 			"platforms" : {
 				"linux32" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.3ç.jmdac",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.39.jmdac",
 					"filename" : "INTOCPS_1.0.39.jmdac",
 					"md5sum" : "afbe517c5afbc6296e9375c19f337c13",
 					"action" : "none"
 				},
 				"linux64" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.3ç.jmdac",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.39.jmdac",
 					"filename" : "INTOCPS_1.0.39.jmdac",
 					"md5sum" : "afbe517c5afbc6296e9375c19f337c13",
 					"action" : "none"
 				},
 				"windows32" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.3ç.jmdac",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.39.jmdac",
 					"filename" : "INTOCPS_1.0.39.jmdac",
 					"md5sum" : "afbe517c5afbc6296e9375c19f337c13",
 					"action" : "none"
 				},
 				"windows64" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.3ç.jmdac",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.39.jmdac",
 					"filename" : "INTOCPS_1.0.39.jmdac",
 					"md5sum" : "afbe517c5afbc6296e9375c19f337c13",
 					"action" : "none"
 				},
 				"osx64" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.3ç.jmdac",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/16493\/INTOCPS_1.0.39.jmdac",
 					"filename" : "INTOCPS_1.0.39.jmdac",
 					"md5sum" : "afbe517c5afbc6296e9375c19f337c13",
 					"action" : "none"
@@ -205,7 +205,14 @@
 			"name" : "Co-simulation Orchestration Engine",
 			"description" : "Co-simulation Orchestration Engine",
 			"version" : "0.1.2",
+			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
 			"platforms" : {
+				"any" : {					
+					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.2\/coe-0.1.2-jar-with-dependencies.jar",
+					"filename" : "coe.jar",
+					"md5sum" : "bdf027ebf6c1b1c73371e0f6908c3938",
+					"action" : "none"
+				},
 				"linux32" : {
 					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.2\/coe-0.1.2-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
