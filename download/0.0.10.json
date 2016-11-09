@@ -1,5 +1,5 @@
 {
-	"version" : "0.0.9",
+	"version" : "0.0.10",
 	"tools" : {
 		"20sim" : {
 			"name" : "20-sim",
@@ -206,43 +206,43 @@
 		"coe" : {
 			"name" : "Co-simulation Orchestration Engine",
 			"description" : "Co-simulation Orchestration Engine",
-			"version" : "0.1.6",
+			"version" : "0.1.8",
 			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
 			"platforms" : {
 				"any" : {					
-					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.8/coe-0.1.8-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"md5sum" : "d6315946e8fd9cd8fbcf2478d84a89c2",
 					"action" : "none"
 				},
 					"linux32" : {
-					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.8/coe-0.1.8-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"md5sum" : "d6315946e8fd9cd8fbcf2478d84a89c2",
 					"action" : "none"
 				},
 				"linux64" : {
-					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.8/coe-0.1.8-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"md5sum" : "d6315946e8fd9cd8fbcf2478d84a89c2",
 					"action" : "none"
 				},
 				"windows32" : {
-					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.8/coe-0.1.8-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"md5sum" : "d6315946e8fd9cd8fbcf2478d84a89c2",
 					"action" : "none"
 				},
 				"windows64" : {
-					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.8/coe-0.1.8-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"md5sum" : "d6315946e8fd9cd8fbcf2478d84a89c2",
 					"action" : "none"
 				},
 				"osx64" : {
-					"url" : "http:\/\/overture.au.dk\/artifactory\/simple\/into-cps\/org\/intocps\/orchestration\/coe\/0.1.6\/coe-0.1.6-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.8/coe-0.1.8-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "310cce6ba4bebe67bcdddb696ffc7c99",
+					"md5sum" : "d6315946e8fd9cd8fbcf2478d84a89c2",
 					"action" : "none"
 				}
 			}
@@ -250,43 +250,43 @@
 		"overture-fmu" : {
 			"name" : "Overture FMU Import / Exporter",
 			"description" : "Co-Overture FMI Support",
-			"version" : "0.1.2",
+			"version" : "0.1.4",
 			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
 			"platforms" : {
 				"any" : {					
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.4/p2.zip",
 					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
+					"md5sum" : "c91195078f3601f24c28b78e7c3cc596",
 					"action" : "none"
 					},
 					"linux32" : {
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.4/p2.zip",
 					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
+					"md5sum" : "c91195078f3601f24c28b78e7c3cc596",
 					"action" : "none"
 				},
 				"linux64" : {
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.4/p2.zip",
 					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
+					"md5sum" : "c91195078f3601f24c28b78e7c3cc596",
 					"action" : "none"
 				},
 				"windows32" : {
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.4/p2.zip",
 					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
+					"md5sum" : "c91195078f3601f24c28b78e7c3cc596",
 					"action" : "none"
 				},
 				"windows64" : {
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.4/p2.zip",
 					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
+					"md5sum" : "c91195078f3601f24c28b78e7c3cc596",
 					"action" : "none"
 				},
 				"osx64" : {
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.2/p2.zip",
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.4/p2.zip",
 					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "5f4237e8bfb67029c06d8e9944e9cce7",
+					"md5sum" : "c91195078f3601f24c28b78e7c3cc596",
 					"action" : "none"
 				}
 			}
