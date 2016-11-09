@@ -148,20 +148,20 @@
 		},
 		"rttester" : {
 			"name" : "VSI tools",
-			"version" : "0.0.9",
+			"version" : "0.0.11",
                         "releasepage" : "https://secure.verified.de/f5x1hks4/into-cps/one-click/info/",
-			"description" : "VSI Test Tool Chain: RTT 6.0-6.1.8 + MBT 9.0-1.5.7 + RTTUI 3.9.3-1 + Utils v9 + Examples",
+			"description" : "VSI Test Tool Chain: RTT 6.0-6.1.10 + MBT 9.0-1.5.9 + RTTUI 3.9.3-1 + Utils v11 + Examples",
 			"platforms" : {
 				"windows64" : {
-					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_9.exe",
-					"filename" : "VSI_bundle_v0_0_9.exe",
-					"md5sum" : "dd08f6cd39a7d956689b97b7c651eb96",
+					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_11.exe",
+					"filename" : "VSI_bundle_v0_0_11.exe",
+					"md5sum" : "31ac9693ceb2d56b2fb827896cc3610b",
 					"action" : "launch"
 				},
 				"linux64" : {
-					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_9.sh",
-					"filename" : "VSI_bundle_v0_0_9.sh",
-					"md5sum" : "f36391c5e9de914e410ed07dcea4b625",
+					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_11.sh",
+					"filename" : "VSI_bundle_v0_0_11.sh",
+					"md5sum" : "50ccc6553d1694f40f3cd4b9def79ad9",
 					"action" : "launch"
 				}
 			}
