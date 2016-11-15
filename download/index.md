@@ -1,15 +1,31 @@
 ---
 layout: default
-title: Overview
+title: Download
 ---
 
-# Current Releases
+<link rel="stylesheet" href="/css/releases.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js">
+</script>
+<script src="/javascripts/moment-with-langs.js"></script>
+<script src="/javascripts/github-releases.js"></script>
+<script>updateDownloadPage();</script>
 
-Current releases of the tool chain are done through the INTO-CPS Application
-and its integrated download manager. You can download the INTO-CPS app from its
-[GitHub release page]( http://github.com/into-cps/intocps-ui/releases).
+# Latest Release
 
-## Latest Versions
+The recommended way to download the INTO-CPS tool chain is to use the
+integrated download manager of the INTO-CPS Application.
+
+<div id="div-current-release"></div>
+
+## Previous Releases
+
+<div id="div-release-history"></div>
+
+## Individual Downloads 
+
+If you prefer, you can download the latest versions of INTO-CPS tools 
+individually. Latest versions are available through the following links:.
+
 * COE  - [Windows / Mac / Linux](http://overture.au.dk/into-cps/development/latest)
 * 20-sim - [Windows](http://www.20sim.com/download/20sim.html)
 * 20-sim 4C - [Windows](http://www.20sim4c.com/downloads/20sim4c.html)
@@ -21,7 +37,8 @@ and its integrated download manager. You can download the INTO-CPS app from its
 * RT-Tester toolchain - [Windows](https://secure.verified.de/f5x1hks4/into-cps/one-click/VSI_bundle.exe)
 
 
-## Prior Releases
+## Older Releases
 
-For bundle-based versions of the tool chain (prior to 0.0.7) see
+Prior to the introduction of the INTO-CPS Application, the tool chain was
+distributed via bundles. These bundles are archived
 [here](prior-releases.html).

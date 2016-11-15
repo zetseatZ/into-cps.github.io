@@ -28,7 +28,7 @@ function updateFrontPage() {
         //var row=0;
         var releaseIndex = 0;
 
-        $.getJSON("https://api.github.com/repos/overturetool/overture/releases", function (result) {
+        $.getJSON("https://api.github.com/repos/into-cps/intocps-ui/releases", function (result) {
             $.each(result/*.reverse()*/, function (i, field) {
 
                 if (("" + field.tag_name).indexOf("Release") > -1 && field.draft == false && field.prerelease == false) {
@@ -87,7 +87,7 @@ function updateDownloadPage() {
         //var row=0;
         var releaseIndex = 0;
 
-        $.getJSON("https://api.github.com/repos/overturetool/overture/releases", function (result) {
+        $.getJSON("https://api.github.com/repos/into-cps/intocps-ui/releases", function (result) {
             $.each(result/*.reverse()*/, function (i, field) {
 
                 if (("" + field.tag_name).indexOf("Release") > -1 && field.draft == false && field.prerelease == false) {
@@ -169,7 +169,7 @@ function countTotalAssetDownloads(assets) {
 
     var count = 0;
     $.each(assets, function (i, asset) {
-        if (("" + asset.name).indexOf("Overture") > -1) {
+        if (("" + asset.name).indexOf("into-cps-app") > -1) {
             count = count + asset.download_count;
         }
     });
@@ -192,7 +192,7 @@ function buildAssetList(baseUrl, assets) {
 
 
         var dlss = document.createElement("span");
-        dlss.className = "overture-tooltipped";//"tooltipped tooltipped-s";
+        dlss.className = "intocps-tooltipped";//"tooltipped tooltipped-s";
         //  dlss.aria-label=formatSizeUnits(ass.size);
         dlss.innerHTML = asset.name;
 
