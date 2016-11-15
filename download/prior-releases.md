@@ -3,8 +3,10 @@ layout: default
 title: Prior Releases
 ---
 
-Prior to the introduction of the INTO-CPS Application, releases of the tool chain
-were distributed through downloadable bundles. This page indexes those
+# Prior Releases
+
+Prior to the introduction of the INTO-CPS Application, releases of the tool
+chain were distributed through downloadable bundles. This page indexes those
 bundles, which are kept for historical reasons.
 
 Up to date versions of the tool chain are available from the [Download

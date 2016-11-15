@@ -5,11 +5,9 @@ title: Overview
 
 # Current Releases
 
-Current releases of the tool chain are done through the INTO-CPS Application and its integrated download manager. You can download
-the INTO-CPS app from its [GitHub release page]( http://github.com/into-cps/intocps-ui/releases).
-
-
-
+Current releases of the tool chain are done through the INTO-CPS Application
+and its integrated download manager. You can download the INTO-CPS app from its
+[GitHub release page]( http://github.com/into-cps/intocps-ui/releases).
 
 ## Latest Versions
 * COE  - [Windows / Mac / Linux](http://overture.au.dk/into-cps/development/latest)
@@ -23,8 +21,7 @@ the INTO-CPS app from its [GitHub release page]( http://github.com/into-cps/into
 * RT-Tester toolchain - [Windows](https://secure.verified.de/f5x1hks4/into-cps/one-click/VSI_bundle.exe)
 
 
+## Prior Releases
 
-## Previous Releases
-
-For prior releases of the tool chain, see [Prior
-Releases](prior-releases.html).
+For bundle-based versions of the tool chain (prior to 0.0.7) see
+[here](prior-releases.html).
