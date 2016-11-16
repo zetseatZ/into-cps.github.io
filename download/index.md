@@ -12,7 +12,7 @@ title: Download
 
 # Latest Release
 
-The recommended way to download the INTO-CPS tool chain is to use the
+The recommended way to obtain the INTO-CPS tool chain is to use the
 integrated download manager of the INTO-CPS Application.
 
 <div id="div-current-release"></div>
@@ -23,8 +23,8 @@ integrated download manager of the INTO-CPS Application.
 
 ## Individual Downloads 
 
-If you prefer, you can download the latest versions of INTO-CPS tools 
-individually. Latest versions are available through the following links:.
+If you prefer, you can download the INTO-CPS tools 
+individually, through the following links.
 
 * COE  - [Windows / Mac / Linux](http://overture.au.dk/into-cps/development/latest)
 * 20-sim - [Windows](http://www.20sim.com/download/20sim.html)
