@@ -114,7 +114,8 @@ function updateDownloadPage() {
                         currentReleaseDiv.appendChild(buildAssetList(releaseUrl, assets));
                     } else {
 
-                        if (i == 1) {
+                        if (i >= 1 && !document.getElementById("release-history-table-body");
+) {
                             var tblBody = document.createElement("tbody");
                             tblBody.id = "release-history-table-body";
 
