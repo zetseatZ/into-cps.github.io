@@ -17,6 +17,8 @@ integrated download manager of the INTO-CPS Application.
 
 <div id="div-current-release"></div>
 
+<br>
+
 ## Previous Releases
 
 <div id="div-release-history"></div>
