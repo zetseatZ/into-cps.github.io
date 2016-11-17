@@ -31,7 +31,7 @@ function updateFrontPage() {
         $.getJSON("https://api.github.com/repos/into-cps/intocps-ui/releases", function (result) {
             $.each(result/*.reverse()*/, function (i, field) {
 
-                if (("" + field.tag_name).indexOf("Release") > -1 && field.draft == false && field.prerelease == false) {
+                if (("" + field.tag_name).indexOf("v") > -1 && field.draft == false && field.prerelease == false) {
 
 
 
@@ -40,7 +40,7 @@ function updateFrontPage() {
                     }
 
                     var divVersion = document.getElementById("current-release-version");
-                    divVersion.innerHTML = field.tag_name.replace("Release/", "");
+                    divVersion.innerHTML = field.tag_name;
 
                     var divDate = document.getElementById("current-release-data");
                     var publishedAt = new Date(field.published_at);
@@ -90,9 +90,9 @@ function updateDownloadPage() {
         $.getJSON("https://api.github.com/repos/into-cps/intocps-ui/releases", function (result) {
             $.each(result/*.reverse()*/, function (i, field) {
 
-                if (("" + field.tag_name).indexOf("Release") > -1 && field.draft == false && field.prerelease == false) {
+                if (("" + field.tag_name).indexOf("v") > -1 && field.draft == false && field.prerelease == false) {
 
-                    var releaseVersion = field.tag_name.replace("Release/", "");
+                    var releaseVersion = field.tag_name;
                     var releaseDate = moment(field.published_at).format('MMM YYYY');
                     var releaseName = field.name;
                     var releaseUrl = field.html_url;
