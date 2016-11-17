@@ -8,7 +8,7 @@ title: Download
 </script>
 <script src="/javascripts/moment-with-langs.js"></script>
 <script src="/javascripts/github-releases.js"></script>
-<script>updateFrontPage();</script>
+<script>updateDownloadPage();</script>
 
 # Latest Release
 
