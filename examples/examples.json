@@ -23,6 +23,10 @@
     {
       "name": "Case Study: Ether",
       "git": "https:\/\/github.com\/into-cps\/case-study_ether"
+    },
+    {
+       "name": "Case Study: UAV",   
+       "git": "https:\/\/github.com\/into-cps\/case-study_UAV.git"
     }
   ]
 }
