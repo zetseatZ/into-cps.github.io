@@ -11,6 +11,10 @@
     {
       "name": "Case Study: FCU",
       "git": "https:\/\/github.com\/into-cps\/case-study_fcu.git"
+    },
+    {
+       "name": "Case Study: UAV",
+       "git": "https:\/\/github.com\/into-cps\/case-study_UAV"
     }
   ]
 }
