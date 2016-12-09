@@ -247,6 +247,23 @@
 				}
 			}
 		},
+		
+		"overture-tracability-driver" : {
+			"name" : "Overture Tracability Driver",
+			"description" : "INTO-CPS Tracability Driver for Overture",
+			"version" : "0.0.4",
+			"releasepage" : "https://github.com/overturetool/intocps-tracability-driver/releases/tag/Release%2F0.0.4",
+			"platforms" : {
+				"any" : {					
+					"url" : "https://github.com/overturetool/intocps-tracability-driver/releases/download/Release%2F0.0.4/tracability-driver-0.0.4-jar-with-dependencies.jar",
+					"filename" : "overture-tracability-driver.jar",
+					"md5sum" : "d4f2b7bc443c17ff77bde95c5ba5002c",
+					"action" : "none"
+					}
+			}
+		},
+		
+		
 		"overture-fmu" : {
 			"name" : "Overture FMU Import / Exporter",
 			"description" : "Co-Overture FMI Support",
