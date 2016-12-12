@@ -20,7 +20,7 @@ release below.
 
 <br>
 
-You can also download the User Manual for the INTO-CPS Application
+You can also download the User Manual for the INTO-CPS tool chain
 [here](https://github.com/into-cps/into-cps.github.io/raw/master/manuals/INTO-CPS_App_User_Manual.pdf).
 
 ## Previous Releases
