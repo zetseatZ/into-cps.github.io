@@ -19,6 +19,9 @@ integrated download manager of the INTO-CPS Application.
 
 <br>
 
+You can also download the User Manual for the INTO-CPS Application
+[here](https://github.com/into-cps/into-cps.github.io/raw/master/manuals/INTO-CPS_App_User_Manual.pdf).
+
 ## Previous Releases
 
 <div id="div-release-history"></div>
