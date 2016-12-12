@@ -12,8 +12,9 @@ title: Download
 
 # Latest Release
 
-The best way to obtain the INTO-CPS tool chain is to use the
-integrated download manager of the INTO-CPS Application.
+The best way to obtain the INTO-CPS tool chain is to use the integrated
+download manager of the INTO-CPS Application. You can download the latest
+release below.
 
 <div id="div-current-release"></div>
 
