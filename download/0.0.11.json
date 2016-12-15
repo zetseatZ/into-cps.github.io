@@ -206,43 +206,13 @@
 		"coe" : {
 			"name" : "Co-simulation Orchestration Engine",
 			"description" : "Co-simulation Orchestration Engine",
-			"version" : "0.1.8",
+			"version" : "0.1.10",
 			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
 			"platforms" : {
 				"any" : {					
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.8/coe-0.1.8-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.10/coe-0.1.10-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "d6315946e8fd9cd8fbcf2478d84a89c2",
-					"action" : "none"
-				},
-					"linux32" : {
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.8/coe-0.1.8-jar-with-dependencies.jar",
-					"filename" : "coe.jar",
-					"md5sum" : "d6315946e8fd9cd8fbcf2478d84a89c2",
-					"action" : "none"
-				},
-				"linux64" : {
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.8/coe-0.1.8-jar-with-dependencies.jar",
-					"filename" : "coe.jar",
-					"md5sum" : "d6315946e8fd9cd8fbcf2478d84a89c2",
-					"action" : "none"
-				},
-				"windows32" : {
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.8/coe-0.1.8-jar-with-dependencies.jar",
-					"filename" : "coe.jar",
-					"md5sum" : "d6315946e8fd9cd8fbcf2478d84a89c2",
-					"action" : "none"
-				},
-				"windows64" : {
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.8/coe-0.1.8-jar-with-dependencies.jar",
-					"filename" : "coe.jar",
-					"md5sum" : "d6315946e8fd9cd8fbcf2478d84a89c2",
-					"action" : "none"
-				},
-				"osx64" : {
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.8/coe-0.1.8-jar-with-dependencies.jar",
-					"filename" : "coe.jar",
-					"md5sum" : "d6315946e8fd9cd8fbcf2478d84a89c2",
+					"md5sum" : "2dd274d39ca4362e32a662f12bc9ad9d",
 					"action" : "none"
 				}
 			}
