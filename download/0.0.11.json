@@ -236,46 +236,16 @@
 		
 		"overture-fmu" : {
 			"name" : "Overture FMU Import / Exporter",
-			"description" : "Co-Overture FMI Support",
-			"version" : "0.1.4",
-			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
+			"description" : "Overture FMI Support",
+			"version" : "0.1.6",
+			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.1.6",
 			"platforms" : {
 				"any" : {					
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.4/p2.zip",
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.6/p2.zip",
 					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "c91195078f3601f24c28b78e7c3cc596",
+					"md5sum" : "a6cc094e72e5a60d1e3932a0c22d6d87",
 					"action" : "none"
-					},
-					"linux32" : {
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.4/p2.zip",
-					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "c91195078f3601f24c28b78e7c3cc596",
-					"action" : "none"
-				},
-				"linux64" : {
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.4/p2.zip",
-					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "c91195078f3601f24c28b78e7c3cc596",
-					"action" : "none"
-				},
-				"windows32" : {
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.4/p2.zip",
-					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "c91195078f3601f24c28b78e7c3cc596",
-					"action" : "none"
-				},
-				"windows64" : {
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.4/p2.zip",
-					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "c91195078f3601f24c28b78e7c3cc596",
-					"action" : "none"
-				},
-				"osx64" : {
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.4/p2.zip",
-					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "c91195078f3601f24c28b78e7c3cc596",
-					"action" : "none"
-				}
+					}
 			}
 		},
 		"dse" : {
