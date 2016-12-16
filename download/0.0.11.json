@@ -219,7 +219,7 @@
 		},
 		
 			"coe-dirstibution-plugin" : {
-			"name" : "Distribution Plug-in for the Co-simulation Orchestration Engine",
+			"name" : "Distributed FMU",
 			"description" : "Distribution Plug-in for the Co-simulation Orchestration Engine. Enabling co-simulation across platforms and architectures.",
 			"version" : "0.0.2",
 			"releasepage" : "",
