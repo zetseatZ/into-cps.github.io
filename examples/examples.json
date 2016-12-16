@@ -27,6 +27,10 @@
     {
        "name": "Case Study: UAV",
        "git": "https:\/\/github.com\/into-cps\/case-study_UAV.git"
+    },
+    {
+      "name": "Example: Turn Indication",
+      "git": "https:\/\/github.com\/into-cps\/example_turn_indication.git"
     }
   ]
 }
