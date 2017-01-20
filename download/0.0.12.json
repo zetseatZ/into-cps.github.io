@@ -301,18 +301,18 @@
 			}
 		},
 		"neo4j" : {
-			"name" : "Neo4J Community Edition",
+			"name" : "Neo4J Community Edition - External Link",
 			"description" : "Graph Database",
 			"version" : "3.0.7",
 			"platforms" : {
 				"osx64" : {
-					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.0.7-unix.tar.gz";
+					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.0.7-unix.tar.gz",
 					"filename" : "neo4j-community-3.0.7-unix.tar.gz",
 					"md5sum" : "9b808025c1daa5012a90ac5a812f4e0f",
 					"action" : "unpack"
 				},
 				"linux64" : {
-					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.0.7-unix.tar.gz";
+					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.0.7-unix.tar.gz",
 					"filename" : "neo4j-community-3.0.7-unix.tar.gz",
 					"md5sum" : "9b808025c1daa5012a90ac5a812f4e0f",
 					"action" : "unpack"
