@@ -303,29 +303,29 @@
 		"neo4j" : {
 			"name" : "Neo4J Community Edition - External Link",
 			"description" : "Graph Database",
-			"version" : "3.0.7",
+			"version" : "3.1.1",
 			"platforms" : {
 				"osx64" : {
-					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.0.7-unix.tar.gz",
-					"filename" : "neo4j-community-3.0.7-unix.tar.gz",
+					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.1.1-unix.tar.gz",
+					"filename" : "neo4j-community-3.1.1-unix.tar.gz",
 					"md5sum" : "9b808025c1daa5012a90ac5a812f4e0f",
 					"action" : "unpack"
 				},
 				"linux64" : {
-					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.0.7-unix.tar.gz",
-					"filename" : "neo4j-community-3.0.7-unix.tar.gz",
+					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.1.1-unix.tar.gz",
+					"filename" : "neo4j-community-3.1.1-unix.tar.gz",
 					"md5sum" : "9b808025c1daa5012a90ac5a812f4e0f",
 					"action" : "unpack"
 				},
 				"windows32" : {
-					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.0.7-windows.zip",
-					"filename" : "neo4j-community-3.0.7-windows.zip",
+					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.1.1-windows.zip",
+					"filename" : "neo4j-community-3.1.1-windows.zip",
 					"md5sum" : "c9115c94f28e1dff987c5000ae6c321f",
 					"action" : "unpack"
 				},
 				"windows64" : {
-					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.0.7-windows.zip",
-					"filename" : "neo4j-community-3.0.7-windows.zip",
+					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.1.1-windows.zip",
+					"filename" : "neo4j-community-3.1.1-windows.zip",
 					"md5sum" : "c9115c94f28e1dff987c5000ae6c321f",
 					"action" : "unpack"
 				}
