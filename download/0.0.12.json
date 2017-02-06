@@ -308,25 +308,25 @@
 				"osx64" : {
 					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.1.1-unix.tar.gz",
 					"filename" : "neo4j-community-3.1.1-unix.tar.gz",
-					"md5sum" : "9b808025c1daa5012a90ac5a812f4e0f",
+					"md5sum" : "7449e5b5436df48feffa85f4f5a75c5d",
 					"action" : "unpack"
 				},
 				"linux64" : {
 					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.1.1-unix.tar.gz",
 					"filename" : "neo4j-community-3.1.1-unix.tar.gz",
-					"md5sum" : "9b808025c1daa5012a90ac5a812f4e0f",
+					"md5sum" : "7449e5b5436df48feffa85f4f5a75c5d",
 					"action" : "unpack"
 				},
 				"windows32" : {
 					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.1.1-windows.zip",
 					"filename" : "neo4j-community-3.1.1-windows.zip",
-					"md5sum" : "c9115c94f28e1dff987c5000ae6c321f",
+					"md5sum" : "290a82142c91e853c70885cc3247bab4",
 					"action" : "unpack"
 				},
 				"windows64" : {
 					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.1.1-windows.zip",
 					"filename" : "neo4j-community-3.1.1-windows.zip",
-					"md5sum" : "c9115c94f28e1dff987c5000ae6c321f",
+					"md5sum" : "290a82142c91e853c70885cc3247bab4",
 					"action" : "unpack"
 				}
 			}		
