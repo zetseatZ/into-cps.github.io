@@ -266,36 +266,12 @@
 		"dse" : {
 			"name" : "Design Space Exploration",
 			"description" : "Scripts for generating and analysing multiple co-simulations",
-			"version" : "0.0.5",
+			"version" : "0.1.1",
 			"platforms" : {
-				"linux32" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/17512837\/dse0.0.5.zip",
-					"filename" : "dse0.0.5.zip",
-					"md5sum" : "a2a62d8e5183ce4ff2436884bf56ebaa",
-					"action" : "unpack"
-				},
-				"linux64" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/17512837\/dse0.0.5.zip",
-					"filename" : "dse0.0.5.zip",
-					"md5sum" : "a2a62d8e5183ce4ff2436884bf56ebaa",
-					"action" : "unpack"
-				},
-				"windows32" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/17512837\/dse0.0.5.zip",
-					"filename" : "dse0.0.5.zip",
-					"md5sum" : "a2a62d8e5183ce4ff2436884bf56ebaa",
-					"action" : "unpack"
-				},
-				"windows64" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/17512837\/dse0.0.5.zip",
-					"filename" : "dse0.0.5.zip",
-					"md5sum" : "a2a62d8e5183ce4ff2436884bf56ebaa",
-					"action" : "unpack"
-				},
-				"osx64" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/17512837\/dse0.0.5.zip",
-					"filename" : "dse0.0.5.zip",
-					"md5sum" : "a2a62d8e5183ce4ff2436884bf56ebaa",
+				"any" : {
+					"url" : "https://dl.dropboxusercontent.com/u/14852535/INTO-CPS-DSE/dse0.1.1.zip",
+					"filename" : "dse0.1.1.zip",
+					"md5sum" : "83c3a7fcb8113c7657e6be102f123dbd",
 					"action" : "unpack"
 				}
 			}
