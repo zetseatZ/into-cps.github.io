@@ -269,7 +269,7 @@
 			"version" : "0.1.1",
 			"platforms" : {
 				"any" : {
-					"url" : "https://dl.dropboxusercontent.com/u/14852535/INTO-CPS-DSE/dse0.1.1.zip",
+					"url" : "https://github.com/into-cps/dse_scripts/raw/master/releases/dse0.1.1.zip",
 					"filename" : "dse0.1.1.zip",
 					"md5sum" : "83c3a7fcb8113c7657e6be102f123dbd",
 					"action" : "unpack"
