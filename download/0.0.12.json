@@ -206,13 +206,13 @@
 		"coe" : {
 			"name" : "Co-simulation Orchestration Engine",
 			"description" : "Co-simulation Orchestration Engine",
-			"version" : "0.1.10",
+			"version" : "0.1.12",
 			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
 			"platforms" : {
 				"any" : {					
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.10/coe-0.1.10-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.1.12/coe-0.1.12-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "2dd274d39ca4362e32a662f12bc9ad9d",
+					"md5sum" : "f715e79a3ce82872575e47e824586a59",
 					"action" : "none"
 				}
 			}
@@ -236,13 +236,13 @@
 		"overture-tracability-driver" : {
 			"name" : "Overture Tracability Driver",
 			"description" : "INTO-CPS Tracability Driver for Overture",
-			"version" : "0.0.4",
-			"releasepage" : "https://github.com/overturetool/intocps-tracability-driver/releases/tag/Release%2F0.0.4",
+			"version" : "0.1.0",
+			"releasepage" : "https://github.com/overturetool/intocps-tracability-driver/releases/tag/Release%2F0.1.0",
 			"platforms" : {
 				"any" : {					
-					"url" : "https://github.com/overturetool/intocps-tracability-driver/releases/download/Release%2F0.0.4/tracability-driver-0.0.4-jar-with-dependencies.jar",
+					"url" : "https://github.com/overturetool/intocps-tracability-driver/releases/download/Release%2F0.1.0/tracebility-driver-0.1.0-jar-with-dependencies.jar",
 					"filename" : "overture-tracability-driver.jar",
-					"md5sum" : "d4f2b7bc443c17ff77bde95c5ba5002c",
+					"md5sum" : "197cce0a8e62e3486f49b0f1f4663f4a",
 					"action" : "none"
 					}
 			}
