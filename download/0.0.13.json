@@ -1,21 +1,21 @@
 {
-	"version" : "0.0.12",
+	"version" : "0.0.13",
 	"tools" : {
 		"20sim" : {
 			"name" : "20-sim",
-			"version" : "4.6.2-intocps (2016-09-15)",
+			"version" : "4.6.3-intocps (2017-03-08)",
 			"description" : "Modeling and simulation tool",
 			"platforms" : {
 				"windows32" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.3.7590-intocps-win32.exe",
-					"filename" : "20-sim-4.6.3.7590-intocps-win32.exe",
-					"md5sum" : "303b62415ba7a1e8b866e2012ec90c1d",
+					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.3.7711-intocps-win32.exe",
+					"filename" : "20-sim-4.6.3.7711-intocps-win32.exe",
+					"md5sum" : "e99bf9f4aac3da5694f6c240789f0f39",
 					"action" : "launch"
 				},
 				"windows64" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.3.7590-intocps-win32.exe",
-					"filename" : "20-sim-4.6.3.7590-intocps-win32.exe",
-					"md5sum" : "303b62415ba7a1e8b866e2012ec90c1d",
+					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.3.7711-intocps-win32.exe",
+					"filename" : "20-sim-4.6.3.7711-intocps-win32.exe",
+					"md5sum" : "e99bf9f4aac3da5694f6c240789f0f39",
 					"action" : "launch"
 				}
 			}
