@@ -11,4 +11,4 @@ These wiki pages are used as a distribution medium for the internal releases of 
 [Project Web site](http://into-cps.au.dk/)
 
 
-<iframe width="520" height="315" src="https://www.youtube.com/embed/xEEkI9hehbU&t=7s" frameborder="0" allowfullscreen></iframe>
+<iframe width="520" height="315" src="https://www.youtube.com/embed/xEEkI9hehbU" frameborder="0" allowfullscreen></iframe>
