@@ -10,5 +10,7 @@ These wiki pages are used as a distribution medium for the internal releases of 
 
 [Project Web site](http://into-cps.au.dk/)
 
+![Tool preview]({{ site.url }}/images/tool-preview.png)
+
 
 <iframe width="520" height="315" src="https://www.youtube.com/embed/xEEkI9hehbU" frameborder="0" allowfullscreen></iframe>
