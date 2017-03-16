@@ -25,6 +25,10 @@ The Integrated Tool Chain for Model-based Design of Cyber-Physical Systems (INTO
 
 This page are used as a distribution medium for the project releases of the INTO-CPS technology developed during the project execution. The bar at the left hand-side of the wiki pages can be used to navigate to the desired parts of the INTO-CPS technology that one would like to get hold of. This includes updates to all baseline tools.
 
+<div align="center">
+<iframe width="520" align="middle" height="315" src="https://www.youtube.com/embed/0Q47MiMFTdU" frameborder="0" allowfullscreen></iframe>
+</div>
+
 #### Tools:
 <table>
   <thead>
@@ -59,5 +63,4 @@ This page are used as a distribution medium for the project releases of the INTO
 
 
 
-<iframe width="520" align="middle" height="315" src="https://www.youtube.com/embed/0Q47MiMFTdU" frameborder="0" allowfullscreen></iframe>
 
