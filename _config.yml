@@ -5,7 +5,7 @@ kramdown:
 syntax_highlighter: rouge
 
 encoding: utf-8
-url: http://into-cps.github.io
+url: https://into-cps.github.io
 
 collections:
   netmeetings:
