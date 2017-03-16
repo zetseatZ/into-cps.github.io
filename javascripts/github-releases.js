@@ -39,7 +39,7 @@ function updateFrontPage() {
                         return;
                     }
 
-                    var divVersion = document.getElementById("div-current-release");
+                    var divVersion = document.getElementById("current-release-version");
                     divVersion.innerHTML = field.tag_name;
 
                     var divDate = document.getElementById("current-release-data");
