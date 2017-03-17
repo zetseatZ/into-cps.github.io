@@ -210,9 +210,9 @@
 			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
 			"platforms" : {
 				"any" : {					
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.2.0/coe-0.2.0-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.2.2/coe-0.2.2-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "0393535b9f01814e49fe7cedcbade232",
+					"md5sum" : "4061f1aae58ed7c67ab34652e8d809ee",
 					"action" : "none"
 				}
 			}
