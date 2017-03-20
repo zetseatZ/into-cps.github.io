@@ -252,13 +252,13 @@
 		"overture-fmu" : {
 			"name" : "Overture FMU Import / Exporter",
 			"description" : "Overture FMI Support",
-			"version" : "0.1.6",
-			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.1.6",
+			"version" : "0.2.0",
+			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.2.0",
 			"platforms" : {
 				"any" : {					
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.6/p2.zip",
-					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "a6cc094e72e5a60d1e3932a0c22d6d87",
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.2.0/p2.zip",
+					"filename" : "overture-fmu.p2.zip",
+					"md5sum" : "34768c9cbdf3de15ea9fa6d6c77291a9",
 					"action" : "none"
 					}
 			}
