@@ -7,13 +7,13 @@
 			"description" : "Modeling and simulation tool",
 			"platforms" : {
 				"windows32" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.3.7711-intocps-win32.exe",
+					"url" : "https:\/\/www.dropbox.com\/s\/lgr461ddb97kl8h\/20-sim-4.6.3.7711-intocps-win32.exe?dl=1",
 					"filename" : "20-sim-4.6.3.7711-intocps-win32.exe",
 					"md5sum" : "e99bf9f4aac3da5694f6c240789f0f39",
 					"action" : "launch"
 				},
 				"windows64" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.3.7711-intocps-win32.exe",
+					"url" : "https:\/\/www.dropbox.com\/s\/lgr461ddb97kl8h\/20-sim-4.6.3.7711-intocps-win32.exe?dl=1",
 					"filename" : "20-sim-4.6.3.7711-intocps-win32.exe",
 					"md5sum" : "e99bf9f4aac3da5694f6c240789f0f39",
 					"action" : "launch"
