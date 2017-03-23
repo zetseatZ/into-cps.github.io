@@ -7,13 +7,13 @@
 			"description" : "Modeling and simulation tool",
 			"platforms" : {
 				"windows32" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.3.7711-intocps-win32.exe",
+					"url" : "https:\/\/www.dropbox.com\/s\/lgr461ddb97kl8h\/20-sim-4.6.3.7711-intocps-win32.exe?dl=1",
 					"filename" : "20-sim-4.6.3.7711-intocps-win32.exe",
 					"md5sum" : "e99bf9f4aac3da5694f6c240789f0f39",
 					"action" : "launch"
 				},
 				"windows64" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/7249985\/controllab\/20sim\/20-sim-4.6.3.7711-intocps-win32.exe",
+					"url" : "https:\/\/www.dropbox.com\/s\/lgr461ddb97kl8h\/20-sim-4.6.3.7711-intocps-win32.exe?dl=1",
 					"filename" : "20-sim-4.6.3.7711-intocps-win32.exe",
 					"md5sum" : "e99bf9f4aac3da5694f6c240789f0f39",
 					"action" : "launch"
@@ -210,9 +210,9 @@
 			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
 			"platforms" : {
 				"any" : {					
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.2.0/coe-0.2.0-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.2.2/coe-0.2.2-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "0393535b9f01814e49fe7cedcbade232",
+					"md5sum" : "4061f1aae58ed7c67ab34652e8d809ee",
 					"action" : "none"
 				}
 			}
@@ -252,13 +252,13 @@
 		"overture-fmu" : {
 			"name" : "Overture FMU Import / Exporter",
 			"description" : "Overture FMI Support",
-			"version" : "0.1.6",
-			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.1.6",
+			"version" : "0.2.0",
+			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.2.0",
 			"platforms" : {
 				"any" : {					
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.1.6/p2.zip",
-					"filename" : "overture-fmu.p2.jar",
-					"md5sum" : "a6cc094e72e5a60d1e3932a0c22d6d87",
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.2.0/p2.zip",
+					"filename" : "overture-fmu.p2.zip",
+					"md5sum" : "34768c9cbdf3de15ea9fa6d6c77291a9",
 					"action" : "none"
 					}
 			}
