@@ -168,7 +168,7 @@
 		},
 		"overture" : {
 			"name" : "Overture",
-			"version" : "2.4.0",
+			"version" : "2.4.6",
 			"description" : "A tool for modelling control systems using The Vienna Development Method (VDM)",
 			"platforms" : {
 				"linux32" : {
