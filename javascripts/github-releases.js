@@ -87,7 +87,7 @@ function updateDownloadPage() {
         //var row=0;
         var releaseIndex = 0;
 
-        $.getJSON("https://api.github.com/repos/into-cps/intocps-ui/releases", function (result) {
+        $.getJSON("https://api.github.com/repos/into-cps/intocps-ui/releases/latest", function (result) {
             var releaseVersion = result.tag_name;
             var releaseDate = moment(result.published_at).format('MMM YYYY');
             var releaseName = result.name;
