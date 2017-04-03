@@ -105,7 +105,7 @@ function updateDownloadPage() {
             var currentReleaseDiv = document.getElementById("div-current-release");
             currentReleaseDiv.appendChild(releaseLink);
             currentReleaseDiv.appendChild(buildAssetList(releaseUrl, assets));
-        }
+        });
 
         $.getJSON("https://api.github.com/repos/into-cps/intocps-ui/releases", function (result) {
             $.each(result/*.reverse()*/, function (i, field) {
