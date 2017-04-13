@@ -118,7 +118,7 @@ function updateDownloadPage() {
                     var releaseUrl = field.html_url;
                     var assets = field.assets;
 
-                    if (i >= 1 && !document.getElementById("release-history-table-body")) {
+                    if (i >= 0 && !document.getElementById("release-history-table-body")) {
                         var tblBody = document.createElement("tbody");
                         tblBody.id = "release-history-table-body";
 
