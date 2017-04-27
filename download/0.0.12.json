@@ -265,7 +265,7 @@
 		},
 		"dse" : {
 			"name" : "Design Space Exploration",
-			"description" : "Scripts for generating and analysing multiple co-simulations",
+			"description" : "Scripts for generating and analysing multiple co-simulations. Requires Python 2.7 with matplotlib and numpy.",
 			"version" : "0.1.1",
 			"platforms" : {
 				"any" : {
