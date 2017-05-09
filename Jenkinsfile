@@ -1,7 +1,6 @@
 node {
   try
   {
-
     // Only keep one build
     properties([[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', numToKeepStr: '5']]])
     
