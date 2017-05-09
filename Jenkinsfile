@@ -13,7 +13,7 @@ node {
 		}
 
     stage ('Validate JSON'){
-			sh "find . -name *.json -exec jsonlint-php -v {} \;"
+			sh "find . -name *.json -exec jsonlint-php -v {} \\;"
 		}
 
  
