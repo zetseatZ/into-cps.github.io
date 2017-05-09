@@ -12,7 +12,7 @@ node {
 		}
 
     stage ('Validate JSON'){
-			sh "check-json.sh"
+			sh "./check-json.sh"
 		}
 
  
