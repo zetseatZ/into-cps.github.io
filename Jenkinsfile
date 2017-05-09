@@ -15,6 +15,7 @@ node {
 			sh "find . -name *.json -exec jsonlint-php -v {} \\;"
 		}
 
+
  
 	} catch (any) {
 		currentBuild.result = 'FAILURE'
