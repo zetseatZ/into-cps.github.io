@@ -45,15 +45,15 @@
 			"description" : "A Modelica-based modelling and simulation tool",
 			"platforms" : {
 				"windows32" : {
-					"url" : "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/32bit\/OpenModelica-v1.10.0-dev-440-gd0581ff-32bit.exe",
-					"filename" : "OpenModelica-v1.10.0-dev-440-gd0581ff-32bit.exe",
-					"md5sum" : "181419521e377f88bfc33b26797301ac",
+					"url" : "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/intocps\/OpenModelica-v1.12.0-dev-381-g4f1dc42-32bit.exe",
+					"filename" : "OpenModelica-v1.12.0-dev-381-g4f1dc42-32bit.exe",
+					"md5sum" : "5d7cd093ed6ded25bbeab58f1b5b48e9",
 					"action" : "launch"
 				},
 				"windows64" : {
-					"url" : "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/64bit\/OpenModelica-v1.10.0-dev-440-gd0581ff-64bit.exe",
-					"filename" : "OpenModelica-v1.10.0-dev-440-gd0581ff-64bit.exe",
-					"md5sum" : "0eda2c3972b2ab7399cd5234c504a990",
+					"url" : "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/intocps\/OpenModelica-v1.12.0-dev-384-gf9882c3-64bit.exe",
+					"filename" : "OpenModelica-v1.12.0-dev-384-gf9882c3-64bit.exe",
+					"md5sum" : "a2fefa80e1e5a9d826c15933393989bd",
 					"action" : "launch"
 				}
 			}
@@ -269,7 +269,7 @@
 			"version" : "0.1.1",
 			"platforms" : {
 				"any" : {
-					"url" : "https://dl.dropboxusercontent.com/u/14852535/INTO-CPS-DSE/dse0.1.1.zip",
+					"url" : "https://github.com/into-cps/dse_scripts/raw/master/releases/dse0.1.1.zip",
 					"filename" : "dse0.1.1.zip",
 					"md5sum" : "83c3a7fcb8113c7657e6be102f123dbd",
 					"action" : "unpack"
