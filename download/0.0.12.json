@@ -40,20 +40,20 @@
 			}
 		},
 		"open-modelica" : {
-			"name" : "Open Modelica",
-			"version" : "1.10.0-dev-440-gd0581ff",
+			"name" : "OpenModelica",
+			"version" : "1.12.0-dev",
 			"description" : "A Modelica-based modelling and simulation tool",
 			"platforms" : {
 				"windows32" : {
-					"url" : "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/32bit\/OpenModelica-v1.10.0-dev-440-gd0581ff-32bit.exe",
-					"filename" : "OpenModelica-v1.10.0-dev-440-gd0581ff-32bit.exe",
-					"md5sum" : "181419521e377f88bfc33b26797301ac",
+					"url" : "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/intocps\/OpenModelica-v1.12.0-dev-222-g4af9b08-32bit.exe",
+					"filename" : "OpenModelica-v1.12.0-dev-222-g4af9b08-32bit.exe",
+					"md5sum" : "757caa97c536e1a25902621729d6230f",
 					"action" : "launch"
 				},
 				"windows64" : {
-					"url" : "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/64bit\/OpenModelica-v1.10.0-dev-440-gd0581ff-64bit.exe",
-					"filename" : "OpenModelica-v1.10.0-dev-440-gd0581ff-64bit.exe",
-					"md5sum" : "0eda2c3972b2ab7399cd5234c504a990",
+					"url" : "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/intocps\/OpenModelica-v1.12.0-dev-222-g4af9b08-64bit.exe",
+					"filename" : "OpenModelica-v1.12.0-dev-222-g4af9b08-64bit.exe",
+					"md5sum" : "e70675c50df020284423587ab05bc514",
 					"action" : "launch"
 				}
 			}

@@ -87,6 +87,26 @@ function updateDownloadPage() {
         //var row=0;
         var releaseIndex = 0;
 
+        $.getJSON("https://api.github.com/repos/into-cps/intocps-ui/releases/latest", function (result) {
+            var releaseVersion = result.tag_name;
+            var releaseDate = moment(result.published_at).format('MMM YYYY');
+            var releaseName = result.name;
+            var releaseUrl = result.html_url;
+            var assets = result.assets;
+            //latests release
+            var releaseTitle = document.createElement("h3");
+            releaseTitle.innerHTML = releaseName + " (" + countTotalAssetDownloads(assets) + " downloads)";
+
+            var releaseLink = document.createElement("a");
+            releaseLink.href = releaseUrl;
+
+            releaseLink.appendChild(releaseTitle);
+
+            var currentReleaseDiv = document.getElementById("div-current-release");
+            currentReleaseDiv.appendChild(releaseLink);
+            currentReleaseDiv.appendChild(buildAssetList(releaseUrl, assets));
+        });
+
         $.getJSON("https://api.github.com/repos/into-cps/intocps-ui/releases", function (result) {
             $.each(result/*.reverse()*/, function (i, field) {
 
@@ -98,65 +118,48 @@ function updateDownloadPage() {
                     var releaseUrl = field.html_url;
                     var assets = field.assets;
 
+                    if (i >= 0 && !document.getElementById("release-history-table-body")) {
+                        var tblBody = document.createElement("tbody");
+                        tblBody.id = "release-history-table-body";
 
-                    if (i == 0) {
-                        //latests release
-                        var releaseTitle = document.createElement("h3");
-                        releaseTitle.innerHTML = releaseName + " (" + countTotalAssetDownloads(assets) + " downloads)";
+                        var tbl = document.createElement('table');
+                        tbl.appendChild(tblBody);
+                        var releaseHistoryDiv = document.getElementById("div-release-history");
+                        releaseHistoryDiv.appendChild(tbl);
+                    }
+                    var tblBody = document.getElementById("release-history-table-body");
+                    var row = document.createElement("tr");
+                    {
+                        var cell = document.createElement("td");
+                        var cellText = document.createTextNode(releaseName + " (" + countTotalAssetDownloads(assets) + " downloads)");
+
+                        cell.appendChild(cellText);
+                        row.appendChild(cell);
+                        tblBody.appendChild(row);
+                    }
+                    {
+                        var cell = document.createElement("td");
+                        var cellText = document.createTextNode(releaseDate);
+
+                        cell.appendChild(cellText);
+                        row.appendChild(cell);
+                        tblBody.appendChild(row);
+                    }
+                    {
+                        var cell = document.createElement("td");
+                        var cellText = document.createTextNode("release note");
 
                         var releaseLink = document.createElement("a");
                         releaseLink.href = releaseUrl;
 
-                        releaseLink.appendChild(releaseTitle);
+                        releaseLink.appendChild(cellText);
 
-                        var currentReleaseDiv = document.getElementById("div-current-release");
-                        currentReleaseDiv.appendChild(releaseLink);
-                        currentReleaseDiv.appendChild(buildAssetList(releaseUrl, assets));
-                    } else {
-
-                        if (i >= 1 && !document.getElementById("release-history-table-body")) {
-                            var tblBody = document.createElement("tbody");
-                            tblBody.id = "release-history-table-body";
-
-                            var tbl = document.createElement('table');
-                            tbl.appendChild(tblBody);
-                            var releaseHistoryDiv = document.getElementById("div-release-history");
-                            releaseHistoryDiv.appendChild(tbl);
-                        }
-                        var tblBody = document.getElementById("release-history-table-body");
-                        var row = document.createElement("tr");
-                        {
-                            var cell = document.createElement("td");
-                            var cellText = document.createTextNode(releaseName + " (" + countTotalAssetDownloads(assets) + " downloads)");
-
-                            cell.appendChild(cellText);
-                            row.appendChild(cell);
-                            tblBody.appendChild(row);
-                        }
-                        {
-                            var cell = document.createElement("td");
-                            var cellText = document.createTextNode(releaseDate);
-
-                            cell.appendChild(cellText);
-                            row.appendChild(cell);
-                            tblBody.appendChild(row);
-                        }
-                        {
-                            var cell = document.createElement("td");
-                            var cellText = document.createTextNode("release note");
-
-                            var releaseLink = document.createElement("a");
-                            releaseLink.href = releaseUrl;
-
-                            releaseLink.appendChild(cellText);
-
-                            cell.appendChild(releaseLink);
-                            row.appendChild(cell);
-                            tblBody.appendChild(row);
-                        }
-
-                        return;
+                        cell.appendChild(releaseLink);
+                        row.appendChild(cell);
+                        tblBody.appendChild(row);
                     }
+
+                    return;
                 }
             });
 

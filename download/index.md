@@ -23,7 +23,7 @@ release below.
 You can also download the User Manual for the INTO-CPS tool chain
 [here](https://github.com/into-cps/into-cps.github.io/raw/master/manuals/INTO-CPS_User_Manual.pdf).
 
-## Previous Releases
+## Release History
 
 <div id="div-release-history"></div>
 
