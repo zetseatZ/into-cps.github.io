@@ -1,0 +1,311 @@
+{
+	"version" : "0.0.16",
+	"tools" : {
+		"20sim" : {
+			"name" : "20-sim",
+			"version" : "4.6.3-intocps (2017-03-08)",
+			"description" : "Modeling and simulation tool",
+			"platforms" : {
+				"windows32" : {
+					"url" : "https:\/\/www.dropbox.com\/s\/lgr461ddb97kl8h\/20-sim-4.6.3.7711-intocps-win32.exe?dl=1",
+					"filename" : "20-sim-4.6.3.7711-intocps-win32.exe",
+					"md5sum" : "e99bf9f4aac3da5694f6c240789f0f39",
+					"action" : "launch"
+				},
+				"windows64" : {
+					"url" : "https:\/\/www.dropbox.com\/s\/lgr461ddb97kl8h\/20-sim-4.6.3.7711-intocps-win32.exe?dl=1",
+					"filename" : "20-sim-4.6.3.7711-intocps-win32.exe",
+					"md5sum" : "e99bf9f4aac3da5694f6c240789f0f39",
+					"action" : "launch"
+				}
+			}
+		},
+		"20sim4c" : {
+			"name" : "20-sim 4C",
+			"version" : "2.1.9-2016-02-19",
+			"description" : "Tool for rapid prototyping for control engineers",
+			"platforms" : {
+				"windows32" : {
+					"url" : "http:\/\/www.20sim.com\/downloads\/files\/20sim4C.exe",
+					"filename" : "20sim4C.exe",
+					"md5sum" : "02c2fea66e5fa63f50565b4140b36385",
+					"action" : "launch"
+				},
+				"windows64" : {
+					"url" : "http:\/\/www.20sim.com\/downloads\/files\/20sim4C.exe",
+					"filename" : "20sim4C.exe",
+					"md5sum" : "02c2fea66e5fa63f50565b4140b36385",
+					"action" : "launch"
+				}
+			}
+		},
+		"open-modelica" : {
+			"name" : "Open Modelica",
+			"version" : "1.10.0-dev-440-gd0581ff",
+			"description" : "A Modelica-based modelling and simulation tool",
+			"platforms" : {
+				"windows32" : {
+					"url" : "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/intocps\/OpenModelica-v1.12.0-dev-381-g4f1dc42-32bit.exe",
+					"filename" : "OpenModelica-v1.12.0-dev-381-g4f1dc42-32bit.exe",
+					"md5sum" : "5d7cd093ed6ded25bbeab58f1b5b48e9",
+					"action" : "launch"
+				},
+				"windows64" : {
+					"url" : "https:\/\/build.openmodelica.org\/omc\/builds\/windows\/nightly-builds\/intocps\/OpenModelica-v1.12.0-dev-384-gf9882c3-64bit.exe",
+					"filename" : "OpenModelica-v1.12.0-dev-384-gf9882c3-64bit.exe",
+					"md5sum" : "a2fefa80e1e5a9d826c15933393989bd",
+					"action" : "launch"
+				}
+			}
+		},
+		"modelio" : {
+			"name" : "Modelio",
+			"version" : "3.4.1",
+			"description" : "UML\/BPMN modelling tool",
+			"platforms" : {
+				"linux32" : {
+					"url" : "https:\/\/sourceforge.net\/projects\/modeliouml\/files\/3.4.1\/modelio-open-201512081403-linux.gtk.x86_64.tar.gz\/download",
+					"filename" : "modelio-open-201512081403-linux.gtk.x86.tar.gz",
+					"md5sum" : "0e698d5bef02e0981912c1f6fdc3f98b",
+					"action" : "launch"
+				},
+				"linux64" : {
+					"url" : "https:\/\/sourceforge.net\/projects\/modeliouml\/files\/3.4.1\/modelio-open-201512081403-linux.gtk.x86.tar.gz\/download",
+					"filename" : "modelio-open-201512081403-linux.gtk.x86_64.tar.gz",
+					"md5sum" : "715bf11e8b935254795c8d6f8086131b",
+					"action" : "launch"
+				},
+				"windows32" : {
+					"url" : "https:\/\/sourceforge.net\/projects\/modeliouml\/files\/3.4.1\/modelio-open-201512081403-win32.win32.x86.zip\/download",
+					"filename" : "modelio-open-201512081403-win32.win32.x86.zip",
+					"md5sum" : "180c744b0bffd064dc349b1035ccb1ca",
+					"action" : "launch"
+				},
+				"windows64" : {
+					"url" : "https:\/\/sourceforge.net\/projects\/modeliouml\/files\/3.4.1\/modelio-open-201512081403-win32.win32.x86_64.zip\/download",
+					"filename" : "modelio-open-201512081403-win32.win32.x86_64.zip",
+					"md5sum" : "fc2d84672ca45670b72185b1c044341a",
+					"action" : "launch"
+				},
+				"osx64" : {
+					"url" : "https:\/\/sourceforge.net\/projects\/modeliouml\/files\/3.4.1\/modelio-open-201512081403-macosx.cocoa.x86_64.dmg\/download",
+					"filename" : " modelio-open-201512081403-macosx.cocoa.x86_64.dmg",
+					"md5sum" : "419898c145df56fc4db3da2be85e5d8b",
+					"action" : "none"
+				}
+			}
+		},
+		"modelio-intocps" : {
+			"name" : "Modelio INTO-CPS extension",
+			"version" : "1.1.05",
+			"description" : "Modelio extension for INTO-CPS profile",
+			"platforms" : {
+				"linux32" : {
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/18874\/INTOCPS_1.1.05.jmdac",
+					"filename" : "INTOCPS_1.1.05.jmdac",
+					"md5sum" : "71505dd4aab689a02898d75ec5e90784",
+					"action" : "none"
+				},
+				"linux64" : {
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/18874\/INTOCPS_1.1.05.jmdac",
+					"filename" : "INTOCPS_1.1.05.jmdac",
+					"md5sum" : "71505dd4aab689a02898d75ec5e90784",
+					"action" : "none"
+				},
+				"windows32" : {
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/18874\/INTOCPS_1.1.05.jmdac",
+					"filename" : "INTOCPS_1.1.05.jmdac",
+					"md5sum" : "71505dd4aab689a02898d75ec5e90784",
+					"action" : "none"
+				},
+				"windows64" : {
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/18874\/INTOCPS_1.1.05.jmdac",
+					"filename" : "INTOCPS_1.1.05.jmdac",
+					"md5sum" : "71505dd4aab689a02898d75ec5e90784",
+					"action" : "none"
+				},
+				"osx64" : {
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/18874\/INTOCPS_1.1.05.jmdac",
+					"filename" : "INTOCPS_1.1.05.jmdac",
+					"md5sum" : "71505dd4aab689a02898d75ec5e90784",
+					"action" : "none"
+				}
+			}
+		},
+		"rttester-dependencies" : {
+			"name" : "VSI tools dependencies bundle",
+			"version" : "0.0.8",
+                        "releasepage" : "https://secure.verified.de/f5x1hks4/into-cps/one-click/info/#rttester-dependencies",
+			"description" : "VSI tools dependencies for Windows: Python 2.7 (+ packages) and GCC 4.9",
+			"platforms" : {
+				"windows64" : {
+					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/install_Python27_gcc49_v2.exe",
+					"filename" : "install_Python27_gcc49.exe",
+					"md5sum" : "680950d6c176ef3718243cf201c2d66a",
+					"action" : "launch"
+				}
+			}
+		},
+		"rttester" : {
+			"name" : "VSI tools",
+			"version" : "0.0.16",
+                        "releasepage" : "https://secure.verified.de/f5x1hks4/into-cps/one-click/info/",
+			"description" : "VSI Test Tool Chain: RTT 6.0-6.1.12 + MBT 9.0-1.5.12 + RTTUI 3.9.3-1 + Utils v14 + Examples",
+			"platforms" : {
+				"windows64" : {
+					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_16.exe",
+					"filename" : "VSI_bundle_v0_0_16.exe",
+					"md5sum" : "de8baf4efda37203513127dd6b701a5a",
+					"action" : "launch"
+				},
+				"linux64" : {
+					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_16.sh",
+					"filename" : "VSI_bundle_v0_0_16.sh",
+					"md5sum" : "926b6040fd5bc4132240c9424d114993",
+					"action" : "launch"
+				}
+			}
+		},
+		"overture" : {
+			"name" : "Overture",
+			"version" : "2.4.6",
+			"description" : "A tool for modelling control systems using The Vienna Development Method (VDM)",
+			"platforms" : {
+				"linux32" : {
+					"url" : "https://github.com/overturetool/overture/releases/download/Release/2.4.6/Overture-2.4.6-linux.gtk.x86.zip",
+					"filename" : "Overture-linux.gtk.x86.zip",
+					"md5sum" : "332b703137f482d36b747a9c65f5d363",
+					"action" : "unpack"
+				},
+				"linux64" : {
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.6\/Overture-2.4.6-linux.gtk.x86_64.zip",
+					"filename" : "Overture-linux.gtk.x86_64.zip",
+					"md5sum" : "841df73452683a3e10a430243af3f94b",
+					"action" : "unpack"
+				},
+				"windows32" : {
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.6\/Overture-2.4.6-win32.win32.x86.zip",
+					"filename" : "Overture-win32.win32.x86.zip",
+					"md5sum" : "5c38bae4e2358f15817e3dc87a0921e0",
+					"action" : "unpack"
+				},
+				"windows64" : {
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.6\/Overture-2.4.6-win32.win32.x86_64.zip",
+					"filename" : "Overture-win32.win32.x86_64.zip",
+					"md5sum" : "f894025336c1ccd47fb8f05737ab1086",
+					"action" : "unpack"
+				},
+				"osx64" : {
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.6\/Overture-2.4.6-macosx.cocoa.x86_64.zip",
+					"filename" : "Overture-macosx.cocoa.x86_64.zip",
+					"md5sum" : "ec590d020feef11aaafe8fd445498eb2",
+					"action" : "unpack"
+				}
+			}
+		},
+		"coe" : {
+			"name" : "Co-simulation Orchestration Engine",
+			"description" : "Co-simulation Orchestration Engine",
+			"version" : "0.2.6",
+			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
+			"platforms" : {
+				"any" : {					
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.2.6/coe-0.2.6-jar-with-dependencies.jar",
+					"filename" : "coe.jar",
+					"md5sum" : "25f8ac41847f60a11acfbf14cad49981",
+					"action" : "none"
+				}
+			}
+		},
+		
+			"coe-dirstibution-plugin" : {
+			"name" : "Distributed FMU",
+			"description" : "Distribution Plug-in for the Co-simulation Orchestration Engine. Enabling co-simulation across platforms and architectures.",
+			"version" : "0.0.2",
+			"releasepage" : "",
+			"platforms" : {
+				"any" : {					
+					"url" : "http://overture.au.dk/artifactory/into-cps-distribution/org/intocps/orchestration/distribution/bundle/0.0.2/bundle-0.0.2-bundle.zip",
+					"filename" : "distributed-fmu-bundle.zip",
+					"md5sum" : "f00b2a53409a2c2e79873b47f61b185f",
+					"action" : "none"
+				}
+			}
+		},
+		
+		"overture-tracability-driver" : {
+			"name" : "Overture Tracability Driver",
+			"description" : "INTO-CPS Tracability Driver for Overture",
+			"version" : "0.1.2",
+			"releasepage" : "https://github.com/overturetool/intocps-tracability-driver/releases/tag/Release%2F0.1.2",
+			"platforms" : {
+				"any" : {					
+					"url" : "https://github.com/overturetool/intocps-tracability-driver/releases/download/Release%2F0.1.2/tracebility-driver-0.1.2-jar-with-dependencies.jar",
+					"filename" : "overture-tracability-driver.jar",
+					"md5sum" : "4822931b5ed6fe403d10bb989b33edc0",
+					"action" : "none"
+					}
+			}
+		},
+		
+		
+		"overture-fmu" : {
+			"name" : "Overture FMU Import / Exporter",
+			"description" : "Overture FMI Support",
+			"version" : "0.2.4",
+			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.2.4",
+			"platforms" : {
+				"any" : {					
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.2.4/p2.zip",
+					"filename" : "overture-fmu.p2.zip",
+					"md5sum" : "1b8ee0678922b9cb228f5236cd6b0b60",
+					"action" : "none"
+					}
+			}
+		},
+		"dse" : {
+			"name" : "Design Space Exploration",
+			"description" : "Scripts for generating and analysing multiple co-simulations",
+			"version" : "0.2.0",
+			"platforms" : {
+				"any" : {
+					"url" : "https://github.com/into-cps/dse_scripts/blob/master/releases/dse0.2.0.zip",
+					"filename" : "dse0.2.0.zip",
+					"md5sum" : "a7c916f74981e526bcbc9dc22d9898aa",
+					"action" : "unpack"
+				}
+			}
+		},
+		"neo4j" : {
+			"name" : "Neo4J Community Edition - External Link",
+			"description" : "Graph Database",
+			"version" : "3.1.1",
+			"platforms" : {
+				"osx64" : {
+					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.1.1-unix.tar.gz",
+					"filename" : "neo4j-community-3.1.1-unix.tar.gz",
+					"md5sum" : "7449e5b5436df48feffa85f4f5a75c5d",
+					"action" : "unpack"
+				},
+				"linux64" : {
+					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.1.1-unix.tar.gz",
+					"filename" : "neo4j-community-3.1.1-unix.tar.gz",
+					"md5sum" : "7449e5b5436df48feffa85f4f5a75c5d",
+					"action" : "unpack"
+				},
+				"windows32" : {
+					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.1.1-windows.zip",
+					"filename" : "neo4j-community-3.1.1-windows.zip",
+					"md5sum" : "290a82142c91e853c70885cc3247bab4",
+					"action" : "unpack"
+				},
+				"windows64" : {
+					"url" : "https:\/\/neo4j.com\/artifact.php?name=neo4j-community-3.1.1-windows.zip",
+					"filename" : "neo4j-community-3.1.1-windows.zip",
+					"md5sum" : "290a82142c91e853c70885cc3247bab4",
+					"action" : "unpack"
+				}
+			}		
+		}
+	}
+}
