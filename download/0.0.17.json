@@ -1,5 +1,5 @@
 {
-	"version" : "0.0.16",
+	"version" : "0.0.17",
 	"tools" : {
 		"20sim" : {
 			"name" : "20-sim",
@@ -97,37 +97,37 @@
 		},
 		"modelio-intocps" : {
 			"name" : "Modelio INTO-CPS extension",
-			"version" : "1.1.05",
+			"version" : "1.2.03",
 			"description" : "Modelio extension for INTO-CPS profile",
 			"platforms" : {
 				"linux32" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/18874\/INTOCPS_1.1.05.jmdac",
-					"filename" : "INTOCPS_1.1.05.jmdac",
-					"md5sum" : "71505dd4aab689a02898d75ec5e90784",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/19501\/INTOCPS_1.2.04.jmdac",
+					"filename" : "INTOCPS_1.2.04.jmdac",
+					"md5sum" : "870ebc783412c90c7928e083629a1ce2",
 					"action" : "none"
 				},
 				"linux64" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/18874\/INTOCPS_1.1.05.jmdac",
-					"filename" : "INTOCPS_1.1.05.jmdac",
-					"md5sum" : "71505dd4aab689a02898d75ec5e90784",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/19501\/INTOCPS_1.2.04.jmdac",
+					"filename" : "INTOCPS_1.2.04.jmdac",
+					"md5sum" : "870ebc783412c90c7928e083629a1ce2",
 					"action" : "none"
 				},
 				"windows32" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/18874\/INTOCPS_1.1.05.jmdac",
-					"filename" : "INTOCPS_1.1.05.jmdac",
-					"md5sum" : "71505dd4aab689a02898d75ec5e90784",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/19501\/INTOCPS_1.2.04.jmdac",
+					"filename" : "INTOCPS_1.2.04.jmdac",
+					"md5sum" : "870ebc783412c90c7928e083629a1ce2",
 					"action" : "none"
 				},
 				"windows64" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/18874\/INTOCPS_1.1.05.jmdac",
-					"filename" : "INTOCPS_1.1.05.jmdac",
-					"md5sum" : "71505dd4aab689a02898d75ec5e90784",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/19501\/INTOCPS_1.2.04.jmdac",
+					"filename" : "INTOCPS_1.2.04.jmdac",
+					"md5sum" : "870ebc783412c90c7928e083629a1ce2",
 					"action" : "none"
 				},
 				"osx64" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/18874\/INTOCPS_1.1.05.jmdac",
-					"filename" : "INTOCPS_1.1.05.jmdac",
-					"md5sum" : "71505dd4aab689a02898d75ec5e90784",
+					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/19501\/INTOCPS_1.2.04.jmdac",
+					"filename" : "INTOCPS_1.2.04.jmdac",
+					"md5sum" : "870ebc783412c90c7928e083629a1ce2",
 					"action" : "none"
 				}
 			}
@@ -148,20 +148,20 @@
 		},
 		"rttester" : {
 			"name" : "VSI tools",
-			"version" : "0.0.16",
+			"version" : "0.0.17",
                         "releasepage" : "https://secure.verified.de/f5x1hks4/into-cps/one-click/info/",
-			"description" : "VSI Test Tool Chain: RTT 6.0-6.1.12 + MBT 9.0-1.5.12 + RTTUI 3.9.3-1 + Utils v14 + Examples",
+			"description" : "VSI Test Tool Chain: RTT 6.0-6.1.13 + MBT 9.0-1.5.13 + RTTUI 3.9.3-1 + Utils v15 + Examples",
 			"platforms" : {
 				"windows64" : {
-					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_16.exe",
-					"filename" : "VSI_bundle_v0_0_16.exe",
-					"md5sum" : "de8baf4efda37203513127dd6b701a5a",
+					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_17.exe",
+					"filename" : "VSI_bundle_v0_0_17.exe",
+					"md5sum" : "9220ba726197e88650a7a2f9864303af",
 					"action" : "launch"
 				},
 				"linux64" : {
-					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_16.sh",
-					"filename" : "VSI_bundle_v0_0_16.sh",
-					"md5sum" : "926b6040fd5bc4132240c9424d114993",
+					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_0_17.sh",
+					"filename" : "VSI_bundle_v0_0_17.sh",
+					"md5sum" : "8751333202736b9b9a2c2bdf0e5bb52c",
 					"action" : "launch"
 				}
 			}
@@ -236,13 +236,13 @@
 		"overture-tracability-driver" : {
 			"name" : "Overture Tracability Driver",
 			"description" : "INTO-CPS Tracability Driver for Overture",
-			"version" : "0.1.2",
-			"releasepage" : "https://github.com/overturetool/intocps-tracability-driver/releases/tag/Release%2F0.1.2",
+			"version" : "0.1.4",
+			"releasepage" : "https://github.com/overturetool/intocps-tracability-driver/releases/tag/Release%2F0.1.4",
 			"platforms" : {
 				"any" : {					
-					"url" : "https://github.com/overturetool/intocps-tracability-driver/releases/download/Release%2F0.1.2/tracebility-driver-0.1.2-jar-with-dependencies.jar",
+					"url" : "https://github.com/overturetool/intocps-tracability-driver/releases/download/Release%2F0.1.4/tracebility-driver-0.1.4-jar-with-dependencies.jar",
 					"filename" : "overture-tracability-driver.jar",
-					"md5sum" : "4822931b5ed6fe403d10bb989b33edc0",
+					"md5sum" : "7775e696dcc228e3681f016db068ff89",
 					"action" : "none"
 					}
 			}
