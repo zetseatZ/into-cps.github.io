@@ -88,7 +88,7 @@
 					"action" : "unpack"
 				},
 				"osx64" : {
-					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/13060777\/\INTOCPS\/modelio-open-201512081403-macosx.cocoa.x86_64.zip",
+					"url" : "https:\/\/dl.dropboxusercontent.com\/u\/13060777\/INTOCPS\/modelio-open-201512081403-macosx.cocoa.x86_64.zip",
 					"filename" : " modelio-open-201512081403-macosx.cocoa.x86_64.dmg",
 					"md5sum" : "fb17fccefa7b06c4151da5364695e770",
 					"action" : "unpack"
