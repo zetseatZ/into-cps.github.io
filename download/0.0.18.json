@@ -3,38 +3,38 @@
 	"tools" : {
 		"20sim" : {
 			"name" : "20-sim",
-			"version" : "4.6.3-intocps (2017-03-08)",
+			"version" : "4.6.4-intocps (2017-06-23)",
 			"description" : "Modeling and simulation tool",
 			"platforms" : {
 				"windows32" : {
-					"url" : "https:\/\/www.dropbox.com\/s\/lgr461ddb97kl8h\/20-sim-4.6.3.7711-intocps-win32.exe?dl=1",
-					"filename" : "20-sim-4.6.3.7711-intocps-win32.exe",
-					"md5sum" : "e99bf9f4aac3da5694f6c240789f0f39",
+					"url" : "https:\/\/www.dropbox.com\/s\/ieggplqpnjnicnr\/20-sim-4.6.4.7883-intocps-win32.exe?dl=1",
+					"filename" : "20-sim-4.6.4.7883-intocps-win32.exe",
+					"md5sum" : "f3880c3098f2a551e4ec9a3dd71bfc9d",
 					"action" : "launch"
 				},
 				"windows64" : {
-					"url" : "https:\/\/www.dropbox.com\/s\/lgr461ddb97kl8h\/20-sim-4.6.3.7711-intocps-win32.exe?dl=1",
-					"filename" : "20-sim-4.6.3.7711-intocps-win32.exe",
-					"md5sum" : "e99bf9f4aac3da5694f6c240789f0f39",
+					"url" : "https:\/\/www.dropbox.com\/s\/ieggplqpnjnicnr\/20-sim-4.6.4.7883-intocps-win32.exe?dl=1",
+					"filename" : "20-sim-4.6.4.7883-intocps-win32.exe",
+					"md5sum" : "f3880c3098f2a551e4ec9a3dd71bfc9d",
 					"action" : "launch"
 				}
 			}
 		},
 		"20sim4c" : {
 			"name" : "20-sim 4C",
-			"version" : "2.1.9-2016-02-19",
+			"version" : "2.1.10-2017-01-17",
 			"description" : "Tool for rapid prototyping for control engineers",
 			"platforms" : {
 				"windows32" : {
 					"url" : "http:\/\/www.20sim.com\/downloads\/files\/20sim4C.exe",
 					"filename" : "20sim4C.exe",
-					"md5sum" : "02c2fea66e5fa63f50565b4140b36385",
+					"md5sum" : "982e902f1b194c243081a5334d5a3c5c",
 					"action" : "launch"
 				},
 				"windows64" : {
 					"url" : "http:\/\/www.20sim.com\/downloads\/files\/20sim4C.exe",
 					"filename" : "20sim4C.exe",
-					"md5sum" : "02c2fea66e5fa63f50565b4140b36385",
+					"md5sum" : "982e902f1b194c243081a5334d5a3c5c",
 					"action" : "launch"
 				}
 			}
