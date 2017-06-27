@@ -228,7 +228,7 @@
 					"url" : "http://overture.au.dk/artifactory/into-cps-distribution/org/intocps/orchestration/distribution/bundle/0.0.4/bundle-0.0.4-bundle.zip",
 					"filename" : "distributed-fmu-bundle.zip",
 					"md5sum" : "adab673f337f881dcd68604eeb8d4adb",
-					"action" : "unpack"
+					"action" : "none"
 				}
 			}
 		},
