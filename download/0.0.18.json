@@ -3,19 +3,19 @@
 	"tools" : {
 		"20sim" : {
 			"name" : "20-sim",
-			"version" : "4.6.4-intocps (2017-06-23)",
+			"version" : "4.6.4-intocps (2017-07-10)",
 			"description" : "Modeling and simulation tool",
 			"platforms" : {
 				"windows32" : {
-					"url" : "https:\/\/www.dropbox.com\/s\/ieggplqpnjnicnr\/20-sim-4.6.4.7883-intocps-win32.exe?dl=1",
-					"filename" : "20-sim-4.6.4.7883-intocps-win32.exe",
-					"md5sum" : "f3880c3098f2a551e4ec9a3dd71bfc9d",
+					"url" : "https:\/\/www.dropbox.com\/s\/k2uoy0iqsfp9tzs\/20-sim-4.6.4.7940-intocps-win32.exe?dl=1",
+					"filename" : "20-sim-4.6.4.7940-intocps-win32.exe",
+					"md5sum" : "fd4d990526a4638b8234e123553e9e6b",
 					"action" : "launch"
 				},
 				"windows64" : {
-					"url" : "https:\/\/www.dropbox.com\/s\/ieggplqpnjnicnr\/20-sim-4.6.4.7883-intocps-win32.exe?dl=1",
-					"filename" : "20-sim-4.6.4.7883-intocps-win32.exe",
-					"md5sum" : "f3880c3098f2a551e4ec9a3dd71bfc9d",
+					"url" : "https:\/\/www.dropbox.com\/s\/k2uoy0iqsfp9tzs\/20-sim-4.6.4.7940-intocps-win32.exe?dl=1",
+					"filename" : "20-sim-4.6.4.7940-intocps-win32.exe",
+					"md5sum" : "fd4d990526a4638b8234e123553e9e6b",
 					"action" : "launch"
 				}
 			}
