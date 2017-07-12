@@ -7,10 +7,10 @@ title: Report an issue
 
 Please find the tool specific link below and repot the issue:
 
-### INTO-CPS Application + COE
+### INTO-CPS App and COE
 
-- [Show issue tracker](https://github.com/into-cps/INTO-CPS_Application/issues)
-- [Submit new Issue](https://github.com/into-cps/INTO-CPS_Application/issues/new)
+- [Show issue tracker](https://github.com/into-cps/intocps-ui/issues)
+- [Submit new Issue](https://github.com/into-cps/intocps-ui/issues/new)
 
 ### Overture Tool
 

@@ -29,11 +29,12 @@ Open Overture and follow these steps:
 - 2. Click `Add...`
 - 3. Enter:
  - Name: `Overture FMU`
- - Location: `http://overture.au.dk/into-cps/vdm-tool-wrapper/development/latest/ide/repository/target/repository/`
+ - Location: `http://overture.au.dk/into-cps/vdm-tool-wrapper/master/latest`
 - 4. Click `Ok`
 - 5. Check `Overture FMU Export`
 - 6. Click Next / Finish follow the usual stuff to accept and install.
 
+A snapshot build is avaliable from `http://overture.au.dk/into-cps/vdm-tool-wrapper/development/latest`
 
 ## Updating / Checking for new versions
 
@@ -68,7 +69,7 @@ If these files already exist in the project, the `HardwareInterface.vdmrt` will 
 ![alt text](overture-fmi-export-menu.png "Overture FMI Export Menu")
 
 
-The export fill place a `.fmu` in the project folder on completion and list the export progress in the console as follows: 
+The export will place a `.fmu` in the project folder on completion and list the export progress in the console as follows: 
 
 ```
 ---------------------------------------

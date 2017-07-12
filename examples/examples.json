@@ -1,6 +1,10 @@
 {
   "examples": [
     {
+      "name": "Case Study: Single Tank",
+      "git": "https:\/\/github.com\/into-cps\/case-study_single_watertank.git"
+    },
+    {
       "name": "Case Study: Three Tank",
       "git": "https:\/\/github.com\/into-cps\/case-study_three_tank.git"
     },
@@ -11,6 +15,14 @@
     {
       "name": "Case Study: FCU",
       "git": "https:\/\/github.com\/into-cps\/case-study_fcu.git"
+    },
+    {
+      "name": "Case Study: Line Follower Robot",
+      "git": "https:\/\/github.com\/into-cps\/case-study_line_follower_robot.git"
+    },
+    {
+      "name": "Case Study: Ether",
+      "git": "https:\/\/github.com\/into-cps\/case-study_ether"
     },
     {
        "name": "Case Study: UAV",
