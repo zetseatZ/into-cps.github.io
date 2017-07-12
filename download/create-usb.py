@@ -9,6 +9,7 @@ import urlparse, urllib
 import hashlib
 import sys
 import argparse
+import urllib, json
 
 parser = argparse.ArgumentParser(description='USB Stick Download site creator.')
 parser.add_argument('--url', help='Specify URL of the download file', required=True)
@@ -49,12 +50,14 @@ def downloadFile(url,outputPath,indent):
     f.close()
 
 
-import urllib, json
+
 
 args = parser.parse_args()
 
 
 url = args.url
+
+downloadFailures=False
 
 response = urllib.urlopen(url)
 data = json.loads(response.read())
@@ -81,7 +84,8 @@ for tool in data["tools"]:
         md5 = hashlib.md5(open(outFile).read()).hexdigest() if os.path.exists(outFile) else ""
         #print md5
         if md5 != md5sum:
-            print "%sError CRC mismatch expected: %s got %s" % (("\t" * 4),md5sum,md5)
+            if os.path.exists(outFile):
+                print "%sError CRC mismatch expected: %s got %s" % (("\t" * 4),md5sum,md5)
             if not args.skip:
                 downloadFile(url,outFile,4)
         else:
@@ -90,6 +94,7 @@ for tool in data["tools"]:
         md5 = hashlib.md5(open(outFile).read()).hexdigest() if os.path.exists(outFile) else ""
         if md5 != md5sum:
             print "%sCRC Error %s" % (("\t" * 4),outFile)
+            downloadFailures = True
 
 print "Writing modified version info for %s" %version
 with open(os.path.join("usb",version+".json"), 'w') as outfile:
@@ -101,3 +106,6 @@ ov = {}
 ov[version]=version+".json"
 with open(os.path.join("usb","versions.json"), 'w') as outfile:
     json.dump(ov, outfile)
+
+if downloadFailures:
+    sys.exit(1)
