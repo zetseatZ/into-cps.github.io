@@ -221,13 +221,13 @@
 			"coe-dirstibution-plugin" : {
 			"name" : "Distributed FMU",
 			"description" : "Distribution Plug-in for the Co-simulation Orchestration Engine. Enabling co-simulation across platforms and architectures.",
-			"version" : "0.0.4",
+			"version" : "0.0.6",
 			"releasepage" : "",
 			"platforms" : {
 				"any" : {					
-					"url" : "http://overture.au.dk/artifactory/into-cps-distribution/org/intocps/orchestration/distribution/bundle/0.0.4/bundle-0.0.4-bundle.zip",
+					"url" : "http://overture.au.dk/artifactory/into-cps-distribution/org/intocps/orchestration/distribution/bundle/0.0.6/bundle-0.0.6-bundle.zip",
 					"filename" : "distributed-fmu-bundle.zip",
-					"md5sum" : "adab673f337f881dcd68604eeb8d4adb",
+					"md5sum" : "ee2e8b5b7819f1471188a9884fcc072b",
 					"action" : "none"
 				}
 			}
