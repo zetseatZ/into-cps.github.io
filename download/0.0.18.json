@@ -269,9 +269,9 @@
 			"version" : "0.2.0",
 			"platforms" : {
 				"any" : {
-					"url" : "https://github.com/into-cps/dse_scripts/blob/master/releases/dse0.2.0.zip",
+					"url" : "https://github.com/into-cps/dse_scripts/releases/download/0.2.1/dse0.2.1.zip",
 					"filename" : "dse0.2.0.zip",
-					"md5sum" : "e36531ada062eb3974deb2b34d8477ad",
+					"md5sum" : "b9212aa295dfc45416f23aa8f2a9a80c",
 					"action" : "unpack"
 				}
 			}
