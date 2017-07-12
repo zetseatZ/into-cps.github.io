@@ -3,19 +3,19 @@
 	"tools" : {
 		"20sim" : {
 			"name" : "20-sim",
-			"version" : "4.6.4-intocps (2017-06-23)",
+			"version" : "4.6.4-intocps (2017-07-10)",
 			"description" : "Modeling and simulation tool",
 			"platforms" : {
 				"windows32" : {
-					"url" : "https:\/\/www.dropbox.com\/s\/ieggplqpnjnicnr\/20-sim-4.6.4.7883-intocps-win32.exe?dl=1",
-					"filename" : "20-sim-4.6.4.7883-intocps-win32.exe",
-					"md5sum" : "f3880c3098f2a551e4ec9a3dd71bfc9d",
+					"url" : "https:\/\/www.dropbox.com\/s\/k2uoy0iqsfp9tzs\/20-sim-4.6.4.7940-intocps-win32.exe?dl=1",
+					"filename" : "20-sim-4.6.4.7940-intocps-win32.exe",
+					"md5sum" : "fd4d990526a4638b8234e123553e9e6b",
 					"action" : "launch"
 				},
 				"windows64" : {
-					"url" : "https:\/\/www.dropbox.com\/s\/ieggplqpnjnicnr\/20-sim-4.6.4.7883-intocps-win32.exe?dl=1",
-					"filename" : "20-sim-4.6.4.7883-intocps-win32.exe",
-					"md5sum" : "f3880c3098f2a551e4ec9a3dd71bfc9d",
+					"url" : "https:\/\/www.dropbox.com\/s\/k2uoy0iqsfp9tzs\/20-sim-4.6.4.7940-intocps-win32.exe?dl=1",
+					"filename" : "20-sim-4.6.4.7940-intocps-win32.exe",
+					"md5sum" : "fd4d990526a4638b8234e123553e9e6b",
 					"action" : "launch"
 				}
 			}
@@ -221,13 +221,13 @@
 			"coe-dirstibution-plugin" : {
 			"name" : "Distributed FMU",
 			"description" : "Distribution Plug-in for the Co-simulation Orchestration Engine. Enabling co-simulation across platforms and architectures.",
-			"version" : "0.0.4",
+			"version" : "0.0.6",
 			"releasepage" : "",
 			"platforms" : {
 				"any" : {					
-					"url" : "http://overture.au.dk/artifactory/into-cps-distribution/org/intocps/orchestration/distribution/bundle/0.0.4/bundle-0.0.4-bundle.zip",
+					"url" : "http://overture.au.dk/artifactory/into-cps-distribution/org/intocps/orchestration/distribution/bundle/0.0.6/bundle-0.0.6-bundle.zip",
 					"filename" : "distributed-fmu-bundle.zip",
-					"md5sum" : "adab673f337f881dcd68604eeb8d4adb",
+					"md5sum" : "ee2e8b5b7819f1471188a9884fcc072b",
 					"action" : "none"
 				}
 			}
@@ -252,13 +252,27 @@
 		"overture-fmu" : {
 			"name" : "Overture FMU Import / Exporter",
 			"description" : "Overture FMI Support",
-			"version" : "0.2.4",
-			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.2.4",
+			"version" : "0.2.6",
+			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.2.6",
 			"platforms" : {
 				"any" : {					
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.2.4/p2.zip",
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.2.6/p2.zip",
 					"filename" : "overture-fmu.p2.zip",
-					"md5sum" : "1b8ee0678922b9cb228f5236cd6b0b60",
+					"md5sum" : "a846811d9e371e4a3bc80d8e1750641e",
+					"action" : "none"
+					}
+			}
+		},
+		"overture-fmu-cli" : {
+			"name" : "Overture FMU Import / Exporter CLI",
+			"description" : "Overture FMI Support",
+			"version" : "0.2.6",
+			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.2.6",
+			"platforms" : {
+				"any" : {					
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.2.6/fmu-import-export.jar",
+					"filename" : "overture-fmu-cli.jar",
+					"md5sum" : "2acc879e9ea652983bc63fd4eea3657b",
 					"action" : "none"
 					}
 			}
@@ -266,11 +280,11 @@
 		"dse" : {
 			"name" : "Design Space Exploration",
 			"description" : "Scripts for generating and analysing multiple co-simulations",
-			"version" : "0.2.0",
+			"version" : "0.2.1",
 			"platforms" : {
 				"any" : {
 					"url" : "https://github.com/into-cps/dse_scripts/releases/download/0.2.1/dse0.2.1.zip",
-					"filename" : "dse0.2.0.zip",
+					"filename" : "dse0.2.1.zip",
 					"md5sum" : "b9212aa295dfc45416f23aa8f2a9a80c",
 					"action" : "unpack"
 				}
