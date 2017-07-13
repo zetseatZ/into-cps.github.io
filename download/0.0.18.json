@@ -91,7 +91,7 @@
 					"url" : "https:\/\/sourceforge.net\/projects\/modeliouml\/files\/3.4.1\/modelio-open-201512081403-macosx.cocoa.x86_64.dmg\/download",
 					"filename" : " modelio-open-201512081403-macosx.cocoa.x86_64.dmg",
 					"md5sum" : "419898c145df56fc4db3da2be85e5d8b",
-					"action" : "none"
+					"action" : "show"
 				}
 			}
 		},
@@ -100,35 +100,11 @@
 			"version" : "1.2.05",
 			"description" : "Modelio extension for INTO-CPS profile",
 			"platforms" : {
-				"linux32" : {
+				"any" : {
 					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/19509\/INTOCPS_1.2.05.jmdac",
 					"filename" : "INTOCPS_1.2.05.jmdac",
 					"md5sum" : "bb9fb28581b0faa575cbc7c56ace4e82",
-					"action" : "none"
-				},
-				"linux64" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/19509\/INTOCPS_1.2.05.jmdac",
-					"filename" : "INTOCPS_1.2.05.jmdac",
-					"md5sum" : "bb9fb28581b0faa575cbc7c56ace4e82",
-					"action" : "none"
-				},
-				"windows32" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/19509\/INTOCPS_1.2.05.jmdac",
-					"filename" : "INTOCPS_1.2.05.jmdac",
-					"md5sum" : "bb9fb28581b0faa575cbc7c56ace4e82",
-					"action" : "none"
-				},
-				"windows64" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/19509\/INTOCPS_1.2.05.jmdac",
-					"filename" : "INTOCPS_1.2.05.jmdac",
-					"md5sum" : "bb9fb28581b0faa575cbc7c56ace4e82",
-					"action" : "none"
-				},
-				"osx64" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/19509\/INTOCPS_1.2.05.jmdac",
-					"filename" : "INTOCPS_1.2.05.jmdac",
-					"md5sum" : "bb9fb28581b0faa575cbc7c56ace4e82",
-					"action" : "none"
+					"action" : "show"
 				}
 			}
 		},
@@ -228,7 +204,7 @@
 					"url" : "http://overture.au.dk/artifactory/into-cps-distribution/org/intocps/orchestration/distribution/bundle/0.0.6/bundle-0.0.6-bundle.zip",
 					"filename" : "distributed-fmu-bundle.zip",
 					"md5sum" : "ee2e8b5b7819f1471188a9884fcc072b",
-					"action" : "none"
+					"action" : "show"
 				}
 			}
 		},
@@ -243,7 +219,7 @@
 					"url" : "https://github.com/overturetool/intocps-tracability-driver/releases/download/Release%2F0.1.4/tracebility-driver-0.1.4-jar-with-dependencies.jar",
 					"filename" : "overture-tracability-driver.jar",
 					"md5sum" : "7775e696dcc228e3681f016db068ff89",
-					"action" : "none"
+					"action" : "show"
 					}
 			}
 		},
@@ -259,7 +235,7 @@
 					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.2.6/p2.zip",
 					"filename" : "overture-fmu.p2.zip",
 					"md5sum" : "a846811d9e371e4a3bc80d8e1750641e",
-					"action" : "none"
+					"action" : "show"
 					}
 			}
 		},
@@ -273,7 +249,7 @@
 					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.2.6/fmu-import-export.jar",
 					"filename" : "overture-fmu-cli.jar",
 					"md5sum" : "2acc879e9ea652983bc63fd4eea3657b",
-					"action" : "none"
+					"action" : "show"
 					}
 			}
 		},
