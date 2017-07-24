@@ -116,7 +116,7 @@
 			"platforms" : {
 				"windows64" : {
 					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/install_Python27_gcc49_v2.exe",
-					"filename" : "install_Python27_gcc49.exe",
+					"filename" : "install_Python27_gcc49_v2.exe",
 					"md5sum" : "f4177cf5fcc2702252de89876a4493cd",
 					"action" : "launch"
 				}
