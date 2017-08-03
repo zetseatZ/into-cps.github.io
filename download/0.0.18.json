@@ -66,13 +66,13 @@
 				"linux32" : {
 					"url" : "https:\/\/sourceforge.net\/projects\/modeliouml\/files\/3.4.1\/modelio-open-201512081403-linux.gtk.x86_64.tar.gz\/download",
 					"filename" : "modelio-open-201512081403-linux.gtk.x86.tar.gz",
-					"md5sum" : "0e698d5bef02e0981912c1f6fdc3f98b",
+					"md5sum" : "715bf11e8b935254795c8d6f8086131b",
 					"action" : "launch"
 				},
 				"linux64" : {
 					"url" : "https:\/\/sourceforge.net\/projects\/modeliouml\/files\/3.4.1\/modelio-open-201512081403-linux.gtk.x86.tar.gz\/download",
 					"filename" : "modelio-open-201512081403-linux.gtk.x86_64.tar.gz",
-					"md5sum" : "715bf11e8b935254795c8d6f8086131b",
+					"md5sum" : "0e698d5bef02e0981912c1f6fdc3f98b",
 					"action" : "launch"
 				},
 				"windows32" : {
