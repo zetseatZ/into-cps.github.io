@@ -10,6 +10,7 @@ import hashlib
 import sys
 import argparse
 import urllib, json
+import socket
 
 parser = argparse.ArgumentParser(description='USB Stick Download site creator.')
 parser.add_argument('--url', help='Specify URL of the download file', required=True)
@@ -25,32 +26,38 @@ def human_size(bytes, units=[' bytes','KB','MB','GB','TB', 'PB', 'EB']):
     return str(bytes)+units.pop(0) if bytes < 1024 else human_size(bytes>>10, units[1:])
 
 def downloadFile(url,outputPath,indent):
-    u = urllib2.urlopen(url)
-    meta = u.info()
-    file_size = int(meta.getheaders('Content-Length')[0])
+    try:
+        u = urllib2.urlopen(url)
+        meta = u.info()
+        file_size = int(meta.getheaders('Content-Length')[0])
 
-    # save downloaded file to TEMP directory
-    f = open(outputPath, 'wb')
+        # save downloaded file to TEMP directory
+        f = open(outputPath, 'wb')
     
-    downloaded_bytes = 0
-    block_size = 1024*8
-    downloaded_bytes2=0
-    step = file_size /25
-    while True:
-        buffer = u.read(block_size)
-        if not buffer:
-            break
+        downloaded_bytes = 0
+        block_size = 1024*8
+        downloaded_bytes2=0
+        step = file_size /25
+        while True:
+            buffer = u.read(block_size)
+            if not buffer:
+                break
         
-        f.write(buffer)
-        downloaded_bytes += block_size
+            f.write(buffer)
+            downloaded_bytes += block_size
 
-        if downloaded_bytes2+step < downloaded_bytes: 
-            print "%sDownloaded %s of %s" %(("\t" * indent),human_size(downloaded_bytes),human_size(file_size))
-            downloaded_bytes2 = downloaded_bytes
-    f.close()
-
-
-
+            if downloaded_bytes2+step < downloaded_bytes: 
+                print "%sDownloaded %s of %s" %(("\t" * indent),human_size(downloaded_bytes),human_size(file_size))
+                downloaded_bytes2 = downloaded_bytes
+        f.close()
+        return True
+    except urllib2.HTTPError, err:
+        print "%sHTTP Error code: %d" % (("\t" * indent),err.code)
+    except urllib2.URLError, err:
+        print "%sDownload Error reason: %s" % (("\t" * indent),err.reason)
+    except socket.error, e:
+        print "%sDownload Error: %r" % (("\t" * indent),e)
+    return False
 
 args = parser.parse_args()
 
@@ -87,7 +94,8 @@ for tool in data["tools"]:
             if os.path.exists(outFile):
                 print "%sError CRC mismatch expected: %s got %s" % (("\t" * 4),md5sum,md5)
             if not args.skip:
-                downloadFile(url,outFile,4)
+                if not downloadFile(url,outFile,4):
+                    downloadFailures = True
         else:
             print "%sCRC OK" % ("\t" * 4)
         data["tools"][tool]["platforms"][p]["url"] = path2url(outFile).replace("file:///usb/","file:")
