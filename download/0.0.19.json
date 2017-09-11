@@ -212,13 +212,13 @@
 		"overture-tracability-driver" : {
 			"name" : "Overture Tracability Driver",
 			"description" : "INTO-CPS Tracability Driver for Overture",
-			"version" : "0.1.6",
-			"releasepage" : "https://github.com/overturetool/intocps-tracability-driver/releases/tag/Release%2F0.1.6",
+			"version" : "0.1.8",
+			"releasepage" : "https://github.com/overturetool/intocps-tracability-driver/releases/tag/Release%2F0.1.8",
 			"platforms" : {
 				"any" : {					
-					"url" : "https://github.com/overturetool/intocps-tracability-driver/releases/download/Release%2F0.1.6/tracebility-driver-0.1.6-jar-with-dependencies.jar",
+					"url" : "https://github.com/overturetool/intocps-tracability-driver/releases/download/Release%2F0.1.8/tracebility-driver-0.1.8-jar-with-dependencies.jar",
 					"filename" : "overture-tracability-driver.jar",
-					"md5sum" : "af49816dbd6fbdfc9034e9816f2628c7",
+					"md5sum" : "66f15a90e7867fca46f36a7f460df163",
 					"action" : "show"
 					}
 			}
