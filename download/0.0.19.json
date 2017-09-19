@@ -182,13 +182,13 @@
 		"coe" : {
 			"name" : "Co-simulation Orchestration Engine",
 			"description" : "Co-simulation Orchestration Engine",
-			"version" : "0.2.12",
+			"version" : "0.2.14",
 			"releasepage" : "https://twt-gmbh.github.io/INTO-CPS-COE/",
 			"platforms" : {
 				"any" : {					
-					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.2.12/coe-0.2.12-jar-with-dependencies.jar",
+					"url" : "http://overture.au.dk/artifactory/into-cps/org/intocps/orchestration/coe/0.2.14/coe-0.2.14-jar-with-dependencies.jar",
 					"filename" : "coe.jar",
-					"md5sum" : "7635546fab2c185ca730bd0574b23822",
+					"md5sum" : "16ee301e0a4a05c4f0f5c89631406678",
 					"action" : "none"
 				}
 			}
