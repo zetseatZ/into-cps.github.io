@@ -144,37 +144,37 @@
 		},
 		"overture" : {
 			"name" : "Overture",
-			"version" : "2.4.6",
+			"version" : "2.5.2",
 			"description" : "A tool for modelling control systems using The Vienna Development Method (VDM)",
 			"platforms" : {
 				"linux32" : {
-					"url" : "https://github.com/overturetool/overture/releases/download/Release/2.4.6/Overture-2.4.6-linux.gtk.x86.zip",
+					"url" : "https://github.com/overturetool/overture/releases/download/Release/2.5.2/Overture-2.5.2-linux.gtk.x86.zip",
 					"filename" : "Overture-linux.gtk.x86.zip",
-					"md5sum" : "332b703137f482d36b747a9c65f5d363",
+					"md5sum" : "f2f117fae1bfc01243700f65f770b0e5",
 					"action" : "unpack"
 				},
 				"linux64" : {
-					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.6\/Overture-2.4.6-linux.gtk.x86_64.zip",
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.5.2\/Overture-2.5.2-linux.gtk.x86_64.zip",
 					"filename" : "Overture-linux.gtk.x86_64.zip",
-					"md5sum" : "841df73452683a3e10a430243af3f94b",
+					"md5sum" : "6c41cd44bca31af631634d38ace1f581",
 					"action" : "unpack"
 				},
 				"windows32" : {
-					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.6\/Overture-2.4.6-win32.win32.x86.zip",
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.5.2\/Overture-2.5.2-win32.win32.x86.zip",
 					"filename" : "Overture-win32.win32.x86.zip",
-					"md5sum" : "5c38bae4e2358f15817e3dc87a0921e0",
+					"md5sum" : "b1ae51064b0cb29ffe3eff8648ac9819",
 					"action" : "unpack"
 				},
 				"windows64" : {
-					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.6\/Overture-2.4.6-win32.win32.x86_64.zip",
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.5.2\/Overture-2.5.2-win32.win32.x86_64.zip",
 					"filename" : "Overture-win32.win32.x86_64.zip",
-					"md5sum" : "f894025336c1ccd47fb8f05737ab1086",
+					"md5sum" : "9ed16b67924f7c6ed0dd9dda4a818c91",
 					"action" : "unpack"
 				},
 				"osx64" : {
-					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.4.6\/Overture-2.4.6-macosx.cocoa.x86_64.zip",
+					"url" : "https:\/\/github.com\/overturetool\/overture\/releases\/download\/Release\/2.5.2\/Overture-2.5.2-macosx.cocoa.x86_64.zip",
 					"filename" : "Overture-macosx.cocoa.x86_64.zip",
-					"md5sum" : "ec590d020feef11aaafe8fd445498eb2",
+					"md5sum" : "3a0aea2271cf0094cefb8f55ba08f406",
 					"action" : "unpack"
 				}
 			}
