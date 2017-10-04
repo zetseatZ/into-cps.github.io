@@ -101,9 +101,9 @@
 			"description" : "Modelio extension for INTO-CPS profile",
 			"platforms" : {
 				"any" : {
-					"url" : "http:\/\/forge.modelio.org\/attachments\/download\/19509\/INTOCPS_1.2.05.jmdac",
+					"url" : "https:\/\/github.com\/etiennebrosse\/SofteamRD\/releases\/download\/INTOCPS-1.3.01\/INTOCPS_1.3.01.jmdac",
 					"filename" : "INTOCPS_1.3.01.jmdac",
-					"md5sum" : "bb9fb28581b0faa575cbc7c56ace4e82",
+					"md5sum" : "a221c71529c532be56cea3ad58eb49c9",
 					"action" : "show"
 				}
 			}
