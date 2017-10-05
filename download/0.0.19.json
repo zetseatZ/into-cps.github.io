@@ -110,14 +110,14 @@
 		},
 		"rttester-dependencies" : {
 			"name" : "VSI tools dependencies bundle",
-			"version" : "0.0.8",
+			"version" : "3.0.0",
                         "releasepage" : "https://secure.verified.de/f5x1hks4/into-cps/one-click/info/#rttester-dependencies",
 			"description" : "VSI tools dependencies for Windows: Python 2.7 (+ packages) and GCC 4.9",
 			"platforms" : {
 				"windows64" : {
-					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/install_Python27_gcc49_v2.exe",
-					"filename" : "install_Python27_gcc49_v2.exe",
-					"md5sum" : "f4177cf5fcc2702252de89876a4493cd",
+					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/install_Python27_gcc49_v3.exe",
+					"filename" : "install_Python27_gcc49_v3.exe",
+					"md5sum" : "7c79a4d1c9a927dc3b35dd1d60ac1bc4",
 					"action" : "launch"
 				}
 			}
