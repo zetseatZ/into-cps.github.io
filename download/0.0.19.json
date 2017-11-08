@@ -88,8 +88,8 @@
 					"action" : "unpack"
 				},
 				"osx64" : {
-					"url" : "https:\/\/github.com\/etiennebrosse\/SofteamRD\/releases\/download\/Modelio-3.4.1.b\/modelio-open-201512081403-macosx.cocoa.x86_64.dmg",
-					"filename" : " modelio-open-201512081403-macosx.cocoa.x86_64.dmg",
+					"url" : "https:\/\/github.com\/etiennebrosse\/SofteamRD\/releases\/download\/Modelio-3.4.1.b\/modelio-open-201512081403-macosx.cocoa.x86_64.tar.gz",
+					"filename" : " modelio-open-201512081403-macosx.cocoa.x86_64.tar.gz",
 					"md5sum" : "a9d59ab09dc543fdb23e4d11df48bfc6",
 					"action" : "show"
 				}
