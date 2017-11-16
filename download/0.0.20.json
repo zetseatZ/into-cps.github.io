@@ -96,14 +96,15 @@
 			}
 		},
 		"modelio-intocps" : {
+			
 			"name" : "Modelio INTO-CPS extension",
-			"version" : "1.3.11",
+			"version" : "1.3.14",
 			"description" : "Modelio extension for INTO-CPS profile",
 			"platforms" : {
 				"any" : {
-					"url" : "https:\/\/github.com\/etiennebrosse\/SofteamRD\/releases\/download\/INTOCPS-1.3.11\/INTOCPS_1.3.11.jmdac",
-					"filename" : "INTOCPS_1.3.11.jmdac",
-					"md5sum" : "43a294d42bc386cb2552f0e1328cf5bb",
+					"url" : "https:\/\/github.com\/etiennebrosse\/SofteamRD\/releases\/download\/INTOCPS-1.3.14\/INTOCPS_1.3.14.jmdac",
+					"filename" : "INTOCPS_1.3.14.jmdac",
+					"md5sum" : "47b10dda0689f7d0484c949fe1e546f4",
 					"action" : "show"
 				}
 			}
