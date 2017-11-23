@@ -132,13 +132,13 @@
 				"windows64" : {
 					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_1_1.exe",
 					"filename" : "VSI_bundle_v0_1_1.exe",
-					"md5sum" : "47db468e3b8a936de696ccda060c567f",
+					"md5sum" : "1aabd148911003760fc7d9f0ef4a9669",
 					"action" : "launch"
 				},
 				"linux64" : {
 					"url" : "https:\/\/secure.verified.de\/f5x1hks4\/into-cps\/one-click\/VSI_bundle_v0_1_1.sh",
 					"filename" : "VSI_bundle_v0_1_1.sh",
-					"md5sum" : "e4c62ec1557df4f5fdcf07107de3335d",
+					"md5sum" : "33539b8d65fcdbf7014cb0f4f7e6877d",
 					"action" : "launch"
 				}
 			}
