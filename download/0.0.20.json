@@ -229,13 +229,13 @@
 		"overture-fmu" : {
 			"name" : "Overture FMU Import / Exporter",
 			"description" : "Overture FMI Support",
-			"version" : "0.2.8",
-			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.2.10",
+			"version" : "0.2.12",
+			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.2.12",
 			"platforms" : {
 				"any" : {					
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.2.10/p2.zip",
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.2.12/p2.zip",
 					"filename" : "overture-fmu.p2.zip",
-					"md5sum" : "31625d3ce749ea76f9212e06dc448e71",
+					"md5sum" : "cf21babddd0f5d5ca7a2017c7e7c9e9d",
 					"action" : "show"
 					}
 			}
@@ -243,13 +243,13 @@
 		"overture-fmu-cli" : {
 			"name" : "Overture FMU Import / Exporter CLI",
 			"description" : "Overture FMI Support",
-			"version" : "0.2.8",
-			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.2.10",
+			"version" : "0.2.12",
+			"releasepage" : "https://github.com/overturetool/overture-fmu/releases/tag/Release%2F0.2.12",
 			"platforms" : {
 				"any" : {					
-					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.2.10/fmu-import-export.jar",
+					"url" : "https://github.com/overturetool/overture-fmu/releases/download/Release%2F0.2.12/fmu-import-export.jar",
 					"filename" : "overture-fmu-cli.jar",
-					"md5sum" : "e86bcaabe918703c90b2465e3cb119fd",
+					"md5sum" : "92988572c2d676027dcd360bc70d5db3",
 					"action" : "show"
 					}
 			}
